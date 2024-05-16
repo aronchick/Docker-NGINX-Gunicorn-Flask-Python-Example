@@ -1,0 +1,2557 @@
+2024/05/16 19:06:07 [debug] 9#9: epoll add event: fd:5 op:1 ev:00002001
+2024/05/16 19:06:38 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 19:06:38 [debug] 9#9: posix_memalign: 0000AAAAC68C6DF0:512 @16
+2024/05/16 19:06:38 [debug] 9#9: *1 accept: 192.168.65.1:52674 fd:6
+2024/05/16 19:06:38 [debug] 9#9: *1 event timer add: 6: 60000:346354388
+2024/05/16 19:06:38 [debug] 9#9: *1 reusable connection: 1
+2024/05/16 19:06:38 [debug] 9#9: *1 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 19:06:38 [debug] 9#9: *1 http wait request handler
+2024/05/16 19:06:38 [debug] 9#9: *1 malloc: 0000AAAAC68DA040:1024
+2024/05/16 19:06:38 [debug] 9#9: *1 recv: eof:0, avail:-1
+2024/05/16 19:06:38 [debug] 9#9: *1 recv: fd:6 81 of 1024
+2024/05/16 19:06:38 [debug] 9#9: *1 reusable connection: 0
+2024/05/16 19:06:38 [debug] 9#9: *1 posix_memalign: 0000AAAAC68F41E0:4096 @16
+2024/05/16 19:06:38 [debug] 9#9: *1 http process request line
+2024/05/16 19:06:38 [debug] 9#9: *1 http request line: "GET /good HTTP/1.1"
+2024/05/16 19:06:38 [debug] 9#9: *1 http uri: "/good"
+2024/05/16 19:06:38 [debug] 9#9: *1 http args: ""
+2024/05/16 19:06:38 [debug] 9#9: *1 http exten: ""
+2024/05/16 19:06:38 [debug] 9#9: *1 posix_memalign: 0000AAAAC68D4330:4096 @16
+2024/05/16 19:06:38 [debug] 9#9: *1 http process request header line
+2024/05/16 19:06:38 [debug] 9#9: *1 http header: "Host: localhost:9999"
+2024/05/16 19:06:38 [debug] 9#9: *1 http header: "User-Agent: curl/8.4.0"
+2024/05/16 19:06:38 [debug] 9#9: *1 http header: "Accept: */*"
+2024/05/16 19:06:38 [debug] 9#9: *1 http header done
+2024/05/16 19:06:38 [debug] 9#9: *1 event timer del: 6: 346354388
+2024/05/16 19:06:38 [debug] 9#9: *1 generic phase: 0
+2024/05/16 19:06:38 [debug] 9#9: *1 rewrite phase: 1
+2024/05/16 19:06:38 [debug] 9#9: *1 test location: "/"
+2024/05/16 19:06:38 [debug] 9#9: *1 using configuration "/"
+2024/05/16 19:06:38 [debug] 9#9: *1 http cl:-1 max:1048576
+2024/05/16 19:06:38 [debug] 9#9: *1 rewrite phase: 3
+2024/05/16 19:06:38 [debug] 9#9: *1 post rewrite phase: 4
+2024/05/16 19:06:38 [debug] 9#9: *1 generic phase: 5
+2024/05/16 19:06:38 [debug] 9#9: *1 generic phase: 6
+2024/05/16 19:06:38 [debug] 9#9: *1 generic phase: 7
+2024/05/16 19:06:38 [debug] 9#9: *1 access phase: 8
+2024/05/16 19:06:38 [debug] 9#9: *1 access phase: 9
+2024/05/16 19:06:38 [debug] 9#9: *1 access phase: 10
+2024/05/16 19:06:38 [debug] 9#9: *1 post access phase: 11
+2024/05/16 19:06:38 [debug] 9#9: *1 generic phase: 12
+2024/05/16 19:06:38 [debug] 9#9: *1 generic phase: 13
+2024/05/16 19:06:38 [debug] 9#9: *1 http init upstream, client timer: 0
+2024/05/16 19:06:38 [debug] 9#9: *1 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 19:06:38 [debug] 9#9: *1 http script copy: "Host"
+2024/05/16 19:06:38 [debug] 9#9: *1 http script var: "localhost"
+2024/05/16 19:06:38 [debug] 9#9: *1 http script copy: "X-Real-IP"
+2024/05/16 19:06:38 [debug] 9#9: *1 http script var: "192.168.65.1"
+2024/05/16 19:06:38 [debug] 9#9: *1 http script copy: "X-Forwarded-For"
+2024/05/16 19:06:38 [debug] 9#9: *1 http script var: "192.168.65.1"
+2024/05/16 19:06:38 [debug] 9#9: *1 http script copy: "X-Forwarded-Proto"
+2024/05/16 19:06:38 [debug] 9#9: *1 http script var: "http"
+2024/05/16 19:06:38 [debug] 9#9: *1 http script copy: "Connection"
+2024/05/16 19:06:38 [debug] 9#9: *1 http script copy: "close"
+2024/05/16 19:06:38 [debug] 9#9: *1 http script copy: ""
+2024/05/16 19:06:38 [debug] 9#9: *1 http script copy: ""
+2024/05/16 19:06:38 [debug] 9#9: *1 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 19:06:38 [debug] 9#9: *1 http proxy header: "Accept: */*"
+2024/05/16 19:06:38 [debug] 9#9: *1 http proxy header:
+"GET /good HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 19:06:38 [debug] 9#9: *1 http cleanup add: 0000AAAAC68F51C0
+2024/05/16 19:06:38 [debug] 9#9: *1 get rr peer, try: 1
+2024/05/16 19:06:38 [debug] 9#9: *1 stream socket 10
+2024/05/16 19:06:38 [debug] 9#9: *1 epoll add connection: fd:10 ev:80002005
+2024/05/16 19:06:38 [debug] 9#9: *1 connect to 127.0.0.1:5000, fd:10 #2
+2024/05/16 19:06:38 [debug] 9#9: *1 http upstream connect: -2
+2024/05/16 19:06:38 [debug] 9#9: *1 posix_memalign: 0000AAAAC68D3F50:128 @16
+2024/05/16 19:06:38 [debug] 9#9: *1 event timer add: 10: 60000:346354390
+2024/05/16 19:06:38 [debug] 9#9: *1 http finalize request: -4, "/good?" a:1, c:2
+2024/05/16 19:06:38 [debug] 9#9: *1 http request count:2 blk:0
+2024/05/16 19:06:38 [debug] 9#9: *1 http run request: "/good?"
+2024/05/16 19:06:38 [debug] 9#9: *1 http upstream check client, write event:1, "/good"
+2024/05/16 19:06:38 [debug] 9#9: *1 http upstream request: "/good?"
+2024/05/16 19:06:38 [debug] 9#9: *1 http upstream send request handler
+2024/05/16 19:06:38 [debug] 9#9: *1 http upstream send request
+2024/05/16 19:06:38 [debug] 9#9: *1 http upstream send request body
+2024/05/16 19:06:38 [debug] 9#9: *1 chain writer buf fl:1 s:176
+2024/05/16 19:06:38 [debug] 9#9: *1 chain writer in: 0000AAAAC68D4D30
+2024/05/16 19:06:38 [debug] 9#9: *1 writev: 176 of 176
+2024/05/16 19:06:38 [debug] 9#9: *1 chain writer out: 0000000000000000
+2024/05/16 19:06:38 [debug] 9#9: *1 event timer del: 10: 346354390
+2024/05/16 19:06:38 [debug] 9#9: *1 event timer add: 10: 60000:346354405
+2024/05/16 19:06:38 [debug] 9#9: *1 http upstream request: "/good?"
+2024/05/16 19:06:38 [debug] 9#9: *1 http upstream process header
+2024/05/16 19:06:38 [debug] 9#9: *1 malloc: 0000AAAAC68E8D40:4096
+2024/05/16 19:06:38 [debug] 9#9: *1 recv: eof:0, avail:-1
+2024/05/16 19:06:38 [debug] 9#9: *1 recv: fd:10 179 of 4096
+2024/05/16 19:06:38 [debug] 9#9: *1 http proxy status 200 "200 OK"
+2024/05/16 19:06:38 [debug] 9#9: *1 http proxy header: "Server: gunicorn"
+2024/05/16 19:06:38 [debug] 9#9: *1 http proxy header: "Date: Thu, 16 May 2024 19:06:38 GMT"
+2024/05/16 19:06:38 [debug] 9#9: *1 http proxy header: "Connection: close"
+2024/05/16 19:06:38 [debug] 9#9: *1 http proxy header: "Content-Type: application/json"
+2024/05/16 19:06:38 [debug] 9#9: *1 http proxy header: "Content-Length: 34"
+2024/05/16 19:06:38 [debug] 9#9: *1 http proxy header done
+2024/05/16 19:06:38 [debug] 9#9: *1 HTTP/1.1 200 OK
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 19:06:38 GMT
+Content-Type: application/json
+Content-Length: 34
+Connection: keep-alive
+
+2024/05/16 19:06:38 [debug] 9#9: *1 write new buf t:1 f:0 0000AAAAC68D5030, pos 0000AAAAC68D5030, size: 154 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *1 http write filter: l:0 f:0 s:154
+2024/05/16 19:06:38 [debug] 9#9: *1 http cacheable: 0
+2024/05/16 19:06:38 [debug] 9#9: *1 http proxy filter init s:200 h:0 c:0 l:34
+2024/05/16 19:06:38 [debug] 9#9: *1 http upstream process upstream
+2024/05/16 19:06:38 [debug] 9#9: *1 pipe read upstream: 0
+2024/05/16 19:06:38 [debug] 9#9: *1 pipe preread: 34
+2024/05/16 19:06:38 [debug] 9#9: *1 pipe buf free s:0 t:1 f:0 0000AAAAC68E8D40, pos 0000AAAAC68E8DD1, size: 34 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *1 pipe length: 34
+2024/05/16 19:06:38 [debug] 9#9: *1 input buf #0
+2024/05/16 19:06:38 [debug] 9#9: *1 pipe write downstream: 1
+2024/05/16 19:06:38 [debug] 9#9: *1 pipe write downstream flush in
+2024/05/16 19:06:38 [debug] 9#9: *1 http output filter "/good?"
+2024/05/16 19:06:38 [debug] 9#9: *1 http copy filter: "/good?"
+2024/05/16 19:06:38 [debug] 9#9: *1 http postpone filter "/good?" 0000AAAAC68D5200
+2024/05/16 19:06:38 [debug] 9#9: *1 write old buf t:1 f:0 0000AAAAC68D5030, pos 0000AAAAC68D5030, size: 154 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *1 write new buf t:1 f:0 0000AAAAC68E8D40, pos 0000AAAAC68E8DD1, size: 34 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *1 http write filter: l:0 f:0 s:188
+2024/05/16 19:06:38 [debug] 9#9: *1 http copy filter: 0 "/good?"
+2024/05/16 19:06:38 [debug] 9#9: *1 pipe write downstream done
+2024/05/16 19:06:38 [debug] 9#9: *1 event timer: 10, old: 346354405, new: 346354416
+2024/05/16 19:06:38 [debug] 9#9: *1 http upstream exit: 0000000000000000
+2024/05/16 19:06:38 [debug] 9#9: *1 finalize http upstream request: 0
+2024/05/16 19:06:38 [debug] 9#9: *1 finalize http proxy request
+2024/05/16 19:06:38 [debug] 9#9: *1 free rr peer 1 0
+2024/05/16 19:06:38 [debug] 9#9: *1 close http upstream connection: 10
+2024/05/16 19:06:38 [debug] 9#9: *1 free: 0000AAAAC68D3F50, unused: 48
+2024/05/16 19:06:38 [debug] 9#9: *1 event timer del: 10: 346354405
+2024/05/16 19:06:38 [debug] 9#9: *1 reusable connection: 0
+2024/05/16 19:06:38 [debug] 9#9: *1 http upstream temp fd: -1
+2024/05/16 19:06:38 [debug] 9#9: *1 http output filter "/good?"
+2024/05/16 19:06:38 [debug] 9#9: *1 http copy filter: "/good?"
+2024/05/16 19:06:38 [debug] 9#9: *1 http postpone filter "/good?" 0000FFFFF9040028
+2024/05/16 19:06:38 [debug] 9#9: *1 write old buf t:1 f:0 0000AAAAC68D5030, pos 0000AAAAC68D5030, size: 154 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *1 write old buf t:1 f:0 0000AAAAC68E8D40, pos 0000AAAAC68E8DD1, size: 34 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *1 posix_memalign: 0000AAAAC68DED10:4096 @16
+2024/05/16 19:06:38 [debug] 9#9: *1 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *1 http write filter: l:1 f:0 s:188
+2024/05/16 19:06:38 [debug] 9#9: *1 http write filter limit 2097152
+2024/05/16 19:06:38 [debug] 9#9: *1 writev: 188 of 188
+2024/05/16 19:06:38 [debug] 9#9: *1 http write filter 0000000000000000
+2024/05/16 19:06:38 [debug] 9#9: *1 http copy filter: 0 "/good?"
+2024/05/16 19:06:38 [debug] 9#9: *1 http finalize request: 0, "/good?" a:1, c:1
+2024/05/16 19:06:38 [debug] 9#9: *1 set http keepalive handler
+2024/05/16 19:06:38 [debug] 9#9: *1 http close request
+2024/05/16 19:06:38 [debug] 9#9: *1 http log handler
+2024/05/16 19:06:38 [debug] 9#9: *1 free: 0000AAAAC68E8D40
+2024/05/16 19:06:38 [debug] 9#9: *1 free: 0000AAAAC68F41E0, unused: 2
+2024/05/16 19:06:38 [debug] 9#9: *1 free: 0000AAAAC68D4330, unused: 0
+2024/05/16 19:06:38 [debug] 9#9: *1 free: 0000AAAAC68DED10, unused: 3922
+2024/05/16 19:06:38 [debug] 9#9: *1 free: 0000AAAAC68DA040
+2024/05/16 19:06:38 [debug] 9#9: *1 hc free: 0000000000000000
+2024/05/16 19:06:38 [debug] 9#9: *1 hc busy: 0000000000000000 0
+2024/05/16 19:06:38 [debug] 9#9: *1 tcp_nodelay
+2024/05/16 19:06:38 [debug] 9#9: *1 reusable connection: 1
+2024/05/16 19:06:38 [debug] 9#9: *1 event timer add: 6: 65000:346359416
+2024/05/16 19:06:38 [debug] 9#9: *1 http keepalive handler
+2024/05/16 19:06:38 [debug] 9#9: *1 malloc: 0000AAAAC68DA040:1024
+2024/05/16 19:06:38 [debug] 9#9: *1 recv: eof:1, avail:-1
+2024/05/16 19:06:38 [debug] 9#9: *1 recv: fd:6 0 of 1024
+2024/05/16 19:06:38 [info] 9#9: *1 client 192.168.65.1 closed keepalive connection
+2024/05/16 19:06:38 [debug] 9#9: *1 close http connection: 6
+2024/05/16 19:06:38 [debug] 9#9: *1 event timer del: 6: 346359416
+2024/05/16 19:06:38 [debug] 9#9: *1 reusable connection: 0
+2024/05/16 19:06:38 [debug] 9#9: *1 free: 0000AAAAC68DA040
+2024/05/16 19:06:38 [debug] 9#9: *1 free: 0000AAAAC68C6DF0, unused: 128
+2024/05/16 19:06:38 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 19:06:38 [debug] 9#9: posix_memalign: 0000AAAAC68C6DF0:512 @16
+2024/05/16 19:06:38 [debug] 9#9: *3 accept: 192.168.65.1:52675 fd:6
+2024/05/16 19:06:38 [debug] 9#9: *3 event timer add: 6: 60000:346354438
+2024/05/16 19:06:38 [debug] 9#9: *3 reusable connection: 1
+2024/05/16 19:06:38 [debug] 9#9: *3 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 19:06:38 [debug] 9#9: *3 http wait request handler
+2024/05/16 19:06:38 [debug] 9#9: *3 malloc: 0000AAAAC68DA040:1024
+2024/05/16 19:06:38 [debug] 9#9: *3 recv: eof:0, avail:-1
+2024/05/16 19:06:38 [debug] 9#9: *3 recv: fd:6 80 of 1024
+2024/05/16 19:06:38 [debug] 9#9: *3 reusable connection: 0
+2024/05/16 19:06:38 [debug] 9#9: *3 posix_memalign: 0000AAAAC68F41E0:4096 @16
+2024/05/16 19:06:38 [debug] 9#9: *3 http process request line
+2024/05/16 19:06:38 [debug] 9#9: *3 http request line: "GET /bad HTTP/1.1"
+2024/05/16 19:06:38 [debug] 9#9: *3 http uri: "/bad"
+2024/05/16 19:06:38 [debug] 9#9: *3 http args: ""
+2024/05/16 19:06:38 [debug] 9#9: *3 http exten: ""
+2024/05/16 19:06:38 [debug] 9#9: *3 posix_memalign: 0000AAAAC68D4330:4096 @16
+2024/05/16 19:06:38 [debug] 9#9: *3 http process request header line
+2024/05/16 19:06:38 [debug] 9#9: *3 http header: "Host: localhost:9999"
+2024/05/16 19:06:38 [debug] 9#9: *3 http header: "User-Agent: curl/8.4.0"
+2024/05/16 19:06:38 [debug] 9#9: *3 http header: "Accept: */*"
+2024/05/16 19:06:38 [debug] 9#9: *3 http header done
+2024/05/16 19:06:38 [debug] 9#9: *3 event timer del: 6: 346354438
+2024/05/16 19:06:38 [debug] 9#9: *3 generic phase: 0
+2024/05/16 19:06:38 [debug] 9#9: *3 rewrite phase: 1
+2024/05/16 19:06:38 [debug] 9#9: *3 test location: "/"
+2024/05/16 19:06:38 [debug] 9#9: *3 using configuration "/"
+2024/05/16 19:06:38 [debug] 9#9: *3 http cl:-1 max:1048576
+2024/05/16 19:06:38 [debug] 9#9: *3 rewrite phase: 3
+2024/05/16 19:06:38 [debug] 9#9: *3 post rewrite phase: 4
+2024/05/16 19:06:38 [debug] 9#9: *3 generic phase: 5
+2024/05/16 19:06:38 [debug] 9#9: *3 generic phase: 6
+2024/05/16 19:06:38 [debug] 9#9: *3 generic phase: 7
+2024/05/16 19:06:38 [debug] 9#9: *3 access phase: 8
+2024/05/16 19:06:38 [debug] 9#9: *3 access phase: 9
+2024/05/16 19:06:38 [debug] 9#9: *3 access phase: 10
+2024/05/16 19:06:38 [debug] 9#9: *3 post access phase: 11
+2024/05/16 19:06:38 [debug] 9#9: *3 generic phase: 12
+2024/05/16 19:06:38 [debug] 9#9: *3 generic phase: 13
+2024/05/16 19:06:38 [debug] 9#9: *3 http init upstream, client timer: 0
+2024/05/16 19:06:38 [debug] 9#9: *3 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 19:06:38 [debug] 9#9: *3 http script copy: "Host"
+2024/05/16 19:06:38 [debug] 9#9: *3 http script var: "localhost"
+2024/05/16 19:06:38 [debug] 9#9: *3 http script copy: "X-Real-IP"
+2024/05/16 19:06:38 [debug] 9#9: *3 http script var: "192.168.65.1"
+2024/05/16 19:06:38 [debug] 9#9: *3 http script copy: "X-Forwarded-For"
+2024/05/16 19:06:38 [debug] 9#9: *3 http script var: "192.168.65.1"
+2024/05/16 19:06:38 [debug] 9#9: *3 http script copy: "X-Forwarded-Proto"
+2024/05/16 19:06:38 [debug] 9#9: *3 http script var: "http"
+2024/05/16 19:06:38 [debug] 9#9: *3 http script copy: "Connection"
+2024/05/16 19:06:38 [debug] 9#9: *3 http script copy: "close"
+2024/05/16 19:06:38 [debug] 9#9: *3 http script copy: ""
+2024/05/16 19:06:38 [debug] 9#9: *3 http script copy: ""
+2024/05/16 19:06:38 [debug] 9#9: *3 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 19:06:38 [debug] 9#9: *3 http proxy header: "Accept: */*"
+2024/05/16 19:06:38 [debug] 9#9: *3 http proxy header:
+"GET /bad HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 19:06:38 [debug] 9#9: *3 http cleanup add: 0000AAAAC68F51C0
+2024/05/16 19:06:38 [debug] 9#9: *3 get rr peer, try: 1
+2024/05/16 19:06:38 [debug] 9#9: *3 stream socket 10
+2024/05/16 19:06:38 [debug] 9#9: *3 epoll add connection: fd:10 ev:80002005
+2024/05/16 19:06:38 [debug] 9#9: *3 connect to 127.0.0.1:5000, fd:10 #4
+2024/05/16 19:06:38 [debug] 9#9: *3 http upstream connect: -2
+2024/05/16 19:06:38 [debug] 9#9: *3 posix_memalign: 0000AAAAC68D3F50:128 @16
+2024/05/16 19:06:38 [debug] 9#9: *3 event timer add: 10: 60000:346354439
+2024/05/16 19:06:38 [debug] 9#9: *3 http finalize request: -4, "/bad?" a:1, c:2
+2024/05/16 19:06:38 [debug] 9#9: *3 http request count:2 blk:0
+2024/05/16 19:06:38 [debug] 9#9: *3 http run request: "/bad?"
+2024/05/16 19:06:38 [debug] 9#9: *3 http upstream check client, write event:1, "/bad"
+2024/05/16 19:06:38 [debug] 9#9: *3 http upstream request: "/bad?"
+2024/05/16 19:06:38 [debug] 9#9: *3 http upstream send request handler
+2024/05/16 19:06:38 [debug] 9#9: *3 http upstream send request
+2024/05/16 19:06:38 [debug] 9#9: *3 http upstream send request body
+2024/05/16 19:06:38 [debug] 9#9: *3 chain writer buf fl:1 s:175
+2024/05/16 19:06:38 [debug] 9#9: *3 chain writer in: 0000AAAAC68D4D30
+2024/05/16 19:06:38 [debug] 9#9: *3 writev: 175 of 175
+2024/05/16 19:06:38 [debug] 9#9: *3 chain writer out: 0000000000000000
+2024/05/16 19:06:38 [debug] 9#9: *3 event timer del: 10: 346354439
+2024/05/16 19:06:38 [debug] 9#9: *3 event timer add: 10: 60000:346354444
+2024/05/16 19:06:38 [debug] 9#9: *3 http upstream request: "/bad?"
+2024/05/16 19:06:38 [debug] 9#9: *3 http upstream process header
+2024/05/16 19:06:38 [debug] 9#9: *3 malloc: 0000AAAAC68E8D40:4096
+2024/05/16 19:06:38 [debug] 9#9: *3 recv: eof:0, avail:-1
+2024/05/16 19:06:38 [debug] 9#9: *3 recv: fd:10 236 of 4096
+2024/05/16 19:06:38 [debug] 9#9: *3 http proxy status 500 "500 INTERNAL SERVER ERROR"
+2024/05/16 19:06:38 [debug] 9#9: *3 http proxy header: "Server: gunicorn"
+2024/05/16 19:06:38 [debug] 9#9: *3 http proxy header: "Date: Thu, 16 May 2024 19:06:38 GMT"
+2024/05/16 19:06:38 [debug] 9#9: *3 http proxy header: "Connection: close"
+2024/05/16 19:06:38 [debug] 9#9: *3 http proxy header: "Content-Type: application/json"
+2024/05/16 19:06:38 [debug] 9#9: *3 http proxy header: "Content-Length: 72"
+2024/05/16 19:06:38 [debug] 9#9: *3 http proxy header done
+2024/05/16 19:06:38 [debug] 9#9: *3 HTTP/1.1 500 INTERNAL SERVER ERROR
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 19:06:38 GMT
+Content-Type: application/json
+Content-Length: 72
+Connection: keep-alive
+
+2024/05/16 19:06:38 [debug] 9#9: *3 write new buf t:1 f:0 0000AAAAC68D5040, pos 0000AAAAC68D5040, size: 173 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *3 http write filter: l:0 f:0 s:173
+2024/05/16 19:06:38 [debug] 9#9: *3 http cacheable: 0
+2024/05/16 19:06:38 [debug] 9#9: *3 http proxy filter init s:500 h:0 c:0 l:72
+2024/05/16 19:06:38 [debug] 9#9: *3 http upstream process upstream
+2024/05/16 19:06:38 [debug] 9#9: *3 pipe read upstream: 0
+2024/05/16 19:06:38 [debug] 9#9: *3 pipe preread: 72
+2024/05/16 19:06:38 [debug] 9#9: *3 pipe buf free s:0 t:1 f:0 0000AAAAC68E8D40, pos 0000AAAAC68E8DE4, size: 72 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *3 pipe length: 72
+2024/05/16 19:06:38 [debug] 9#9: *3 input buf #0
+2024/05/16 19:06:38 [debug] 9#9: *3 pipe write downstream: 1
+2024/05/16 19:06:38 [debug] 9#9: *3 pipe write downstream flush in
+2024/05/16 19:06:38 [debug] 9#9: *3 http output filter "/bad?"
+2024/05/16 19:06:38 [debug] 9#9: *3 http copy filter: "/bad?"
+2024/05/16 19:06:38 [debug] 9#9: *3 http postpone filter "/bad?" 0000AAAAC68D5220
+2024/05/16 19:06:38 [debug] 9#9: *3 write old buf t:1 f:0 0000AAAAC68D5040, pos 0000AAAAC68D5040, size: 173 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *3 write new buf t:1 f:0 0000AAAAC68E8D40, pos 0000AAAAC68E8DE4, size: 72 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *3 http write filter: l:0 f:0 s:245
+2024/05/16 19:06:38 [debug] 9#9: *3 http copy filter: 0 "/bad?"
+2024/05/16 19:06:38 [debug] 9#9: *3 pipe write downstream done
+2024/05/16 19:06:38 [debug] 9#9: *3 event timer: 10, old: 346354444, new: 346354449
+2024/05/16 19:06:38 [debug] 9#9: *3 http upstream exit: 0000000000000000
+2024/05/16 19:06:38 [debug] 9#9: *3 finalize http upstream request: 0
+2024/05/16 19:06:38 [debug] 9#9: *3 finalize http proxy request
+2024/05/16 19:06:38 [debug] 9#9: *3 free rr peer 1 0
+2024/05/16 19:06:38 [debug] 9#9: *3 close http upstream connection: 10
+2024/05/16 19:06:38 [debug] 9#9: *3 free: 0000AAAAC68D3F50, unused: 48
+2024/05/16 19:06:38 [debug] 9#9: *3 event timer del: 10: 346354444
+2024/05/16 19:06:38 [debug] 9#9: *3 reusable connection: 0
+2024/05/16 19:06:38 [debug] 9#9: *3 http upstream temp fd: -1
+2024/05/16 19:06:38 [debug] 9#9: *3 posix_memalign: 0000AAAAC68DED10:4096 @16
+2024/05/16 19:06:38 [debug] 9#9: *3 http output filter "/bad?"
+2024/05/16 19:06:38 [debug] 9#9: *3 http copy filter: "/bad?"
+2024/05/16 19:06:38 [debug] 9#9: *3 http postpone filter "/bad?" 0000FFFFF9040028
+2024/05/16 19:06:38 [debug] 9#9: *3 write old buf t:1 f:0 0000AAAAC68D5040, pos 0000AAAAC68D5040, size: 173 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *3 write old buf t:1 f:0 0000AAAAC68E8D40, pos 0000AAAAC68E8DE4, size: 72 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *3 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *3 http write filter: l:1 f:0 s:245
+2024/05/16 19:06:38 [debug] 9#9: *3 http write filter limit 2097152
+2024/05/16 19:06:38 [debug] 9#9: *3 writev: 245 of 245
+2024/05/16 19:06:38 [debug] 9#9: *3 http write filter 0000000000000000
+2024/05/16 19:06:38 [debug] 9#9: *3 http copy filter: 0 "/bad?"
+2024/05/16 19:06:38 [debug] 9#9: *3 http finalize request: 0, "/bad?" a:1, c:1
+2024/05/16 19:06:38 [debug] 9#9: *3 set http keepalive handler
+2024/05/16 19:06:38 [debug] 9#9: *3 http close request
+2024/05/16 19:06:38 [debug] 9#9: *3 http log handler
+2024/05/16 19:06:38 [debug] 9#9: *3 free: 0000AAAAC68E8D40
+2024/05/16 19:06:38 [debug] 9#9: *3 free: 0000AAAAC68F41E0, unused: 8
+2024/05/16 19:06:38 [debug] 9#9: *3 free: 0000AAAAC68D4330, unused: 32
+2024/05/16 19:06:38 [debug] 9#9: *3 free: 0000AAAAC68DED10, unused: 3859
+2024/05/16 19:06:38 [debug] 9#9: *3 free: 0000AAAAC68DA040
+2024/05/16 19:06:38 [debug] 9#9: *3 hc free: 0000000000000000
+2024/05/16 19:06:38 [debug] 9#9: *3 hc busy: 0000000000000000 0
+2024/05/16 19:06:38 [debug] 9#9: *3 tcp_nodelay
+2024/05/16 19:06:38 [debug] 9#9: *3 reusable connection: 1
+2024/05/16 19:06:38 [debug] 9#9: *3 event timer add: 6: 65000:346359449
+2024/05/16 19:06:38 [debug] 9#9: *3 http keepalive handler
+2024/05/16 19:06:38 [debug] 9#9: *3 malloc: 0000AAAAC68DA040:1024
+2024/05/16 19:06:38 [debug] 9#9: *3 recv: eof:1, avail:-1
+2024/05/16 19:06:38 [debug] 9#9: *3 recv: fd:6 0 of 1024
+2024/05/16 19:06:38 [info] 9#9: *3 client 192.168.65.1 closed keepalive connection
+2024/05/16 19:06:38 [debug] 9#9: *3 close http connection: 6
+2024/05/16 19:06:38 [debug] 9#9: *3 event timer del: 6: 346359449
+2024/05/16 19:06:38 [debug] 9#9: *3 reusable connection: 0
+2024/05/16 19:06:38 [debug] 9#9: *3 free: 0000AAAAC68DA040
+2024/05/16 19:06:38 [debug] 9#9: *3 free: 0000AAAAC68C6DF0, unused: 128
+2024/05/16 19:06:38 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 19:06:38 [debug] 9#9: posix_memalign: 0000AAAAC68C6DF0:512 @16
+2024/05/16 19:06:38 [debug] 9#9: *5 accept: 192.168.65.1:52676 fd:6
+2024/05/16 19:06:38 [debug] 9#9: *5 event timer add: 6: 60000:346354464
+2024/05/16 19:06:38 [debug] 9#9: *5 reusable connection: 1
+2024/05/16 19:06:38 [debug] 9#9: *5 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 19:06:38 [debug] 9#9: *5 http wait request handler
+2024/05/16 19:06:38 [debug] 9#9: *5 malloc: 0000AAAAC68DA040:1024
+2024/05/16 19:06:38 [debug] 9#9: *5 recv: eof:0, avail:-1
+2024/05/16 19:06:38 [debug] 9#9: *5 recv: fd:6 86 of 1024
+2024/05/16 19:06:38 [debug] 9#9: *5 reusable connection: 0
+2024/05/16 19:06:38 [debug] 9#9: *5 posix_memalign: 0000AAAAC68F41E0:4096 @16
+2024/05/16 19:06:38 [debug] 9#9: *5 http process request line
+2024/05/16 19:06:38 [debug] 9#9: *5 http request line: "GET /error-bug HTTP/1.1"
+2024/05/16 19:06:38 [debug] 9#9: *5 http uri: "/error-bug"
+2024/05/16 19:06:38 [debug] 9#9: *5 http args: ""
+2024/05/16 19:06:38 [debug] 9#9: *5 http exten: ""
+2024/05/16 19:06:38 [debug] 9#9: *5 posix_memalign: 0000AAAAC68D4330:4096 @16
+2024/05/16 19:06:38 [debug] 9#9: *5 http process request header line
+2024/05/16 19:06:38 [debug] 9#9: *5 http header: "Host: localhost:9999"
+2024/05/16 19:06:38 [debug] 9#9: *5 http header: "User-Agent: curl/8.4.0"
+2024/05/16 19:06:38 [debug] 9#9: *5 http header: "Accept: */*"
+2024/05/16 19:06:38 [debug] 9#9: *5 http header done
+2024/05/16 19:06:38 [debug] 9#9: *5 event timer del: 6: 346354464
+2024/05/16 19:06:38 [debug] 9#9: *5 generic phase: 0
+2024/05/16 19:06:38 [debug] 9#9: *5 rewrite phase: 1
+2024/05/16 19:06:38 [debug] 9#9: *5 test location: "/"
+2024/05/16 19:06:38 [debug] 9#9: *5 using configuration "/"
+2024/05/16 19:06:38 [debug] 9#9: *5 http cl:-1 max:1048576
+2024/05/16 19:06:38 [debug] 9#9: *5 rewrite phase: 3
+2024/05/16 19:06:38 [debug] 9#9: *5 post rewrite phase: 4
+2024/05/16 19:06:38 [debug] 9#9: *5 generic phase: 5
+2024/05/16 19:06:38 [debug] 9#9: *5 generic phase: 6
+2024/05/16 19:06:38 [debug] 9#9: *5 generic phase: 7
+2024/05/16 19:06:38 [debug] 9#9: *5 access phase: 8
+2024/05/16 19:06:38 [debug] 9#9: *5 access phase: 9
+2024/05/16 19:06:38 [debug] 9#9: *5 access phase: 10
+2024/05/16 19:06:38 [debug] 9#9: *5 post access phase: 11
+2024/05/16 19:06:38 [debug] 9#9: *5 generic phase: 12
+2024/05/16 19:06:38 [debug] 9#9: *5 generic phase: 13
+2024/05/16 19:06:38 [debug] 9#9: *5 http init upstream, client timer: 0
+2024/05/16 19:06:38 [debug] 9#9: *5 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 19:06:38 [debug] 9#9: *5 http script copy: "Host"
+2024/05/16 19:06:38 [debug] 9#9: *5 http script var: "localhost"
+2024/05/16 19:06:38 [debug] 9#9: *5 http script copy: "X-Real-IP"
+2024/05/16 19:06:38 [debug] 9#9: *5 http script var: "192.168.65.1"
+2024/05/16 19:06:38 [debug] 9#9: *5 http script copy: "X-Forwarded-For"
+2024/05/16 19:06:38 [debug] 9#9: *5 http script var: "192.168.65.1"
+2024/05/16 19:06:38 [debug] 9#9: *5 http script copy: "X-Forwarded-Proto"
+2024/05/16 19:06:38 [debug] 9#9: *5 http script var: "http"
+2024/05/16 19:06:38 [debug] 9#9: *5 http script copy: "Connection"
+2024/05/16 19:06:38 [debug] 9#9: *5 http script copy: "close"
+2024/05/16 19:06:38 [debug] 9#9: *5 http script copy: ""
+2024/05/16 19:06:38 [debug] 9#9: *5 http script copy: ""
+2024/05/16 19:06:38 [debug] 9#9: *5 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 19:06:38 [debug] 9#9: *5 http proxy header: "Accept: */*"
+2024/05/16 19:06:38 [debug] 9#9: *5 http proxy header:
+"GET /error-bug HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 19:06:38 [debug] 9#9: *5 http cleanup add: 0000AAAAC68F51C0
+2024/05/16 19:06:38 [debug] 9#9: *5 get rr peer, try: 1
+2024/05/16 19:06:38 [debug] 9#9: *5 stream socket 10
+2024/05/16 19:06:38 [debug] 9#9: *5 epoll add connection: fd:10 ev:80002005
+2024/05/16 19:06:38 [debug] 9#9: *5 connect to 127.0.0.1:5000, fd:10 #6
+2024/05/16 19:06:38 [debug] 9#9: *5 http upstream connect: -2
+2024/05/16 19:06:38 [debug] 9#9: *5 posix_memalign: 0000AAAAC68D3F50:128 @16
+2024/05/16 19:06:38 [debug] 9#9: *5 event timer add: 10: 60000:346354464
+2024/05/16 19:06:38 [debug] 9#9: *5 http finalize request: -4, "/error-bug?" a:1, c:2
+2024/05/16 19:06:38 [debug] 9#9: *5 http request count:2 blk:0
+2024/05/16 19:06:38 [debug] 9#9: *5 http run request: "/error-bug?"
+2024/05/16 19:06:38 [debug] 9#9: *5 http upstream check client, write event:1, "/error-bug"
+2024/05/16 19:06:38 [debug] 9#9: *5 http upstream request: "/error-bug?"
+2024/05/16 19:06:38 [debug] 9#9: *5 http upstream send request handler
+2024/05/16 19:06:38 [debug] 9#9: *5 http upstream send request
+2024/05/16 19:06:38 [debug] 9#9: *5 http upstream send request body
+2024/05/16 19:06:38 [debug] 9#9: *5 chain writer buf fl:1 s:181
+2024/05/16 19:06:38 [debug] 9#9: *5 chain writer in: 0000AAAAC68D4D40
+2024/05/16 19:06:38 [debug] 9#9: *5 writev: 181 of 181
+2024/05/16 19:06:38 [debug] 9#9: *5 chain writer out: 0000000000000000
+2024/05/16 19:06:38 [debug] 9#9: *5 event timer del: 10: 346354464
+2024/05/16 19:06:38 [debug] 9#9: *5 event timer add: 10: 60000:346354471
+2024/05/16 19:06:38 [debug] 9#9: *5 http upstream request: "/error-bug?"
+2024/05/16 19:06:38 [debug] 9#9: *5 http upstream process header
+2024/05/16 19:06:38 [debug] 9#9: *5 malloc: 0000AAAAC68E8D40:4096
+2024/05/16 19:06:38 [debug] 9#9: *5 recv: eof:0, avail:-1
+2024/05/16 19:06:38 [debug] 9#9: *5 recv: fd:10 213 of 4096
+2024/05/16 19:06:38 [debug] 9#9: *5 http proxy status 500 "500 INTERNAL SERVER ERROR"
+2024/05/16 19:06:38 [debug] 9#9: *5 http proxy header: "Server: gunicorn"
+2024/05/16 19:06:38 [debug] 9#9: *5 http proxy header: "Date: Thu, 16 May 2024 19:06:38 GMT"
+2024/05/16 19:06:38 [debug] 9#9: *5 http proxy header: "Connection: close"
+2024/05/16 19:06:38 [debug] 9#9: *5 http proxy header: "Content-Type: application/json"
+2024/05/16 19:06:38 [debug] 9#9: *5 http proxy header: "Content-Length: 49"
+2024/05/16 19:06:38 [debug] 9#9: *5 http proxy header done
+2024/05/16 19:06:38 [debug] 9#9: *5 HTTP/1.1 500 INTERNAL SERVER ERROR
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 19:06:38 GMT
+Content-Type: application/json
+Content-Length: 49
+Connection: keep-alive
+
+2024/05/16 19:06:38 [debug] 9#9: *5 write new buf t:1 f:0 0000AAAAC68D5050, pos 0000AAAAC68D5050, size: 173 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *5 http write filter: l:0 f:0 s:173
+2024/05/16 19:06:38 [debug] 9#9: *5 http cacheable: 0
+2024/05/16 19:06:38 [debug] 9#9: *5 http proxy filter init s:500 h:0 c:0 l:49
+2024/05/16 19:06:38 [debug] 9#9: *5 http upstream process upstream
+2024/05/16 19:06:38 [debug] 9#9: *5 pipe read upstream: 0
+2024/05/16 19:06:38 [debug] 9#9: *5 pipe preread: 49
+2024/05/16 19:06:38 [debug] 9#9: *5 pipe buf free s:0 t:1 f:0 0000AAAAC68E8D40, pos 0000AAAAC68E8DE4, size: 49 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *5 pipe length: 49
+2024/05/16 19:06:38 [debug] 9#9: *5 input buf #0
+2024/05/16 19:06:38 [debug] 9#9: *5 pipe write downstream: 1
+2024/05/16 19:06:38 [debug] 9#9: *5 pipe write downstream flush in
+2024/05/16 19:06:38 [debug] 9#9: *5 http output filter "/error-bug?"
+2024/05/16 19:06:38 [debug] 9#9: *5 http copy filter: "/error-bug?"
+2024/05/16 19:06:38 [debug] 9#9: *5 http postpone filter "/error-bug?" 0000AAAAC68D5230
+2024/05/16 19:06:38 [debug] 9#9: *5 write old buf t:1 f:0 0000AAAAC68D5050, pos 0000AAAAC68D5050, size: 173 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *5 write new buf t:1 f:0 0000AAAAC68E8D40, pos 0000AAAAC68E8DE4, size: 49 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *5 http write filter: l:0 f:0 s:222
+2024/05/16 19:06:38 [debug] 9#9: *5 http copy filter: 0 "/error-bug?"
+2024/05/16 19:06:38 [debug] 9#9: *5 pipe write downstream done
+2024/05/16 19:06:38 [debug] 9#9: *5 event timer: 10, old: 346354471, new: 346354472
+2024/05/16 19:06:38 [debug] 9#9: *5 http upstream exit: 0000000000000000
+2024/05/16 19:06:38 [debug] 9#9: *5 finalize http upstream request: 0
+2024/05/16 19:06:38 [debug] 9#9: *5 finalize http proxy request
+2024/05/16 19:06:38 [debug] 9#9: *5 free rr peer 1 0
+2024/05/16 19:06:38 [debug] 9#9: *5 close http upstream connection: 10
+2024/05/16 19:06:38 [debug] 9#9: *5 free: 0000AAAAC68D3F50, unused: 48
+2024/05/16 19:06:38 [debug] 9#9: *5 event timer del: 10: 346354471
+2024/05/16 19:06:38 [debug] 9#9: *5 reusable connection: 0
+2024/05/16 19:06:38 [debug] 9#9: *5 http upstream temp fd: -1
+2024/05/16 19:06:38 [debug] 9#9: *5 posix_memalign: 0000AAAAC68DED10:4096 @16
+2024/05/16 19:06:38 [debug] 9#9: *5 http output filter "/error-bug?"
+2024/05/16 19:06:38 [debug] 9#9: *5 http copy filter: "/error-bug?"
+2024/05/16 19:06:38 [debug] 9#9: *5 http postpone filter "/error-bug?" 0000FFFFF9040028
+2024/05/16 19:06:38 [debug] 9#9: *5 write old buf t:1 f:0 0000AAAAC68D5050, pos 0000AAAAC68D5050, size: 173 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *5 write old buf t:1 f:0 0000AAAAC68E8D40, pos 0000AAAAC68E8DE4, size: 49 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *5 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *5 http write filter: l:1 f:0 s:222
+2024/05/16 19:06:38 [debug] 9#9: *5 http write filter limit 2097152
+2024/05/16 19:06:38 [debug] 9#9: *5 writev: 222 of 222
+2024/05/16 19:06:38 [debug] 9#9: *5 http write filter 0000000000000000
+2024/05/16 19:06:38 [debug] 9#9: *5 http copy filter: 0 "/error-bug?"
+2024/05/16 19:06:38 [debug] 9#9: *5 http finalize request: 0, "/error-bug?" a:1, c:1
+2024/05/16 19:06:38 [debug] 9#9: *5 set http keepalive handler
+2024/05/16 19:06:38 [debug] 9#9: *5 http close request
+2024/05/16 19:06:38 [debug] 9#9: *5 http log handler
+2024/05/16 19:06:38 [debug] 9#9: *5 free: 0000AAAAC68E8D40
+2024/05/16 19:06:38 [debug] 9#9: *5 free: 0000AAAAC68F41E0, unused: 8
+2024/05/16 19:06:38 [debug] 9#9: *5 free: 0000AAAAC68D4330, unused: 16
+2024/05/16 19:06:38 [debug] 9#9: *5 free: 0000AAAAC68DED10, unused: 3853
+2024/05/16 19:06:38 [debug] 9#9: *5 free: 0000AAAAC68DA040
+2024/05/16 19:06:38 [debug] 9#9: *5 hc free: 0000000000000000
+2024/05/16 19:06:38 [debug] 9#9: *5 hc busy: 0000000000000000 0
+2024/05/16 19:06:38 [debug] 9#9: *5 tcp_nodelay
+2024/05/16 19:06:38 [debug] 9#9: *5 reusable connection: 1
+2024/05/16 19:06:38 [debug] 9#9: *5 event timer add: 6: 65000:346359472
+2024/05/16 19:06:38 [debug] 9#9: *5 http keepalive handler
+2024/05/16 19:06:38 [debug] 9#9: *5 malloc: 0000AAAAC68DA040:1024
+2024/05/16 19:06:38 [debug] 9#9: *5 recv: eof:1, avail:-1
+2024/05/16 19:06:38 [debug] 9#9: *5 recv: fd:6 0 of 1024
+2024/05/16 19:06:38 [info] 9#9: *5 client 192.168.65.1 closed keepalive connection
+2024/05/16 19:06:38 [debug] 9#9: *5 close http connection: 6
+2024/05/16 19:06:38 [debug] 9#9: *5 event timer del: 6: 346359472
+2024/05/16 19:06:38 [debug] 9#9: *5 reusable connection: 0
+2024/05/16 19:06:38 [debug] 9#9: *5 free: 0000AAAAC68DA040
+2024/05/16 19:06:38 [debug] 9#9: *5 free: 0000AAAAC68C6DF0, unused: 128
+2024/05/16 19:06:38 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 19:06:38 [debug] 9#9: posix_memalign: 0000AAAAC68C6DF0:512 @16
+2024/05/16 19:06:38 [debug] 9#9: *7 accept: 192.168.65.1:52677 fd:6
+2024/05/16 19:06:38 [debug] 9#9: *7 event timer add: 6: 60000:346354487
+2024/05/16 19:06:38 [debug] 9#9: *7 reusable connection: 1
+2024/05/16 19:06:38 [debug] 9#9: *7 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 19:06:38 [debug] 9#9: *7 http wait request handler
+2024/05/16 19:06:38 [debug] 9#9: *7 malloc: 0000AAAAC68DA040:1024
+2024/05/16 19:06:38 [debug] 9#9: *7 recv: eof:0, avail:-1
+2024/05/16 19:06:38 [debug] 9#9: *7 recv: fd:6 89 of 1024
+2024/05/16 19:06:38 [debug] 9#9: *7 reusable connection: 0
+2024/05/16 19:06:38 [debug] 9#9: *7 posix_memalign: 0000AAAAC68F41E0:4096 @16
+2024/05/16 19:06:38 [debug] 9#9: *7 http process request line
+2024/05/16 19:06:38 [debug] 9#9: *7 http request line: "GET /error-memory HTTP/1.1"
+2024/05/16 19:06:38 [debug] 9#9: *7 http uri: "/error-memory"
+2024/05/16 19:06:38 [debug] 9#9: *7 http args: ""
+2024/05/16 19:06:38 [debug] 9#9: *7 http exten: ""
+2024/05/16 19:06:38 [debug] 9#9: *7 posix_memalign: 0000AAAAC68D4330:4096 @16
+2024/05/16 19:06:38 [debug] 9#9: *7 http process request header line
+2024/05/16 19:06:38 [debug] 9#9: *7 http header: "Host: localhost:9999"
+2024/05/16 19:06:38 [debug] 9#9: *7 http header: "User-Agent: curl/8.4.0"
+2024/05/16 19:06:38 [debug] 9#9: *7 http header: "Accept: */*"
+2024/05/16 19:06:38 [debug] 9#9: *7 http header done
+2024/05/16 19:06:38 [debug] 9#9: *7 event timer del: 6: 346354487
+2024/05/16 19:06:38 [debug] 9#9: *7 generic phase: 0
+2024/05/16 19:06:38 [debug] 9#9: *7 rewrite phase: 1
+2024/05/16 19:06:38 [debug] 9#9: *7 test location: "/"
+2024/05/16 19:06:38 [debug] 9#9: *7 using configuration "/"
+2024/05/16 19:06:38 [debug] 9#9: *7 http cl:-1 max:1048576
+2024/05/16 19:06:38 [debug] 9#9: *7 rewrite phase: 3
+2024/05/16 19:06:38 [debug] 9#9: *7 post rewrite phase: 4
+2024/05/16 19:06:38 [debug] 9#9: *7 generic phase: 5
+2024/05/16 19:06:38 [debug] 9#9: *7 generic phase: 6
+2024/05/16 19:06:38 [debug] 9#9: *7 generic phase: 7
+2024/05/16 19:06:38 [debug] 9#9: *7 access phase: 8
+2024/05/16 19:06:38 [debug] 9#9: *7 access phase: 9
+2024/05/16 19:06:38 [debug] 9#9: *7 access phase: 10
+2024/05/16 19:06:38 [debug] 9#9: *7 post access phase: 11
+2024/05/16 19:06:38 [debug] 9#9: *7 generic phase: 12
+2024/05/16 19:06:38 [debug] 9#9: *7 generic phase: 13
+2024/05/16 19:06:38 [debug] 9#9: *7 http init upstream, client timer: 0
+2024/05/16 19:06:38 [debug] 9#9: *7 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 19:06:38 [debug] 9#9: *7 http script copy: "Host"
+2024/05/16 19:06:38 [debug] 9#9: *7 http script var: "localhost"
+2024/05/16 19:06:38 [debug] 9#9: *7 http script copy: "X-Real-IP"
+2024/05/16 19:06:38 [debug] 9#9: *7 http script var: "192.168.65.1"
+2024/05/16 19:06:38 [debug] 9#9: *7 http script copy: "X-Forwarded-For"
+2024/05/16 19:06:38 [debug] 9#9: *7 http script var: "192.168.65.1"
+2024/05/16 19:06:38 [debug] 9#9: *7 http script copy: "X-Forwarded-Proto"
+2024/05/16 19:06:38 [debug] 9#9: *7 http script var: "http"
+2024/05/16 19:06:38 [debug] 9#9: *7 http script copy: "Connection"
+2024/05/16 19:06:38 [debug] 9#9: *7 http script copy: "close"
+2024/05/16 19:06:38 [debug] 9#9: *7 http script copy: ""
+2024/05/16 19:06:38 [debug] 9#9: *7 http script copy: ""
+2024/05/16 19:06:38 [debug] 9#9: *7 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 19:06:38 [debug] 9#9: *7 http proxy header: "Accept: */*"
+2024/05/16 19:06:38 [debug] 9#9: *7 http proxy header:
+"GET /error-memory HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 19:06:38 [debug] 9#9: *7 http cleanup add: 0000AAAAC68F51C0
+2024/05/16 19:06:38 [debug] 9#9: *7 get rr peer, try: 1
+2024/05/16 19:06:38 [debug] 9#9: *7 stream socket 10
+2024/05/16 19:06:38 [debug] 9#9: *7 epoll add connection: fd:10 ev:80002005
+2024/05/16 19:06:38 [debug] 9#9: *7 connect to 127.0.0.1:5000, fd:10 #8
+2024/05/16 19:06:38 [debug] 9#9: *7 http upstream connect: -2
+2024/05/16 19:06:38 [debug] 9#9: *7 posix_memalign: 0000AAAAC68D3F50:128 @16
+2024/05/16 19:06:38 [debug] 9#9: *7 event timer add: 10: 60000:346354487
+2024/05/16 19:06:38 [debug] 9#9: *7 http finalize request: -4, "/error-memory?" a:1, c:2
+2024/05/16 19:06:38 [debug] 9#9: *7 http request count:2 blk:0
+2024/05/16 19:06:38 [debug] 9#9: *7 http run request: "/error-memory?"
+2024/05/16 19:06:38 [debug] 9#9: *7 http upstream check client, write event:1, "/error-memory"
+2024/05/16 19:06:38 [debug] 9#9: *7 http upstream request: "/error-memory?"
+2024/05/16 19:06:38 [debug] 9#9: *7 http upstream send request handler
+2024/05/16 19:06:38 [debug] 9#9: *7 http upstream send request
+2024/05/16 19:06:38 [debug] 9#9: *7 http upstream send request body
+2024/05/16 19:06:38 [debug] 9#9: *7 chain writer buf fl:1 s:184
+2024/05/16 19:06:38 [debug] 9#9: *7 chain writer in: 0000AAAAC68D4D40
+2024/05/16 19:06:38 [debug] 9#9: *7 writev: 184 of 184
+2024/05/16 19:06:38 [debug] 9#9: *7 chain writer out: 0000000000000000
+2024/05/16 19:06:38 [debug] 9#9: *7 event timer del: 10: 346354487
+2024/05/16 19:06:38 [debug] 9#9: *7 event timer add: 10: 60000:346354494
+2024/05/16 19:06:38 [debug] 9#9: *7 http upstream request: "/error-memory?"
+2024/05/16 19:06:38 [debug] 9#9: *7 http upstream process header
+2024/05/16 19:06:38 [debug] 9#9: *7 malloc: 0000AAAAC68E8D40:4096
+2024/05/16 19:06:38 [debug] 9#9: *7 recv: eof:1, avail:-1
+2024/05/16 19:06:38 [debug] 9#9: *7 recv: fd:10 0 of 4096
+2024/05/16 19:06:38 [error] 9#9: *7 upstream prematurely closed connection while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /error-memory HTTP/1.1", upstream: "http://127.0.0.1:5000/error-memory", host: "localhost:9999"
+2024/05/16 19:06:38 [debug] 9#9: *7 http next upstream, 2
+2024/05/16 19:06:38 [debug] 9#9: *7 free rr peer 1 4
+2024/05/16 19:06:38 [debug] 9#9: *7 finalize http upstream request: 502
+2024/05/16 19:06:38 [debug] 9#9: *7 finalize http proxy request
+2024/05/16 19:06:38 [debug] 9#9: *7 close http upstream connection: 10
+2024/05/16 19:06:38 [debug] 9#9: *7 free: 0000AAAAC68D3F50, unused: 48
+2024/05/16 19:06:38 [debug] 9#9: *7 event timer del: 10: 346354494
+2024/05/16 19:06:38 [debug] 9#9: *7 reusable connection: 0
+2024/05/16 19:06:38 [debug] 9#9: *7 http finalize request: 502, "/error-memory?" a:1, c:1
+2024/05/16 19:06:38 [debug] 9#9: *7 http special response: 502, "/error-memory?"
+2024/05/16 19:06:38 [debug] 9#9: *7 HTTP/1.1 502 Bad Gateway
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 19:06:38 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: keep-alive
+
+2024/05/16 19:06:38 [debug] 9#9: *7 write new buf t:1 f:0 0000AAAAC68D4F90, pos 0000AAAAC68D4F90, size: 157 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *7 http write filter: l:0 f:0 s:157
+2024/05/16 19:06:38 [debug] 9#9: *7 http output filter "/error-memory?"
+2024/05/16 19:06:38 [debug] 9#9: *7 http copy filter: "/error-memory?"
+2024/05/16 19:06:38 [debug] 9#9: *7 http postpone filter "/error-memory?" 0000AAAAC68D5160
+2024/05/16 19:06:38 [debug] 9#9: *7 write old buf t:1 f:0 0000AAAAC68D4F90, pos 0000AAAAC68D4F90, size: 157 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *7 write new buf t:0 f:0 0000000000000000, pos 0000AAAAC4473B50, size: 104 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *7 write new buf t:0 f:0 0000000000000000, pos 0000AAAAC44736D0, size: 53 file: 0, size: 0
+2024/05/16 19:06:38 [debug] 9#9: *7 http write filter: l:1 f:0 s:314
+2024/05/16 19:06:38 [debug] 9#9: *7 http write filter limit 2097152
+2024/05/16 19:06:38 [debug] 9#9: *7 writev: 314 of 314
+2024/05/16 19:06:38 [debug] 9#9: *7 http write filter 0000000000000000
+2024/05/16 19:06:38 [debug] 9#9: *7 http copy filter: 0 "/error-memory?"
+2024/05/16 19:06:38 [debug] 9#9: *7 http finalize request: 0, "/error-memory?" a:1, c:1
+2024/05/16 19:06:38 [debug] 9#9: *7 set http keepalive handler
+2024/05/16 19:06:38 [debug] 9#9: *7 http close request
+2024/05/16 19:06:38 [debug] 9#9: *7 http log handler
+2024/05/16 19:06:38 [debug] 9#9: *7 free: 0000AAAAC68E8D40
+2024/05/16 19:06:38 [debug] 9#9: *7 free: 0000AAAAC68F41E0, unused: 8
+2024/05/16 19:06:38 [debug] 9#9: *7 free: 0000AAAAC68D4330, unused: 266
+2024/05/16 19:06:38 [debug] 9#9: *7 free: 0000AAAAC68DA040
+2024/05/16 19:06:38 [debug] 9#9: *7 hc free: 0000000000000000
+2024/05/16 19:06:38 [debug] 9#9: *7 hc busy: 0000000000000000 0
+2024/05/16 19:06:38 [debug] 9#9: *7 tcp_nodelay
+2024/05/16 19:06:38 [debug] 9#9: *7 reusable connection: 1
+2024/05/16 19:06:38 [debug] 9#9: *7 event timer add: 6: 65000:346359557
+2024/05/16 19:06:38 [debug] 9#9: *7 http keepalive handler
+2024/05/16 19:06:38 [debug] 9#9: *7 malloc: 0000AAAAC68DA040:1024
+2024/05/16 19:06:38 [debug] 9#9: *7 recv: eof:1, avail:-1
+2024/05/16 19:06:38 [debug] 9#9: *7 recv: fd:6 0 of 1024
+2024/05/16 19:06:38 [info] 9#9: *7 client 192.168.65.1 closed keepalive connection
+2024/05/16 19:06:38 [debug] 9#9: *7 close http connection: 6
+2024/05/16 19:06:38 [debug] 9#9: *7 event timer del: 6: 346359557
+2024/05/16 19:06:38 [debug] 9#9: *7 reusable connection: 0
+2024/05/16 19:06:38 [debug] 9#9: *7 free: 0000AAAAC68DA040
+2024/05/16 19:06:38 [debug] 9#9: *7 free: 0000AAAAC68C6DF0, unused: 128
+2024/05/16 20:35:59 [debug] 9#9: epoll add event: fd:5 op:1 ev:00002001
+2024/05/16 20:39:15 [debug] 9#9: epoll add event: fd:5 op:1 ev:00002001
+2024/05/16 20:44:11 [debug] 9#9: epoll add event: fd:5 op:1 ev:00002001
+2024/05/16 20:44:49 [debug] 8#8: epoll add event: fd:5 op:1 ev:00002001
+2024/05/16 20:46:19 [debug] 9#9: epoll add event: fd:5 op:1 ev:00002001
+2024/05/16 20:46:45 [debug] 9#9: epoll add event: fd:5 op:1 ev:00002001
+2024/05/16 20:47:48 [debug] 9#9: epoll add event: fd:5 op:1 ev:00002001
+2024/05/16 20:47:54 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 20:47:54 [debug] 9#9: posix_memalign: 0000AAAAC45D07F0:512 @16
+2024/05/16 20:47:54 [debug] 9#9: *1 accept: 192.168.65.1:57152 fd:6
+2024/05/16 20:47:54 [debug] 9#9: *1 event timer add: 6: 60000:352430146
+2024/05/16 20:47:54 [debug] 9#9: *1 reusable connection: 1
+2024/05/16 20:47:54 [debug] 9#9: *1 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 20:47:54 [debug] 9#9: *1 http wait request handler
+2024/05/16 20:47:54 [debug] 9#9: *1 malloc: 0000AAAAC45D3040:1024
+2024/05/16 20:47:54 [debug] 9#9: *1 recv: eof:0, avail:-1
+2024/05/16 20:47:54 [debug] 9#9: *1 recv: fd:6 81 of 1024
+2024/05/16 20:47:54 [debug] 9#9: *1 reusable connection: 0
+2024/05/16 20:47:54 [debug] 9#9: *1 posix_memalign: 0000AAAAC45ED1E0:4096 @16
+2024/05/16 20:47:54 [debug] 9#9: *1 http process request line
+2024/05/16 20:47:54 [debug] 9#9: *1 http request line: "GET /good HTTP/1.1"
+2024/05/16 20:47:54 [debug] 9#9: *1 http uri: "/good"
+2024/05/16 20:47:54 [debug] 9#9: *1 http args: ""
+2024/05/16 20:47:54 [debug] 9#9: *1 http exten: ""
+2024/05/16 20:47:54 [debug] 9#9: *1 posix_memalign: 0000AAAAC45CD330:4096 @16
+2024/05/16 20:47:54 [debug] 9#9: *1 http process request header line
+2024/05/16 20:47:54 [debug] 9#9: *1 http header: "Host: localhost:9999"
+2024/05/16 20:47:54 [debug] 9#9: *1 http header: "User-Agent: curl/8.4.0"
+2024/05/16 20:47:54 [debug] 9#9: *1 http header: "Accept: */*"
+2024/05/16 20:47:54 [debug] 9#9: *1 http header done
+2024/05/16 20:47:54 [debug] 9#9: *1 event timer del: 6: 352430146
+2024/05/16 20:47:54 [debug] 9#9: *1 generic phase: 0
+2024/05/16 20:47:54 [debug] 9#9: *1 rewrite phase: 1
+2024/05/16 20:47:54 [debug] 9#9: *1 test location: "/"
+2024/05/16 20:47:54 [debug] 9#9: *1 using configuration "/"
+2024/05/16 20:47:54 [debug] 9#9: *1 http cl:-1 max:1048576
+2024/05/16 20:47:54 [debug] 9#9: *1 rewrite phase: 3
+2024/05/16 20:47:54 [debug] 9#9: *1 post rewrite phase: 4
+2024/05/16 20:47:54 [debug] 9#9: *1 generic phase: 5
+2024/05/16 20:47:54 [debug] 9#9: *1 generic phase: 6
+2024/05/16 20:47:54 [debug] 9#9: *1 generic phase: 7
+2024/05/16 20:47:54 [debug] 9#9: *1 access phase: 8
+2024/05/16 20:47:54 [debug] 9#9: *1 access phase: 9
+2024/05/16 20:47:54 [debug] 9#9: *1 access phase: 10
+2024/05/16 20:47:54 [debug] 9#9: *1 post access phase: 11
+2024/05/16 20:47:54 [debug] 9#9: *1 generic phase: 12
+2024/05/16 20:47:54 [debug] 9#9: *1 generic phase: 13
+2024/05/16 20:47:54 [debug] 9#9: *1 http init upstream, client timer: 0
+2024/05/16 20:47:54 [debug] 9#9: *1 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 20:47:54 [debug] 9#9: *1 http script copy: "Host"
+2024/05/16 20:47:54 [debug] 9#9: *1 http script var: "localhost"
+2024/05/16 20:47:54 [debug] 9#9: *1 http script copy: "X-Real-IP"
+2024/05/16 20:47:54 [debug] 9#9: *1 http script var: "192.168.65.1"
+2024/05/16 20:47:54 [debug] 9#9: *1 http script copy: "X-Forwarded-For"
+2024/05/16 20:47:54 [debug] 9#9: *1 http script var: "192.168.65.1"
+2024/05/16 20:47:54 [debug] 9#9: *1 http script copy: "X-Forwarded-Proto"
+2024/05/16 20:47:54 [debug] 9#9: *1 http script var: "http"
+2024/05/16 20:47:54 [debug] 9#9: *1 http script copy: "Connection"
+2024/05/16 20:47:54 [debug] 9#9: *1 http script copy: "close"
+2024/05/16 20:47:54 [debug] 9#9: *1 http script copy: ""
+2024/05/16 20:47:54 [debug] 9#9: *1 http script copy: ""
+2024/05/16 20:47:54 [debug] 9#9: *1 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 20:47:54 [debug] 9#9: *1 http proxy header: "Accept: */*"
+2024/05/16 20:47:54 [debug] 9#9: *1 http proxy header:
+"GET /good HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 20:47:54 [debug] 9#9: *1 http cleanup add: 0000AAAAC45EE1C0
+2024/05/16 20:47:54 [debug] 9#9: *1 get rr peer, try: 1
+2024/05/16 20:47:54 [debug] 9#9: *1 stream socket 10
+2024/05/16 20:47:54 [debug] 9#9: *1 epoll add connection: fd:10 ev:80002005
+2024/05/16 20:47:54 [debug] 9#9: *1 connect to 127.0.0.1:5000, fd:10 #2
+2024/05/16 20:47:54 [debug] 9#9: *1 http upstream connect: -2
+2024/05/16 20:47:54 [debug] 9#9: *1 posix_memalign: 0000AAAAC45CCF50:128 @16
+2024/05/16 20:47:54 [debug] 9#9: *1 event timer add: 10: 60000:352430147
+2024/05/16 20:47:54 [debug] 9#9: *1 http finalize request: -4, "/good?" a:1, c:2
+2024/05/16 20:47:54 [debug] 9#9: *1 http request count:2 blk:0
+2024/05/16 20:47:54 [debug] 9#9: *1 http run request: "/good?"
+2024/05/16 20:47:54 [debug] 9#9: *1 http upstream check client, write event:1, "/good"
+2024/05/16 20:47:54 [debug] 9#9: *1 http upstream request: "/good?"
+2024/05/16 20:47:54 [debug] 9#9: *1 http upstream process header
+2024/05/16 20:47:54 [error] 9#9: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /good HTTP/1.1", upstream: "http://127.0.0.1:5000/good", host: "localhost:9999"
+2024/05/16 20:47:54 [debug] 9#9: *1 http next upstream, 2
+2024/05/16 20:47:54 [debug] 9#9: *1 free rr peer 1 4
+2024/05/16 20:47:54 [debug] 9#9: *1 finalize http upstream request: 502
+2024/05/16 20:47:54 [debug] 9#9: *1 finalize http proxy request
+2024/05/16 20:47:54 [debug] 9#9: *1 close http upstream connection: 10
+2024/05/16 20:47:54 [debug] 9#9: *1 free: 0000AAAAC45CCF50, unused: 48
+2024/05/16 20:47:54 [debug] 9#9: *1 event timer del: 10: 352430147
+2024/05/16 20:47:54 [debug] 9#9: *1 reusable connection: 0
+2024/05/16 20:47:54 [debug] 9#9: *1 http finalize request: 502, "/good?" a:1, c:1
+2024/05/16 20:47:54 [debug] 9#9: *1 http special response: 502, "/good?"
+2024/05/16 20:47:54 [debug] 9#9: *1 HTTP/1.1 502 Bad Gateway
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 20:47:54 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: keep-alive
+
+2024/05/16 20:47:54 [debug] 9#9: *1 write new buf t:1 f:0 0000AAAAC45CDD80, pos 0000AAAAC45CDD80, size: 157 file: 0, size: 0
+2024/05/16 20:47:54 [debug] 9#9: *1 http write filter: l:0 f:0 s:157
+2024/05/16 20:47:54 [debug] 9#9: *1 http output filter "/good?"
+2024/05/16 20:47:54 [debug] 9#9: *1 http copy filter: "/good?"
+2024/05/16 20:47:54 [debug] 9#9: *1 http postpone filter "/good?" 0000AAAAC45CDF60
+2024/05/16 20:47:54 [debug] 9#9: *1 write old buf t:1 f:0 0000AAAAC45CDD80, pos 0000AAAAC45CDD80, size: 157 file: 0, size: 0
+2024/05/16 20:47:54 [debug] 9#9: *1 write new buf t:0 f:0 0000000000000000, pos 0000AAAAB9903B50, size: 104 file: 0, size: 0
+2024/05/16 20:47:54 [debug] 9#9: *1 write new buf t:0 f:0 0000000000000000, pos 0000AAAAB99036D0, size: 53 file: 0, size: 0
+2024/05/16 20:47:54 [debug] 9#9: *1 http write filter: l:1 f:0 s:314
+2024/05/16 20:47:54 [debug] 9#9: *1 http write filter limit 2097152
+2024/05/16 20:47:54 [debug] 9#9: *1 writev: 314 of 314
+2024/05/16 20:47:54 [debug] 9#9: *1 http write filter 0000000000000000
+2024/05/16 20:47:54 [debug] 9#9: *1 http copy filter: 0 "/good?"
+2024/05/16 20:47:54 [debug] 9#9: *1 http finalize request: 0, "/good?" a:1, c:1
+2024/05/16 20:47:54 [debug] 9#9: *1 set http keepalive handler
+2024/05/16 20:47:54 [debug] 9#9: *1 http close request
+2024/05/16 20:47:54 [debug] 9#9: *1 http log handler
+2024/05/16 20:47:54 [debug] 9#9: *1 free: 0000AAAAC45ED1E0, unused: 8
+2024/05/16 20:47:54 [debug] 9#9: *1 free: 0000AAAAC45CD330, unused: 786
+2024/05/16 20:47:54 [debug] 9#9: *1 free: 0000AAAAC45D3040
+2024/05/16 20:47:54 [debug] 9#9: *1 hc free: 0000000000000000
+2024/05/16 20:47:54 [debug] 9#9: *1 hc busy: 0000000000000000 0
+2024/05/16 20:47:54 [debug] 9#9: *1 tcp_nodelay
+2024/05/16 20:47:54 [debug] 9#9: *1 reusable connection: 1
+2024/05/16 20:47:54 [debug] 9#9: *1 event timer add: 6: 65000:352435158
+2024/05/16 20:47:54 [debug] 9#9: *1 http keepalive handler
+2024/05/16 20:47:54 [debug] 9#9: *1 malloc: 0000AAAAC45D3040:1024
+2024/05/16 20:47:54 [debug] 9#9: *1 recv: eof:1, avail:-1
+2024/05/16 20:47:54 [debug] 9#9: *1 recv: fd:6 0 of 1024
+2024/05/16 20:47:54 [info] 9#9: *1 client 192.168.65.1 closed keepalive connection
+2024/05/16 20:47:54 [debug] 9#9: *1 close http connection: 6
+2024/05/16 20:47:54 [debug] 9#9: *1 event timer del: 6: 352435158
+2024/05/16 20:47:54 [debug] 9#9: *1 reusable connection: 0
+2024/05/16 20:47:54 [debug] 9#9: *1 free: 0000AAAAC45D3040
+2024/05/16 20:47:54 [debug] 9#9: *1 free: 0000AAAAC45D07F0, unused: 128
+2024/05/16 20:47:54 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 20:47:54 [debug] 9#9: posix_memalign: 0000AAAAC45D07F0:512 @16
+2024/05/16 20:47:54 [debug] 9#9: *3 accept: 192.168.65.1:57153 fd:6
+2024/05/16 20:47:54 [debug] 9#9: *3 event timer add: 6: 60000:352430177
+2024/05/16 20:47:54 [debug] 9#9: *3 reusable connection: 1
+2024/05/16 20:47:54 [debug] 9#9: *3 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 20:47:54 [debug] 9#9: *3 http wait request handler
+2024/05/16 20:47:54 [debug] 9#9: *3 malloc: 0000AAAAC45D3040:1024
+2024/05/16 20:47:54 [debug] 9#9: *3 recv: eof:0, avail:-1
+2024/05/16 20:47:54 [debug] 9#9: *3 recv: fd:6 80 of 1024
+2024/05/16 20:47:54 [debug] 9#9: *3 reusable connection: 0
+2024/05/16 20:47:54 [debug] 9#9: *3 posix_memalign: 0000AAAAC45ED1E0:4096 @16
+2024/05/16 20:47:54 [debug] 9#9: *3 http process request line
+2024/05/16 20:47:54 [debug] 9#9: *3 http request line: "GET /bad HTTP/1.1"
+2024/05/16 20:47:54 [debug] 9#9: *3 http uri: "/bad"
+2024/05/16 20:47:54 [debug] 9#9: *3 http args: ""
+2024/05/16 20:47:54 [debug] 9#9: *3 http exten: ""
+2024/05/16 20:47:54 [debug] 9#9: *3 posix_memalign: 0000AAAAC45CD330:4096 @16
+2024/05/16 20:47:54 [debug] 9#9: *3 http process request header line
+2024/05/16 20:47:54 [debug] 9#9: *3 http header: "Host: localhost:9999"
+2024/05/16 20:47:54 [debug] 9#9: *3 http header: "User-Agent: curl/8.4.0"
+2024/05/16 20:47:54 [debug] 9#9: *3 http header: "Accept: */*"
+2024/05/16 20:47:54 [debug] 9#9: *3 http header done
+2024/05/16 20:47:54 [debug] 9#9: *3 event timer del: 6: 352430177
+2024/05/16 20:47:54 [debug] 9#9: *3 generic phase: 0
+2024/05/16 20:47:54 [debug] 9#9: *3 rewrite phase: 1
+2024/05/16 20:47:54 [debug] 9#9: *3 test location: "/"
+2024/05/16 20:47:54 [debug] 9#9: *3 using configuration "/"
+2024/05/16 20:47:54 [debug] 9#9: *3 http cl:-1 max:1048576
+2024/05/16 20:47:54 [debug] 9#9: *3 rewrite phase: 3
+2024/05/16 20:47:54 [debug] 9#9: *3 post rewrite phase: 4
+2024/05/16 20:47:54 [debug] 9#9: *3 generic phase: 5
+2024/05/16 20:47:54 [debug] 9#9: *3 generic phase: 6
+2024/05/16 20:47:54 [debug] 9#9: *3 generic phase: 7
+2024/05/16 20:47:54 [debug] 9#9: *3 access phase: 8
+2024/05/16 20:47:54 [debug] 9#9: *3 access phase: 9
+2024/05/16 20:47:54 [debug] 9#9: *3 access phase: 10
+2024/05/16 20:47:54 [debug] 9#9: *3 post access phase: 11
+2024/05/16 20:47:54 [debug] 9#9: *3 generic phase: 12
+2024/05/16 20:47:54 [debug] 9#9: *3 generic phase: 13
+2024/05/16 20:47:54 [debug] 9#9: *3 http init upstream, client timer: 0
+2024/05/16 20:47:54 [debug] 9#9: *3 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 20:47:54 [debug] 9#9: *3 http script copy: "Host"
+2024/05/16 20:47:54 [debug] 9#9: *3 http script var: "localhost"
+2024/05/16 20:47:54 [debug] 9#9: *3 http script copy: "X-Real-IP"
+2024/05/16 20:47:54 [debug] 9#9: *3 http script var: "192.168.65.1"
+2024/05/16 20:47:54 [debug] 9#9: *3 http script copy: "X-Forwarded-For"
+2024/05/16 20:47:54 [debug] 9#9: *3 http script var: "192.168.65.1"
+2024/05/16 20:47:54 [debug] 9#9: *3 http script copy: "X-Forwarded-Proto"
+2024/05/16 20:47:54 [debug] 9#9: *3 http script var: "http"
+2024/05/16 20:47:54 [debug] 9#9: *3 http script copy: "Connection"
+2024/05/16 20:47:54 [debug] 9#9: *3 http script copy: "close"
+2024/05/16 20:47:54 [debug] 9#9: *3 http script copy: ""
+2024/05/16 20:47:54 [debug] 9#9: *3 http script copy: ""
+2024/05/16 20:47:54 [debug] 9#9: *3 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 20:47:54 [debug] 9#9: *3 http proxy header: "Accept: */*"
+2024/05/16 20:47:54 [debug] 9#9: *3 http proxy header:
+"GET /bad HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 20:47:54 [debug] 9#9: *3 http cleanup add: 0000AAAAC45EE1C0
+2024/05/16 20:47:54 [debug] 9#9: *3 get rr peer, try: 1
+2024/05/16 20:47:54 [debug] 9#9: *3 stream socket 10
+2024/05/16 20:47:54 [debug] 9#9: *3 epoll add connection: fd:10 ev:80002005
+2024/05/16 20:47:54 [debug] 9#9: *3 connect to 127.0.0.1:5000, fd:10 #4
+2024/05/16 20:47:54 [debug] 9#9: *3 http upstream connect: -2
+2024/05/16 20:47:54 [debug] 9#9: *3 posix_memalign: 0000AAAAC45CCF50:128 @16
+2024/05/16 20:47:54 [debug] 9#9: *3 event timer add: 10: 60000:352430178
+2024/05/16 20:47:54 [debug] 9#9: *3 http finalize request: -4, "/bad?" a:1, c:2
+2024/05/16 20:47:54 [debug] 9#9: *3 http request count:2 blk:0
+2024/05/16 20:47:54 [debug] 9#9: *3 http run request: "/bad?"
+2024/05/16 20:47:54 [debug] 9#9: *3 http upstream check client, write event:1, "/bad"
+2024/05/16 20:47:54 [debug] 9#9: *3 http upstream request: "/bad?"
+2024/05/16 20:47:54 [debug] 9#9: *3 http upstream process header
+2024/05/16 20:47:54 [error] 9#9: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /bad HTTP/1.1", upstream: "http://127.0.0.1:5000/bad", host: "localhost:9999"
+2024/05/16 20:47:54 [debug] 9#9: *3 http next upstream, 2
+2024/05/16 20:47:54 [debug] 9#9: *3 free rr peer 1 4
+2024/05/16 20:47:54 [debug] 9#9: *3 finalize http upstream request: 502
+2024/05/16 20:47:54 [debug] 9#9: *3 finalize http proxy request
+2024/05/16 20:47:54 [debug] 9#9: *3 close http upstream connection: 10
+2024/05/16 20:47:54 [debug] 9#9: *3 free: 0000AAAAC45CCF50, unused: 48
+2024/05/16 20:47:54 [debug] 9#9: *3 event timer del: 10: 352430178
+2024/05/16 20:47:54 [debug] 9#9: *3 reusable connection: 0
+2024/05/16 20:47:54 [debug] 9#9: *3 http finalize request: 502, "/bad?" a:1, c:1
+2024/05/16 20:47:54 [debug] 9#9: *3 http special response: 502, "/bad?"
+2024/05/16 20:47:54 [debug] 9#9: *3 HTTP/1.1 502 Bad Gateway
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 20:47:54 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: keep-alive
+
+2024/05/16 20:47:54 [debug] 9#9: *3 write new buf t:1 f:0 0000AAAAC45CDD80, pos 0000AAAAC45CDD80, size: 157 file: 0, size: 0
+2024/05/16 20:47:54 [debug] 9#9: *3 http write filter: l:0 f:0 s:157
+2024/05/16 20:47:54 [debug] 9#9: *3 http output filter "/bad?"
+2024/05/16 20:47:54 [debug] 9#9: *3 http copy filter: "/bad?"
+2024/05/16 20:47:54 [debug] 9#9: *3 http postpone filter "/bad?" 0000AAAAC45CDF60
+2024/05/16 20:47:54 [debug] 9#9: *3 write old buf t:1 f:0 0000AAAAC45CDD80, pos 0000AAAAC45CDD80, size: 157 file: 0, size: 0
+2024/05/16 20:47:54 [debug] 9#9: *3 write new buf t:0 f:0 0000000000000000, pos 0000AAAAB9903B50, size: 104 file: 0, size: 0
+2024/05/16 20:47:54 [debug] 9#9: *3 write new buf t:0 f:0 0000000000000000, pos 0000AAAAB99036D0, size: 53 file: 0, size: 0
+2024/05/16 20:47:54 [debug] 9#9: *3 http write filter: l:1 f:0 s:314
+2024/05/16 20:47:54 [debug] 9#9: *3 http write filter limit 2097152
+2024/05/16 20:47:54 [debug] 9#9: *3 writev: 314 of 314
+2024/05/16 20:47:54 [debug] 9#9: *3 http write filter 0000000000000000
+2024/05/16 20:47:54 [debug] 9#9: *3 http copy filter: 0 "/bad?"
+2024/05/16 20:47:54 [debug] 9#9: *3 http finalize request: 0, "/bad?" a:1, c:1
+2024/05/16 20:47:54 [debug] 9#9: *3 set http keepalive handler
+2024/05/16 20:47:54 [debug] 9#9: *3 http close request
+2024/05/16 20:47:54 [debug] 9#9: *3 http log handler
+2024/05/16 20:47:54 [debug] 9#9: *3 free: 0000AAAAC45ED1E0, unused: 8
+2024/05/16 20:47:54 [debug] 9#9: *3 free: 0000AAAAC45CD330, unused: 787
+2024/05/16 20:47:54 [debug] 9#9: *3 free: 0000AAAAC45D3040
+2024/05/16 20:47:54 [debug] 9#9: *3 hc free: 0000000000000000
+2024/05/16 20:47:54 [debug] 9#9: *3 hc busy: 0000000000000000 0
+2024/05/16 20:47:54 [debug] 9#9: *3 tcp_nodelay
+2024/05/16 20:47:54 [debug] 9#9: *3 reusable connection: 1
+2024/05/16 20:47:54 [debug] 9#9: *3 event timer add: 6: 65000:352435187
+2024/05/16 20:47:54 [debug] 9#9: *3 http keepalive handler
+2024/05/16 20:47:54 [debug] 9#9: *3 malloc: 0000AAAAC45D3040:1024
+2024/05/16 20:47:54 [debug] 9#9: *3 recv: eof:1, avail:-1
+2024/05/16 20:47:54 [debug] 9#9: *3 recv: fd:6 0 of 1024
+2024/05/16 20:47:54 [info] 9#9: *3 client 192.168.65.1 closed keepalive connection
+2024/05/16 20:47:54 [debug] 9#9: *3 close http connection: 6
+2024/05/16 20:47:54 [debug] 9#9: *3 event timer del: 6: 352435187
+2024/05/16 20:47:54 [debug] 9#9: *3 reusable connection: 0
+2024/05/16 20:47:54 [debug] 9#9: *3 free: 0000AAAAC45D3040
+2024/05/16 20:47:54 [debug] 9#9: *3 free: 0000AAAAC45D07F0, unused: 128
+2024/05/16 20:47:54 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 20:47:54 [debug] 9#9: posix_memalign: 0000AAAAC45D07F0:512 @16
+2024/05/16 20:47:54 [debug] 9#9: *5 accept: 192.168.65.1:57154 fd:6
+2024/05/16 20:47:54 [debug] 9#9: *5 event timer add: 6: 60000:352430202
+2024/05/16 20:47:54 [debug] 9#9: *5 reusable connection: 1
+2024/05/16 20:47:54 [debug] 9#9: *5 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 20:47:54 [debug] 9#9: *5 http wait request handler
+2024/05/16 20:47:54 [debug] 9#9: *5 malloc: 0000AAAAC45D3040:1024
+2024/05/16 20:47:54 [debug] 9#9: *5 recv: eof:0, avail:-1
+2024/05/16 20:47:54 [debug] 9#9: *5 recv: fd:6 86 of 1024
+2024/05/16 20:47:54 [debug] 9#9: *5 reusable connection: 0
+2024/05/16 20:47:54 [debug] 9#9: *5 posix_memalign: 0000AAAAC45ED1E0:4096 @16
+2024/05/16 20:47:54 [debug] 9#9: *5 http process request line
+2024/05/16 20:47:54 [debug] 9#9: *5 http request line: "GET /error-bug HTTP/1.1"
+2024/05/16 20:47:54 [debug] 9#9: *5 http uri: "/error-bug"
+2024/05/16 20:47:54 [debug] 9#9: *5 http args: ""
+2024/05/16 20:47:54 [debug] 9#9: *5 http exten: ""
+2024/05/16 20:47:54 [debug] 9#9: *5 posix_memalign: 0000AAAAC45CD330:4096 @16
+2024/05/16 20:47:54 [debug] 9#9: *5 http process request header line
+2024/05/16 20:47:54 [debug] 9#9: *5 http header: "Host: localhost:9999"
+2024/05/16 20:47:54 [debug] 9#9: *5 http header: "User-Agent: curl/8.4.0"
+2024/05/16 20:47:54 [debug] 9#9: *5 http header: "Accept: */*"
+2024/05/16 20:47:54 [debug] 9#9: *5 http header done
+2024/05/16 20:47:54 [debug] 9#9: *5 event timer del: 6: 352430202
+2024/05/16 20:47:54 [debug] 9#9: *5 generic phase: 0
+2024/05/16 20:47:54 [debug] 9#9: *5 rewrite phase: 1
+2024/05/16 20:47:54 [debug] 9#9: *5 test location: "/"
+2024/05/16 20:47:54 [debug] 9#9: *5 using configuration "/"
+2024/05/16 20:47:54 [debug] 9#9: *5 http cl:-1 max:1048576
+2024/05/16 20:47:54 [debug] 9#9: *5 rewrite phase: 3
+2024/05/16 20:47:54 [debug] 9#9: *5 post rewrite phase: 4
+2024/05/16 20:47:54 [debug] 9#9: *5 generic phase: 5
+2024/05/16 20:47:54 [debug] 9#9: *5 generic phase: 6
+2024/05/16 20:47:54 [debug] 9#9: *5 generic phase: 7
+2024/05/16 20:47:54 [debug] 9#9: *5 access phase: 8
+2024/05/16 20:47:54 [debug] 9#9: *5 access phase: 9
+2024/05/16 20:47:54 [debug] 9#9: *5 access phase: 10
+2024/05/16 20:47:54 [debug] 9#9: *5 post access phase: 11
+2024/05/16 20:47:54 [debug] 9#9: *5 generic phase: 12
+2024/05/16 20:47:54 [debug] 9#9: *5 generic phase: 13
+2024/05/16 20:47:54 [debug] 9#9: *5 http init upstream, client timer: 0
+2024/05/16 20:47:54 [debug] 9#9: *5 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 20:47:54 [debug] 9#9: *5 http script copy: "Host"
+2024/05/16 20:47:54 [debug] 9#9: *5 http script var: "localhost"
+2024/05/16 20:47:54 [debug] 9#9: *5 http script copy: "X-Real-IP"
+2024/05/16 20:47:54 [debug] 9#9: *5 http script var: "192.168.65.1"
+2024/05/16 20:47:54 [debug] 9#9: *5 http script copy: "X-Forwarded-For"
+2024/05/16 20:47:54 [debug] 9#9: *5 http script var: "192.168.65.1"
+2024/05/16 20:47:54 [debug] 9#9: *5 http script copy: "X-Forwarded-Proto"
+2024/05/16 20:47:54 [debug] 9#9: *5 http script var: "http"
+2024/05/16 20:47:54 [debug] 9#9: *5 http script copy: "Connection"
+2024/05/16 20:47:54 [debug] 9#9: *5 http script copy: "close"
+2024/05/16 20:47:54 [debug] 9#9: *5 http script copy: ""
+2024/05/16 20:47:54 [debug] 9#9: *5 http script copy: ""
+2024/05/16 20:47:54 [debug] 9#9: *5 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 20:47:54 [debug] 9#9: *5 http proxy header: "Accept: */*"
+2024/05/16 20:47:54 [debug] 9#9: *5 http proxy header:
+"GET /error-bug HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 20:47:54 [debug] 9#9: *5 http cleanup add: 0000AAAAC45EE1C0
+2024/05/16 20:47:54 [debug] 9#9: *5 get rr peer, try: 1
+2024/05/16 20:47:54 [debug] 9#9: *5 stream socket 10
+2024/05/16 20:47:54 [debug] 9#9: *5 epoll add connection: fd:10 ev:80002005
+2024/05/16 20:47:54 [debug] 9#9: *5 connect to 127.0.0.1:5000, fd:10 #6
+2024/05/16 20:47:54 [debug] 9#9: *5 http upstream connect: -2
+2024/05/16 20:47:54 [debug] 9#9: *5 posix_memalign: 0000AAAAC45CCF50:128 @16
+2024/05/16 20:47:54 [debug] 9#9: *5 event timer add: 10: 60000:352430202
+2024/05/16 20:47:54 [debug] 9#9: *5 http finalize request: -4, "/error-bug?" a:1, c:2
+2024/05/16 20:47:54 [debug] 9#9: *5 http request count:2 blk:0
+2024/05/16 20:47:54 [debug] 9#9: *5 http run request: "/error-bug?"
+2024/05/16 20:47:54 [debug] 9#9: *5 http upstream check client, write event:1, "/error-bug"
+2024/05/16 20:47:54 [debug] 9#9: *5 http upstream request: "/error-bug?"
+2024/05/16 20:47:54 [debug] 9#9: *5 http upstream process header
+2024/05/16 20:47:54 [error] 9#9: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /error-bug HTTP/1.1", upstream: "http://127.0.0.1:5000/error-bug", host: "localhost:9999"
+2024/05/16 20:47:54 [debug] 9#9: *5 http next upstream, 2
+2024/05/16 20:47:54 [debug] 9#9: *5 free rr peer 1 4
+2024/05/16 20:47:54 [debug] 9#9: *5 finalize http upstream request: 502
+2024/05/16 20:47:54 [debug] 9#9: *5 finalize http proxy request
+2024/05/16 20:47:54 [debug] 9#9: *5 close http upstream connection: 10
+2024/05/16 20:47:54 [debug] 9#9: *5 free: 0000AAAAC45CCF50, unused: 48
+2024/05/16 20:47:54 [debug] 9#9: *5 event timer del: 10: 352430202
+2024/05/16 20:47:54 [debug] 9#9: *5 reusable connection: 0
+2024/05/16 20:47:54 [debug] 9#9: *5 http finalize request: 502, "/error-bug?" a:1, c:1
+2024/05/16 20:47:54 [debug] 9#9: *5 http special response: 502, "/error-bug?"
+2024/05/16 20:47:54 [debug] 9#9: *5 HTTP/1.1 502 Bad Gateway
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 20:47:54 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: keep-alive
+
+2024/05/16 20:47:54 [debug] 9#9: *5 write new buf t:1 f:0 0000AAAAC45CDD90, pos 0000AAAAC45CDD90, size: 157 file: 0, size: 0
+2024/05/16 20:47:54 [debug] 9#9: *5 http write filter: l:0 f:0 s:157
+2024/05/16 20:47:54 [debug] 9#9: *5 http output filter "/error-bug?"
+2024/05/16 20:47:54 [debug] 9#9: *5 http copy filter: "/error-bug?"
+2024/05/16 20:47:54 [debug] 9#9: *5 http postpone filter "/error-bug?" 0000AAAAC45CDF70
+2024/05/16 20:47:54 [debug] 9#9: *5 write old buf t:1 f:0 0000AAAAC45CDD90, pos 0000AAAAC45CDD90, size: 157 file: 0, size: 0
+2024/05/16 20:47:54 [debug] 9#9: *5 write new buf t:0 f:0 0000000000000000, pos 0000AAAAB9903B50, size: 104 file: 0, size: 0
+2024/05/16 20:47:54 [debug] 9#9: *5 write new buf t:0 f:0 0000000000000000, pos 0000AAAAB99036D0, size: 53 file: 0, size: 0
+2024/05/16 20:47:54 [debug] 9#9: *5 http write filter: l:1 f:0 s:314
+2024/05/16 20:47:54 [debug] 9#9: *5 http write filter limit 2097152
+2024/05/16 20:47:54 [debug] 9#9: *5 writev: 314 of 314
+2024/05/16 20:47:54 [debug] 9#9: *5 http write filter 0000000000000000
+2024/05/16 20:47:54 [debug] 9#9: *5 http copy filter: 0 "/error-bug?"
+2024/05/16 20:47:54 [debug] 9#9: *5 http finalize request: 0, "/error-bug?" a:1, c:1
+2024/05/16 20:47:54 [debug] 9#9: *5 set http keepalive handler
+2024/05/16 20:47:54 [debug] 9#9: *5 http close request
+2024/05/16 20:47:54 [debug] 9#9: *5 http log handler
+2024/05/16 20:47:54 [debug] 9#9: *5 free: 0000AAAAC45ED1E0, unused: 8
+2024/05/16 20:47:54 [debug] 9#9: *5 free: 0000AAAAC45CD330, unused: 765
+2024/05/16 20:47:54 [debug] 9#9: *5 free: 0000AAAAC45D3040
+2024/05/16 20:47:54 [debug] 9#9: *5 hc free: 0000000000000000
+2024/05/16 20:47:54 [debug] 9#9: *5 hc busy: 0000000000000000 0
+2024/05/16 20:47:54 [debug] 9#9: *5 tcp_nodelay
+2024/05/16 20:47:54 [debug] 9#9: *5 reusable connection: 1
+2024/05/16 20:47:54 [debug] 9#9: *5 event timer add: 6: 65000:352435208
+2024/05/16 20:47:54 [debug] 9#9: *5 http keepalive handler
+2024/05/16 20:47:54 [debug] 9#9: *5 malloc: 0000AAAAC45D3040:1024
+2024/05/16 20:47:54 [debug] 9#9: *5 recv: eof:1, avail:-1
+2024/05/16 20:47:54 [debug] 9#9: *5 recv: fd:6 0 of 1024
+2024/05/16 20:47:54 [info] 9#9: *5 client 192.168.65.1 closed keepalive connection
+2024/05/16 20:47:54 [debug] 9#9: *5 close http connection: 6
+2024/05/16 20:47:54 [debug] 9#9: *5 event timer del: 6: 352435208
+2024/05/16 20:47:54 [debug] 9#9: *5 reusable connection: 0
+2024/05/16 20:47:54 [debug] 9#9: *5 free: 0000AAAAC45D3040
+2024/05/16 20:47:54 [debug] 9#9: *5 free: 0000AAAAC45D07F0, unused: 128
+2024/05/16 20:47:54 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 20:47:54 [debug] 9#9: posix_memalign: 0000AAAAC45D07F0:512 @16
+2024/05/16 20:47:54 [debug] 9#9: *7 accept: 192.168.65.1:57155 fd:6
+2024/05/16 20:47:54 [debug] 9#9: *7 event timer add: 6: 60000:352430222
+2024/05/16 20:47:54 [debug] 9#9: *7 reusable connection: 1
+2024/05/16 20:47:54 [debug] 9#9: *7 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 20:47:54 [debug] 9#9: *7 http wait request handler
+2024/05/16 20:47:54 [debug] 9#9: *7 malloc: 0000AAAAC45D3040:1024
+2024/05/16 20:47:54 [debug] 9#9: *7 recv: eof:0, avail:-1
+2024/05/16 20:47:54 [debug] 9#9: *7 recv: fd:6 89 of 1024
+2024/05/16 20:47:54 [debug] 9#9: *7 reusable connection: 0
+2024/05/16 20:47:54 [debug] 9#9: *7 posix_memalign: 0000AAAAC45ED1E0:4096 @16
+2024/05/16 20:47:54 [debug] 9#9: *7 http process request line
+2024/05/16 20:47:54 [debug] 9#9: *7 http request line: "GET /error-memory HTTP/1.1"
+2024/05/16 20:47:54 [debug] 9#9: *7 http uri: "/error-memory"
+2024/05/16 20:47:54 [debug] 9#9: *7 http args: ""
+2024/05/16 20:47:54 [debug] 9#9: *7 http exten: ""
+2024/05/16 20:47:54 [debug] 9#9: *7 posix_memalign: 0000AAAAC45CD330:4096 @16
+2024/05/16 20:47:54 [debug] 9#9: *7 http process request header line
+2024/05/16 20:47:54 [debug] 9#9: *7 http header: "Host: localhost:9999"
+2024/05/16 20:47:54 [debug] 9#9: *7 http header: "User-Agent: curl/8.4.0"
+2024/05/16 20:47:54 [debug] 9#9: *7 http header: "Accept: */*"
+2024/05/16 20:47:54 [debug] 9#9: *7 http header done
+2024/05/16 20:47:54 [debug] 9#9: *7 event timer del: 6: 352430222
+2024/05/16 20:47:54 [debug] 9#9: *7 generic phase: 0
+2024/05/16 20:47:54 [debug] 9#9: *7 rewrite phase: 1
+2024/05/16 20:47:54 [debug] 9#9: *7 test location: "/"
+2024/05/16 20:47:54 [debug] 9#9: *7 using configuration "/"
+2024/05/16 20:47:54 [debug] 9#9: *7 http cl:-1 max:1048576
+2024/05/16 20:47:54 [debug] 9#9: *7 rewrite phase: 3
+2024/05/16 20:47:54 [debug] 9#9: *7 post rewrite phase: 4
+2024/05/16 20:47:54 [debug] 9#9: *7 generic phase: 5
+2024/05/16 20:47:54 [debug] 9#9: *7 generic phase: 6
+2024/05/16 20:47:54 [debug] 9#9: *7 generic phase: 7
+2024/05/16 20:47:54 [debug] 9#9: *7 access phase: 8
+2024/05/16 20:47:54 [debug] 9#9: *7 access phase: 9
+2024/05/16 20:47:54 [debug] 9#9: *7 access phase: 10
+2024/05/16 20:47:54 [debug] 9#9: *7 post access phase: 11
+2024/05/16 20:47:54 [debug] 9#9: *7 generic phase: 12
+2024/05/16 20:47:54 [debug] 9#9: *7 generic phase: 13
+2024/05/16 20:47:54 [debug] 9#9: *7 http init upstream, client timer: 0
+2024/05/16 20:47:54 [debug] 9#9: *7 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 20:47:54 [debug] 9#9: *7 http script copy: "Host"
+2024/05/16 20:47:54 [debug] 9#9: *7 http script var: "localhost"
+2024/05/16 20:47:54 [debug] 9#9: *7 http script copy: "X-Real-IP"
+2024/05/16 20:47:54 [debug] 9#9: *7 http script var: "192.168.65.1"
+2024/05/16 20:47:54 [debug] 9#9: *7 http script copy: "X-Forwarded-For"
+2024/05/16 20:47:54 [debug] 9#9: *7 http script var: "192.168.65.1"
+2024/05/16 20:47:54 [debug] 9#9: *7 http script copy: "X-Forwarded-Proto"
+2024/05/16 20:47:54 [debug] 9#9: *7 http script var: "http"
+2024/05/16 20:47:54 [debug] 9#9: *7 http script copy: "Connection"
+2024/05/16 20:47:54 [debug] 9#9: *7 http script copy: "close"
+2024/05/16 20:47:54 [debug] 9#9: *7 http script copy: ""
+2024/05/16 20:47:54 [debug] 9#9: *7 http script copy: ""
+2024/05/16 20:47:54 [debug] 9#9: *7 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 20:47:54 [debug] 9#9: *7 http proxy header: "Accept: */*"
+2024/05/16 20:47:54 [debug] 9#9: *7 http proxy header:
+"GET /error-memory HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 20:47:54 [debug] 9#9: *7 http cleanup add: 0000AAAAC45EE1C0
+2024/05/16 20:47:54 [debug] 9#9: *7 get rr peer, try: 1
+2024/05/16 20:47:54 [debug] 9#9: *7 stream socket 10
+2024/05/16 20:47:54 [debug] 9#9: *7 epoll add connection: fd:10 ev:80002005
+2024/05/16 20:47:54 [debug] 9#9: *7 connect to 127.0.0.1:5000, fd:10 #8
+2024/05/16 20:47:54 [debug] 9#9: *7 http upstream connect: -2
+2024/05/16 20:47:54 [debug] 9#9: *7 posix_memalign: 0000AAAAC45CCF50:128 @16
+2024/05/16 20:47:54 [debug] 9#9: *7 event timer add: 10: 60000:352430222
+2024/05/16 20:47:54 [debug] 9#9: *7 http finalize request: -4, "/error-memory?" a:1, c:2
+2024/05/16 20:47:54 [debug] 9#9: *7 http request count:2 blk:0
+2024/05/16 20:47:54 [debug] 9#9: *7 http run request: "/error-memory?"
+2024/05/16 20:47:54 [debug] 9#9: *7 http upstream check client, write event:1, "/error-memory"
+2024/05/16 20:47:54 [debug] 9#9: *7 http upstream request: "/error-memory?"
+2024/05/16 20:47:54 [debug] 9#9: *7 http upstream process header
+2024/05/16 20:47:54 [error] 9#9: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /error-memory HTTP/1.1", upstream: "http://127.0.0.1:5000/error-memory", host: "localhost:9999"
+2024/05/16 20:47:54 [debug] 9#9: *7 http next upstream, 2
+2024/05/16 20:47:54 [debug] 9#9: *7 free rr peer 1 4
+2024/05/16 20:47:54 [debug] 9#9: *7 finalize http upstream request: 502
+2024/05/16 20:47:54 [debug] 9#9: *7 finalize http proxy request
+2024/05/16 20:47:54 [debug] 9#9: *7 close http upstream connection: 10
+2024/05/16 20:47:54 [debug] 9#9: *7 free: 0000AAAAC45CCF50, unused: 48
+2024/05/16 20:47:54 [debug] 9#9: *7 event timer del: 10: 352430222
+2024/05/16 20:47:54 [debug] 9#9: *7 reusable connection: 0
+2024/05/16 20:47:54 [debug] 9#9: *7 http finalize request: 502, "/error-memory?" a:1, c:1
+2024/05/16 20:47:54 [debug] 9#9: *7 http special response: 502, "/error-memory?"
+2024/05/16 20:47:54 [debug] 9#9: *7 HTTP/1.1 502 Bad Gateway
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 20:47:54 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: keep-alive
+
+2024/05/16 20:47:54 [debug] 9#9: *7 write new buf t:1 f:0 0000AAAAC45CDD90, pos 0000AAAAC45CDD90, size: 157 file: 0, size: 0
+2024/05/16 20:47:54 [debug] 9#9: *7 http write filter: l:0 f:0 s:157
+2024/05/16 20:47:54 [debug] 9#9: *7 http output filter "/error-memory?"
+2024/05/16 20:47:54 [debug] 9#9: *7 http copy filter: "/error-memory?"
+2024/05/16 20:47:54 [debug] 9#9: *7 http postpone filter "/error-memory?" 0000AAAAC45CDF70
+2024/05/16 20:47:54 [debug] 9#9: *7 write old buf t:1 f:0 0000AAAAC45CDD90, pos 0000AAAAC45CDD90, size: 157 file: 0, size: 0
+2024/05/16 20:47:54 [debug] 9#9: *7 write new buf t:0 f:0 0000000000000000, pos 0000AAAAB9903B50, size: 104 file: 0, size: 0
+2024/05/16 20:47:54 [debug] 9#9: *7 write new buf t:0 f:0 0000000000000000, pos 0000AAAAB99036D0, size: 53 file: 0, size: 0
+2024/05/16 20:47:54 [debug] 9#9: *7 http write filter: l:1 f:0 s:314
+2024/05/16 20:47:54 [debug] 9#9: *7 http write filter limit 2097152
+2024/05/16 20:47:54 [debug] 9#9: *7 writev: 314 of 314
+2024/05/16 20:47:54 [debug] 9#9: *7 http write filter 0000000000000000
+2024/05/16 20:47:54 [debug] 9#9: *7 http copy filter: 0 "/error-memory?"
+2024/05/16 20:47:54 [debug] 9#9: *7 http finalize request: 0, "/error-memory?" a:1, c:1
+2024/05/16 20:47:54 [debug] 9#9: *7 set http keepalive handler
+2024/05/16 20:47:54 [debug] 9#9: *7 http close request
+2024/05/16 20:47:54 [debug] 9#9: *7 http log handler
+2024/05/16 20:47:54 [debug] 9#9: *7 free: 0000AAAAC45ED1E0, unused: 8
+2024/05/16 20:47:54 [debug] 9#9: *7 free: 0000AAAAC45CD330, unused: 762
+2024/05/16 20:47:54 [debug] 9#9: *7 free: 0000AAAAC45D3040
+2024/05/16 20:47:54 [debug] 9#9: *7 hc free: 0000000000000000
+2024/05/16 20:47:54 [debug] 9#9: *7 hc busy: 0000000000000000 0
+2024/05/16 20:47:54 [debug] 9#9: *7 tcp_nodelay
+2024/05/16 20:47:54 [debug] 9#9: *7 reusable connection: 1
+2024/05/16 20:47:54 [debug] 9#9: *7 event timer add: 6: 65000:352435228
+2024/05/16 20:47:54 [debug] 9#9: *7 http keepalive handler
+2024/05/16 20:47:54 [debug] 9#9: *7 malloc: 0000AAAAC45D3040:1024
+2024/05/16 20:47:54 [debug] 9#9: *7 recv: eof:1, avail:-1
+2024/05/16 20:47:54 [debug] 9#9: *7 recv: fd:6 0 of 1024
+2024/05/16 20:47:54 [info] 9#9: *7 client 192.168.65.1 closed keepalive connection
+2024/05/16 20:47:54 [debug] 9#9: *7 close http connection: 6
+2024/05/16 20:47:54 [debug] 9#9: *7 event timer del: 6: 352435228
+2024/05/16 20:47:54 [debug] 9#9: *7 reusable connection: 0
+2024/05/16 20:47:54 [debug] 9#9: *7 free: 0000AAAAC45D3040
+2024/05/16 20:47:54 [debug] 9#9: *7 free: 0000AAAAC45D07F0, unused: 128
+2024/05/16 20:48:05 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 20:48:05 [debug] 9#9: posix_memalign: 0000AAAAC45D07F0:512 @16
+2024/05/16 20:48:05 [debug] 9#9: *9 accept: 192.168.65.1:57156 fd:6
+2024/05/16 20:48:05 [debug] 9#9: *9 event timer add: 6: 60000:352441569
+2024/05/16 20:48:05 [debug] 9#9: *9 reusable connection: 1
+2024/05/16 20:48:05 [debug] 9#9: *9 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 20:48:05 [debug] 9#9: *9 http wait request handler
+2024/05/16 20:48:05 [debug] 9#9: *9 malloc: 0000AAAAC45D3040:1024
+2024/05/16 20:48:05 [debug] 9#9: *9 recv: eof:0, avail:-1
+2024/05/16 20:48:05 [debug] 9#9: *9 recv: fd:6 77 of 1024
+2024/05/16 20:48:05 [debug] 9#9: *9 reusable connection: 0
+2024/05/16 20:48:05 [debug] 9#9: *9 posix_memalign: 0000AAAAC45ED1E0:4096 @16
+2024/05/16 20:48:05 [debug] 9#9: *9 http process request line
+2024/05/16 20:48:05 [debug] 9#9: *9 http request line: "GET / HTTP/1.1"
+2024/05/16 20:48:05 [debug] 9#9: *9 http uri: "/"
+2024/05/16 20:48:05 [debug] 9#9: *9 http args: ""
+2024/05/16 20:48:05 [debug] 9#9: *9 http exten: ""
+2024/05/16 20:48:05 [debug] 9#9: *9 posix_memalign: 0000AAAAC45CD330:4096 @16
+2024/05/16 20:48:05 [debug] 9#9: *9 http process request header line
+2024/05/16 20:48:05 [debug] 9#9: *9 http header: "Host: localhost:9999"
+2024/05/16 20:48:05 [debug] 9#9: *9 http header: "User-Agent: curl/8.4.0"
+2024/05/16 20:48:05 [debug] 9#9: *9 http header: "Accept: */*"
+2024/05/16 20:48:05 [debug] 9#9: *9 http header done
+2024/05/16 20:48:05 [debug] 9#9: *9 event timer del: 6: 352441569
+2024/05/16 20:48:05 [debug] 9#9: *9 generic phase: 0
+2024/05/16 20:48:05 [debug] 9#9: *9 rewrite phase: 1
+2024/05/16 20:48:05 [debug] 9#9: *9 test location: "/"
+2024/05/16 20:48:05 [debug] 9#9: *9 using configuration "/"
+2024/05/16 20:48:05 [debug] 9#9: *9 http cl:-1 max:1048576
+2024/05/16 20:48:05 [debug] 9#9: *9 rewrite phase: 3
+2024/05/16 20:48:05 [debug] 9#9: *9 post rewrite phase: 4
+2024/05/16 20:48:05 [debug] 9#9: *9 generic phase: 5
+2024/05/16 20:48:05 [debug] 9#9: *9 generic phase: 6
+2024/05/16 20:48:05 [debug] 9#9: *9 generic phase: 7
+2024/05/16 20:48:05 [debug] 9#9: *9 access phase: 8
+2024/05/16 20:48:05 [debug] 9#9: *9 access phase: 9
+2024/05/16 20:48:05 [debug] 9#9: *9 access phase: 10
+2024/05/16 20:48:05 [debug] 9#9: *9 post access phase: 11
+2024/05/16 20:48:05 [debug] 9#9: *9 generic phase: 12
+2024/05/16 20:48:05 [debug] 9#9: *9 generic phase: 13
+2024/05/16 20:48:05 [debug] 9#9: *9 http init upstream, client timer: 0
+2024/05/16 20:48:05 [debug] 9#9: *9 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 20:48:05 [debug] 9#9: *9 http script copy: "Host"
+2024/05/16 20:48:05 [debug] 9#9: *9 http script var: "localhost"
+2024/05/16 20:48:05 [debug] 9#9: *9 http script copy: "X-Real-IP"
+2024/05/16 20:48:05 [debug] 9#9: *9 http script var: "192.168.65.1"
+2024/05/16 20:48:05 [debug] 9#9: *9 http script copy: "X-Forwarded-For"
+2024/05/16 20:48:05 [debug] 9#9: *9 http script var: "192.168.65.1"
+2024/05/16 20:48:05 [debug] 9#9: *9 http script copy: "X-Forwarded-Proto"
+2024/05/16 20:48:05 [debug] 9#9: *9 http script var: "http"
+2024/05/16 20:48:05 [debug] 9#9: *9 http script copy: "Connection"
+2024/05/16 20:48:05 [debug] 9#9: *9 http script copy: "close"
+2024/05/16 20:48:05 [debug] 9#9: *9 http script copy: ""
+2024/05/16 20:48:05 [debug] 9#9: *9 http script copy: ""
+2024/05/16 20:48:05 [debug] 9#9: *9 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 20:48:05 [debug] 9#9: *9 http proxy header: "Accept: */*"
+2024/05/16 20:48:05 [debug] 9#9: *9 http proxy header:
+"GET / HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 20:48:05 [debug] 9#9: *9 http cleanup add: 0000AAAAC45EE1C0
+2024/05/16 20:48:05 [debug] 9#9: *9 get rr peer, try: 1
+2024/05/16 20:48:05 [debug] 9#9: *9 stream socket 10
+2024/05/16 20:48:05 [debug] 9#9: *9 epoll add connection: fd:10 ev:80002005
+2024/05/16 20:48:05 [debug] 9#9: *9 connect to 127.0.0.1:5000, fd:10 #10
+2024/05/16 20:48:05 [debug] 9#9: *9 http upstream connect: -2
+2024/05/16 20:48:05 [debug] 9#9: *9 posix_memalign: 0000AAAAC45CCF50:128 @16
+2024/05/16 20:48:05 [debug] 9#9: *9 event timer add: 10: 60000:352441573
+2024/05/16 20:48:05 [debug] 9#9: *9 http finalize request: -4, "/?" a:1, c:2
+2024/05/16 20:48:05 [debug] 9#9: *9 http request count:2 blk:0
+2024/05/16 20:48:05 [debug] 9#9: *9 http run request: "/?"
+2024/05/16 20:48:05 [debug] 9#9: *9 http upstream check client, write event:1, "/"
+2024/05/16 20:48:05 [debug] 9#9: *9 http upstream request: "/?"
+2024/05/16 20:48:05 [debug] 9#9: *9 http upstream process header
+2024/05/16 20:48:05 [error] 9#9: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5000/", host: "localhost:9999"
+2024/05/16 20:48:05 [debug] 9#9: *9 http next upstream, 2
+2024/05/16 20:48:05 [debug] 9#9: *9 free rr peer 1 4
+2024/05/16 20:48:05 [debug] 9#9: *9 finalize http upstream request: 502
+2024/05/16 20:48:05 [debug] 9#9: *9 finalize http proxy request
+2024/05/16 20:48:05 [debug] 9#9: *9 close http upstream connection: 10
+2024/05/16 20:48:05 [debug] 9#9: *9 free: 0000AAAAC45CCF50, unused: 48
+2024/05/16 20:48:05 [debug] 9#9: *9 event timer del: 10: 352441573
+2024/05/16 20:48:05 [debug] 9#9: *9 reusable connection: 0
+2024/05/16 20:48:05 [debug] 9#9: *9 http finalize request: 502, "/?" a:1, c:1
+2024/05/16 20:48:05 [debug] 9#9: *9 http special response: 502, "/?"
+2024/05/16 20:48:05 [debug] 9#9: *9 HTTP/1.1 502 Bad Gateway
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 20:48:05 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: keep-alive
+
+2024/05/16 20:48:05 [debug] 9#9: *9 write new buf t:1 f:0 0000AAAAC45CDD80, pos 0000AAAAC45CDD80, size: 157 file: 0, size: 0
+2024/05/16 20:48:05 [debug] 9#9: *9 http write filter: l:0 f:0 s:157
+2024/05/16 20:48:05 [debug] 9#9: *9 http output filter "/?"
+2024/05/16 20:48:05 [debug] 9#9: *9 http copy filter: "/?"
+2024/05/16 20:48:05 [debug] 9#9: *9 http postpone filter "/?" 0000AAAAC45CDF60
+2024/05/16 20:48:05 [debug] 9#9: *9 write old buf t:1 f:0 0000AAAAC45CDD80, pos 0000AAAAC45CDD80, size: 157 file: 0, size: 0
+2024/05/16 20:48:05 [debug] 9#9: *9 write new buf t:0 f:0 0000000000000000, pos 0000AAAAB9903B50, size: 104 file: 0, size: 0
+2024/05/16 20:48:05 [debug] 9#9: *9 write new buf t:0 f:0 0000000000000000, pos 0000AAAAB99036D0, size: 53 file: 0, size: 0
+2024/05/16 20:48:05 [debug] 9#9: *9 http write filter: l:1 f:0 s:314
+2024/05/16 20:48:05 [debug] 9#9: *9 http write filter limit 2097152
+2024/05/16 20:48:05 [debug] 9#9: *9 writev: 314 of 314
+2024/05/16 20:48:05 [debug] 9#9: *9 http write filter 0000000000000000
+2024/05/16 20:48:05 [debug] 9#9: *9 http copy filter: 0 "/?"
+2024/05/16 20:48:05 [debug] 9#9: *9 http finalize request: 0, "/?" a:1, c:1
+2024/05/16 20:48:05 [debug] 9#9: *9 set http keepalive handler
+2024/05/16 20:48:05 [debug] 9#9: *9 http close request
+2024/05/16 20:48:05 [debug] 9#9: *9 http log handler
+2024/05/16 20:48:05 [debug] 9#9: *9 free: 0000AAAAC45ED1E0, unused: 8
+2024/05/16 20:48:05 [debug] 9#9: *9 free: 0000AAAAC45CD330, unused: 790
+2024/05/16 20:48:05 [debug] 9#9: *9 free: 0000AAAAC45D3040
+2024/05/16 20:48:05 [debug] 9#9: *9 hc free: 0000000000000000
+2024/05/16 20:48:05 [debug] 9#9: *9 hc busy: 0000000000000000 0
+2024/05/16 20:48:05 [debug] 9#9: *9 tcp_nodelay
+2024/05/16 20:48:05 [debug] 9#9: *9 reusable connection: 1
+2024/05/16 20:48:05 [debug] 9#9: *9 event timer add: 6: 65000:352446582
+2024/05/16 20:48:05 [debug] 9#9: *9 http keepalive handler
+2024/05/16 20:48:05 [debug] 9#9: *9 malloc: 0000AAAAC45D3040:1024
+2024/05/16 20:48:05 [debug] 9#9: *9 recv: eof:1, avail:-1
+2024/05/16 20:48:05 [debug] 9#9: *9 recv: fd:6 0 of 1024
+2024/05/16 20:48:05 [info] 9#9: *9 client 192.168.65.1 closed keepalive connection
+2024/05/16 20:48:05 [debug] 9#9: *9 close http connection: 6
+2024/05/16 20:48:05 [debug] 9#9: *9 event timer del: 6: 352446582
+2024/05/16 20:48:05 [debug] 9#9: *9 reusable connection: 0
+2024/05/16 20:48:05 [debug] 9#9: *9 free: 0000AAAAC45D3040
+2024/05/16 20:48:05 [debug] 9#9: *9 free: 0000AAAAC45D07F0, unused: 128
+2024/05/16 20:50:03 [debug] 9#9: epoll add event: fd:5 op:1 ev:00002001
+2024/05/16 20:50:10 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 20:50:10 [debug] 9#9: posix_memalign: 0000AAAADD2157F0:512 @16
+2024/05/16 20:50:10 [debug] 9#9: *1 accept: 192.168.65.1:57886 fd:6
+2024/05/16 20:50:10 [debug] 9#9: *1 event timer add: 6: 60000:352566232
+2024/05/16 20:50:10 [debug] 9#9: *1 reusable connection: 1
+2024/05/16 20:50:10 [debug] 9#9: *1 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 20:50:10 [debug] 9#9: *1 http wait request handler
+2024/05/16 20:50:10 [debug] 9#9: *1 malloc: 0000AAAADD218040:1024
+2024/05/16 20:50:10 [debug] 9#9: *1 recv: eof:0, avail:-1
+2024/05/16 20:50:10 [debug] 9#9: *1 recv: fd:6 81 of 1024
+2024/05/16 20:50:10 [debug] 9#9: *1 reusable connection: 0
+2024/05/16 20:50:10 [debug] 9#9: *1 posix_memalign: 0000AAAADD2321E0:4096 @16
+2024/05/16 20:50:10 [debug] 9#9: *1 http process request line
+2024/05/16 20:50:10 [debug] 9#9: *1 http request line: "GET /good HTTP/1.1"
+2024/05/16 20:50:10 [debug] 9#9: *1 http uri: "/good"
+2024/05/16 20:50:10 [debug] 9#9: *1 http args: ""
+2024/05/16 20:50:10 [debug] 9#9: *1 http exten: ""
+2024/05/16 20:50:10 [debug] 9#9: *1 posix_memalign: 0000AAAADD212330:4096 @16
+2024/05/16 20:50:10 [debug] 9#9: *1 http process request header line
+2024/05/16 20:50:10 [debug] 9#9: *1 http header: "Host: localhost:9999"
+2024/05/16 20:50:10 [debug] 9#9: *1 http header: "User-Agent: curl/8.4.0"
+2024/05/16 20:50:10 [debug] 9#9: *1 http header: "Accept: */*"
+2024/05/16 20:50:10 [debug] 9#9: *1 http header done
+2024/05/16 20:50:10 [debug] 9#9: *1 event timer del: 6: 352566232
+2024/05/16 20:50:10 [debug] 9#9: *1 generic phase: 0
+2024/05/16 20:50:10 [debug] 9#9: *1 rewrite phase: 1
+2024/05/16 20:50:10 [debug] 9#9: *1 test location: "/"
+2024/05/16 20:50:10 [debug] 9#9: *1 using configuration "/"
+2024/05/16 20:50:10 [debug] 9#9: *1 http cl:-1 max:1048576
+2024/05/16 20:50:10 [debug] 9#9: *1 rewrite phase: 3
+2024/05/16 20:50:10 [debug] 9#9: *1 post rewrite phase: 4
+2024/05/16 20:50:10 [debug] 9#9: *1 generic phase: 5
+2024/05/16 20:50:10 [debug] 9#9: *1 generic phase: 6
+2024/05/16 20:50:10 [debug] 9#9: *1 generic phase: 7
+2024/05/16 20:50:10 [debug] 9#9: *1 access phase: 8
+2024/05/16 20:50:10 [debug] 9#9: *1 access phase: 9
+2024/05/16 20:50:10 [debug] 9#9: *1 access phase: 10
+2024/05/16 20:50:10 [debug] 9#9: *1 post access phase: 11
+2024/05/16 20:50:10 [debug] 9#9: *1 generic phase: 12
+2024/05/16 20:50:10 [debug] 9#9: *1 generic phase: 13
+2024/05/16 20:50:10 [debug] 9#9: *1 http init upstream, client timer: 0
+2024/05/16 20:50:10 [debug] 9#9: *1 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 20:50:10 [debug] 9#9: *1 http script copy: "Host"
+2024/05/16 20:50:10 [debug] 9#9: *1 http script var: "localhost"
+2024/05/16 20:50:10 [debug] 9#9: *1 http script copy: "X-Real-IP"
+2024/05/16 20:50:10 [debug] 9#9: *1 http script var: "192.168.65.1"
+2024/05/16 20:50:10 [debug] 9#9: *1 http script copy: "X-Forwarded-For"
+2024/05/16 20:50:10 [debug] 9#9: *1 http script var: "192.168.65.1"
+2024/05/16 20:50:10 [debug] 9#9: *1 http script copy: "X-Forwarded-Proto"
+2024/05/16 20:50:10 [debug] 9#9: *1 http script var: "http"
+2024/05/16 20:50:10 [debug] 9#9: *1 http script copy: "Connection"
+2024/05/16 20:50:10 [debug] 9#9: *1 http script copy: "close"
+2024/05/16 20:50:10 [debug] 9#9: *1 http script copy: ""
+2024/05/16 20:50:10 [debug] 9#9: *1 http script copy: ""
+2024/05/16 20:50:10 [debug] 9#9: *1 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 20:50:10 [debug] 9#9: *1 http proxy header: "Accept: */*"
+2024/05/16 20:50:10 [debug] 9#9: *1 http proxy header:
+"GET /good HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 20:50:10 [debug] 9#9: *1 http cleanup add: 0000AAAADD2331C0
+2024/05/16 20:50:10 [debug] 9#9: *1 get rr peer, try: 1
+2024/05/16 20:50:10 [debug] 9#9: *1 stream socket 10
+2024/05/16 20:50:10 [debug] 9#9: *1 epoll add connection: fd:10 ev:80002005
+2024/05/16 20:50:10 [debug] 9#9: *1 connect to 127.0.0.1:5000, fd:10 #2
+2024/05/16 20:50:10 [debug] 9#9: *1 http upstream connect: -2
+2024/05/16 20:50:10 [debug] 9#9: *1 posix_memalign: 0000AAAADD211F50:128 @16
+2024/05/16 20:50:10 [debug] 9#9: *1 event timer add: 10: 60000:352566233
+2024/05/16 20:50:10 [debug] 9#9: *1 http finalize request: -4, "/good?" a:1, c:2
+2024/05/16 20:50:10 [debug] 9#9: *1 http request count:2 blk:0
+2024/05/16 20:50:10 [debug] 9#9: *1 http run request: "/good?"
+2024/05/16 20:50:10 [debug] 9#9: *1 http upstream check client, write event:1, "/good"
+2024/05/16 20:50:10 [debug] 9#9: *1 http upstream request: "/good?"
+2024/05/16 20:50:10 [debug] 9#9: *1 http upstream process header
+2024/05/16 20:50:10 [error] 9#9: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /good HTTP/1.1", upstream: "http://127.0.0.1:5000/good", host: "localhost:9999"
+2024/05/16 20:50:10 [debug] 9#9: *1 http next upstream, 2
+2024/05/16 20:50:10 [debug] 9#9: *1 free rr peer 1 4
+2024/05/16 20:50:10 [debug] 9#9: *1 finalize http upstream request: 502
+2024/05/16 20:50:10 [debug] 9#9: *1 finalize http proxy request
+2024/05/16 20:50:10 [debug] 9#9: *1 close http upstream connection: 10
+2024/05/16 20:50:10 [debug] 9#9: *1 free: 0000AAAADD211F50, unused: 48
+2024/05/16 20:50:10 [debug] 9#9: *1 event timer del: 10: 352566233
+2024/05/16 20:50:10 [debug] 9#9: *1 reusable connection: 0
+2024/05/16 20:50:10 [debug] 9#9: *1 http finalize request: 502, "/good?" a:1, c:1
+2024/05/16 20:50:10 [debug] 9#9: *1 http special response: 502, "/good?"
+2024/05/16 20:50:10 [debug] 9#9: *1 HTTP/1.1 502 Bad Gateway
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 20:50:10 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: keep-alive
+
+2024/05/16 20:50:10 [debug] 9#9: *1 write new buf t:1 f:0 0000AAAADD212D80, pos 0000AAAADD212D80, size: 157 file: 0, size: 0
+2024/05/16 20:50:10 [debug] 9#9: *1 http write filter: l:0 f:0 s:157
+2024/05/16 20:50:10 [debug] 9#9: *1 http output filter "/good?"
+2024/05/16 20:50:10 [debug] 9#9: *1 http copy filter: "/good?"
+2024/05/16 20:50:10 [debug] 9#9: *1 http postpone filter "/good?" 0000AAAADD212F60
+2024/05/16 20:50:10 [debug] 9#9: *1 write old buf t:1 f:0 0000AAAADD212D80, pos 0000AAAADD212D80, size: 157 file: 0, size: 0
+2024/05/16 20:50:10 [debug] 9#9: *1 write new buf t:0 f:0 0000000000000000, pos 0000AAAAC3573B50, size: 104 file: 0, size: 0
+2024/05/16 20:50:10 [debug] 9#9: *1 write new buf t:0 f:0 0000000000000000, pos 0000AAAAC35736D0, size: 53 file: 0, size: 0
+2024/05/16 20:50:10 [debug] 9#9: *1 http write filter: l:1 f:0 s:314
+2024/05/16 20:50:10 [debug] 9#9: *1 http write filter limit 2097152
+2024/05/16 20:50:10 [debug] 9#9: *1 writev: 314 of 314
+2024/05/16 20:50:10 [debug] 9#9: *1 http write filter 0000000000000000
+2024/05/16 20:50:10 [debug] 9#9: *1 http copy filter: 0 "/good?"
+2024/05/16 20:50:10 [debug] 9#9: *1 http finalize request: 0, "/good?" a:1, c:1
+2024/05/16 20:50:10 [debug] 9#9: *1 set http keepalive handler
+2024/05/16 20:50:10 [debug] 9#9: *1 http close request
+2024/05/16 20:50:10 [debug] 9#9: *1 http log handler
+2024/05/16 20:50:10 [debug] 9#9: *1 free: 0000AAAADD2321E0, unused: 8
+2024/05/16 20:50:10 [debug] 9#9: *1 free: 0000AAAADD212330, unused: 786
+2024/05/16 20:50:10 [debug] 9#9: *1 free: 0000AAAADD218040
+2024/05/16 20:50:10 [debug] 9#9: *1 hc free: 0000000000000000
+2024/05/16 20:50:10 [debug] 9#9: *1 hc busy: 0000000000000000 0
+2024/05/16 20:50:10 [debug] 9#9: *1 tcp_nodelay
+2024/05/16 20:50:10 [debug] 9#9: *1 reusable connection: 1
+2024/05/16 20:50:10 [debug] 9#9: *1 event timer add: 6: 65000:352571246
+2024/05/16 20:50:10 [debug] 9#9: *1 http keepalive handler
+2024/05/16 20:50:10 [debug] 9#9: *1 malloc: 0000AAAADD218040:1024
+2024/05/16 20:50:10 [debug] 9#9: *1 recv: eof:1, avail:-1
+2024/05/16 20:50:10 [debug] 9#9: *1 recv: fd:6 0 of 1024
+2024/05/16 20:50:10 [info] 9#9: *1 client 192.168.65.1 closed keepalive connection
+2024/05/16 20:50:10 [debug] 9#9: *1 close http connection: 6
+2024/05/16 20:50:10 [debug] 9#9: *1 event timer del: 6: 352571246
+2024/05/16 20:50:10 [debug] 9#9: *1 reusable connection: 0
+2024/05/16 20:50:10 [debug] 9#9: *1 free: 0000AAAADD218040
+2024/05/16 20:50:10 [debug] 9#9: *1 free: 0000AAAADD2157F0, unused: 128
+2024/05/16 20:50:10 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 20:50:10 [debug] 9#9: posix_memalign: 0000AAAADD2157F0:512 @16
+2024/05/16 20:50:10 [debug] 9#9: *3 accept: 192.168.65.1:57887 fd:6
+2024/05/16 20:50:10 [debug] 9#9: *3 event timer add: 6: 60000:352566266
+2024/05/16 20:50:10 [debug] 9#9: *3 reusable connection: 1
+2024/05/16 20:50:10 [debug] 9#9: *3 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 20:50:10 [debug] 9#9: *3 http wait request handler
+2024/05/16 20:50:10 [debug] 9#9: *3 malloc: 0000AAAADD218040:1024
+2024/05/16 20:50:10 [debug] 9#9: *3 recv: eof:0, avail:-1
+2024/05/16 20:50:10 [debug] 9#9: *3 recv: fd:6 80 of 1024
+2024/05/16 20:50:10 [debug] 9#9: *3 reusable connection: 0
+2024/05/16 20:50:10 [debug] 9#9: *3 posix_memalign: 0000AAAADD2321E0:4096 @16
+2024/05/16 20:50:10 [debug] 9#9: *3 http process request line
+2024/05/16 20:50:10 [debug] 9#9: *3 http request line: "GET /bad HTTP/1.1"
+2024/05/16 20:50:10 [debug] 9#9: *3 http uri: "/bad"
+2024/05/16 20:50:10 [debug] 9#9: *3 http args: ""
+2024/05/16 20:50:10 [debug] 9#9: *3 http exten: ""
+2024/05/16 20:50:10 [debug] 9#9: *3 posix_memalign: 0000AAAADD212330:4096 @16
+2024/05/16 20:50:10 [debug] 9#9: *3 http process request header line
+2024/05/16 20:50:10 [debug] 9#9: *3 http header: "Host: localhost:9999"
+2024/05/16 20:50:10 [debug] 9#9: *3 http header: "User-Agent: curl/8.4.0"
+2024/05/16 20:50:10 [debug] 9#9: *3 http header: "Accept: */*"
+2024/05/16 20:50:10 [debug] 9#9: *3 http header done
+2024/05/16 20:50:10 [debug] 9#9: *3 event timer del: 6: 352566266
+2024/05/16 20:50:10 [debug] 9#9: *3 generic phase: 0
+2024/05/16 20:50:10 [debug] 9#9: *3 rewrite phase: 1
+2024/05/16 20:50:10 [debug] 9#9: *3 test location: "/"
+2024/05/16 20:50:10 [debug] 9#9: *3 using configuration "/"
+2024/05/16 20:50:10 [debug] 9#9: *3 http cl:-1 max:1048576
+2024/05/16 20:50:10 [debug] 9#9: *3 rewrite phase: 3
+2024/05/16 20:50:10 [debug] 9#9: *3 post rewrite phase: 4
+2024/05/16 20:50:10 [debug] 9#9: *3 generic phase: 5
+2024/05/16 20:50:10 [debug] 9#9: *3 generic phase: 6
+2024/05/16 20:50:10 [debug] 9#9: *3 generic phase: 7
+2024/05/16 20:50:10 [debug] 9#9: *3 access phase: 8
+2024/05/16 20:50:10 [debug] 9#9: *3 access phase: 9
+2024/05/16 20:50:10 [debug] 9#9: *3 access phase: 10
+2024/05/16 20:50:10 [debug] 9#9: *3 post access phase: 11
+2024/05/16 20:50:10 [debug] 9#9: *3 generic phase: 12
+2024/05/16 20:50:10 [debug] 9#9: *3 generic phase: 13
+2024/05/16 20:50:10 [debug] 9#9: *3 http init upstream, client timer: 0
+2024/05/16 20:50:10 [debug] 9#9: *3 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 20:50:10 [debug] 9#9: *3 http script copy: "Host"
+2024/05/16 20:50:10 [debug] 9#9: *3 http script var: "localhost"
+2024/05/16 20:50:10 [debug] 9#9: *3 http script copy: "X-Real-IP"
+2024/05/16 20:50:10 [debug] 9#9: *3 http script var: "192.168.65.1"
+2024/05/16 20:50:10 [debug] 9#9: *3 http script copy: "X-Forwarded-For"
+2024/05/16 20:50:10 [debug] 9#9: *3 http script var: "192.168.65.1"
+2024/05/16 20:50:10 [debug] 9#9: *3 http script copy: "X-Forwarded-Proto"
+2024/05/16 20:50:10 [debug] 9#9: *3 http script var: "http"
+2024/05/16 20:50:10 [debug] 9#9: *3 http script copy: "Connection"
+2024/05/16 20:50:10 [debug] 9#9: *3 http script copy: "close"
+2024/05/16 20:50:10 [debug] 9#9: *3 http script copy: ""
+2024/05/16 20:50:10 [debug] 9#9: *3 http script copy: ""
+2024/05/16 20:50:10 [debug] 9#9: *3 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 20:50:10 [debug] 9#9: *3 http proxy header: "Accept: */*"
+2024/05/16 20:50:10 [debug] 9#9: *3 http proxy header:
+"GET /bad HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 20:50:10 [debug] 9#9: *3 http cleanup add: 0000AAAADD2331C0
+2024/05/16 20:50:10 [debug] 9#9: *3 get rr peer, try: 1
+2024/05/16 20:50:10 [debug] 9#9: *3 stream socket 10
+2024/05/16 20:50:10 [debug] 9#9: *3 epoll add connection: fd:10 ev:80002005
+2024/05/16 20:50:10 [debug] 9#9: *3 connect to 127.0.0.1:5000, fd:10 #4
+2024/05/16 20:50:10 [debug] 9#9: *3 http upstream connect: -2
+2024/05/16 20:50:10 [debug] 9#9: *3 posix_memalign: 0000AAAADD211F50:128 @16
+2024/05/16 20:50:10 [debug] 9#9: *3 event timer add: 10: 60000:352566267
+2024/05/16 20:50:10 [debug] 9#9: *3 http finalize request: -4, "/bad?" a:1, c:2
+2024/05/16 20:50:10 [debug] 9#9: *3 http request count:2 blk:0
+2024/05/16 20:50:10 [debug] 9#9: *3 http run request: "/bad?"
+2024/05/16 20:50:10 [debug] 9#9: *3 http upstream check client, write event:1, "/bad"
+2024/05/16 20:50:10 [debug] 9#9: *3 http upstream request: "/bad?"
+2024/05/16 20:50:10 [debug] 9#9: *3 http upstream process header
+2024/05/16 20:50:10 [error] 9#9: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /bad HTTP/1.1", upstream: "http://127.0.0.1:5000/bad", host: "localhost:9999"
+2024/05/16 20:50:10 [debug] 9#9: *3 http next upstream, 2
+2024/05/16 20:50:10 [debug] 9#9: *3 free rr peer 1 4
+2024/05/16 20:50:10 [debug] 9#9: *3 finalize http upstream request: 502
+2024/05/16 20:50:10 [debug] 9#9: *3 finalize http proxy request
+2024/05/16 20:50:10 [debug] 9#9: *3 close http upstream connection: 10
+2024/05/16 20:50:10 [debug] 9#9: *3 free: 0000AAAADD211F50, unused: 48
+2024/05/16 20:50:10 [debug] 9#9: *3 event timer del: 10: 352566267
+2024/05/16 20:50:10 [debug] 9#9: *3 reusable connection: 0
+2024/05/16 20:50:10 [debug] 9#9: *3 http finalize request: 502, "/bad?" a:1, c:1
+2024/05/16 20:50:10 [debug] 9#9: *3 http special response: 502, "/bad?"
+2024/05/16 20:50:10 [debug] 9#9: *3 HTTP/1.1 502 Bad Gateway
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 20:50:10 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: keep-alive
+
+2024/05/16 20:50:10 [debug] 9#9: *3 write new buf t:1 f:0 0000AAAADD212D80, pos 0000AAAADD212D80, size: 157 file: 0, size: 0
+2024/05/16 20:50:10 [debug] 9#9: *3 http write filter: l:0 f:0 s:157
+2024/05/16 20:50:10 [debug] 9#9: *3 http output filter "/bad?"
+2024/05/16 20:50:10 [debug] 9#9: *3 http copy filter: "/bad?"
+2024/05/16 20:50:10 [debug] 9#9: *3 http postpone filter "/bad?" 0000AAAADD212F60
+2024/05/16 20:50:10 [debug] 9#9: *3 write old buf t:1 f:0 0000AAAADD212D80, pos 0000AAAADD212D80, size: 157 file: 0, size: 0
+2024/05/16 20:50:10 [debug] 9#9: *3 write new buf t:0 f:0 0000000000000000, pos 0000AAAAC3573B50, size: 104 file: 0, size: 0
+2024/05/16 20:50:10 [debug] 9#9: *3 write new buf t:0 f:0 0000000000000000, pos 0000AAAAC35736D0, size: 53 file: 0, size: 0
+2024/05/16 20:50:10 [debug] 9#9: *3 http write filter: l:1 f:0 s:314
+2024/05/16 20:50:10 [debug] 9#9: *3 http write filter limit 2097152
+2024/05/16 20:50:10 [debug] 9#9: *3 writev: 314 of 314
+2024/05/16 20:50:10 [debug] 9#9: *3 http write filter 0000000000000000
+2024/05/16 20:50:10 [debug] 9#9: *3 http copy filter: 0 "/bad?"
+2024/05/16 20:50:10 [debug] 9#9: *3 http finalize request: 0, "/bad?" a:1, c:1
+2024/05/16 20:50:10 [debug] 9#9: *3 set http keepalive handler
+2024/05/16 20:50:10 [debug] 9#9: *3 http close request
+2024/05/16 20:50:10 [debug] 9#9: *3 http log handler
+2024/05/16 20:50:10 [debug] 9#9: *3 free: 0000AAAADD2321E0, unused: 8
+2024/05/16 20:50:10 [debug] 9#9: *3 free: 0000AAAADD212330, unused: 787
+2024/05/16 20:50:10 [debug] 9#9: *3 free: 0000AAAADD218040
+2024/05/16 20:50:10 [debug] 9#9: *3 hc free: 0000000000000000
+2024/05/16 20:50:10 [debug] 9#9: *3 hc busy: 0000000000000000 0
+2024/05/16 20:50:10 [debug] 9#9: *3 tcp_nodelay
+2024/05/16 20:50:10 [debug] 9#9: *3 reusable connection: 1
+2024/05/16 20:50:10 [debug] 9#9: *3 event timer add: 6: 65000:352571274
+2024/05/16 20:50:10 [debug] 9#9: *3 http keepalive handler
+2024/05/16 20:50:10 [debug] 9#9: *3 malloc: 0000AAAADD218040:1024
+2024/05/16 20:50:10 [debug] 9#9: *3 recv: eof:1, avail:-1
+2024/05/16 20:50:10 [debug] 9#9: *3 recv: fd:6 0 of 1024
+2024/05/16 20:50:10 [info] 9#9: *3 client 192.168.65.1 closed keepalive connection
+2024/05/16 20:50:10 [debug] 9#9: *3 close http connection: 6
+2024/05/16 20:50:10 [debug] 9#9: *3 event timer del: 6: 352571274
+2024/05/16 20:50:10 [debug] 9#9: *3 reusable connection: 0
+2024/05/16 20:50:10 [debug] 9#9: *3 free: 0000AAAADD218040
+2024/05/16 20:50:10 [debug] 9#9: *3 free: 0000AAAADD2157F0, unused: 128
+2024/05/16 20:50:10 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 20:50:10 [debug] 9#9: posix_memalign: 0000AAAADD2157F0:512 @16
+2024/05/16 20:50:10 [debug] 9#9: *5 accept: 192.168.65.1:57888 fd:6
+2024/05/16 20:50:10 [debug] 9#9: *5 event timer add: 6: 60000:352566292
+2024/05/16 20:50:10 [debug] 9#9: *5 reusable connection: 1
+2024/05/16 20:50:10 [debug] 9#9: *5 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 20:50:10 [debug] 9#9: *5 http wait request handler
+2024/05/16 20:50:10 [debug] 9#9: *5 malloc: 0000AAAADD218040:1024
+2024/05/16 20:50:10 [debug] 9#9: *5 recv: eof:0, avail:-1
+2024/05/16 20:50:10 [debug] 9#9: *5 recv: fd:6 86 of 1024
+2024/05/16 20:50:10 [debug] 9#9: *5 reusable connection: 0
+2024/05/16 20:50:10 [debug] 9#9: *5 posix_memalign: 0000AAAADD2321E0:4096 @16
+2024/05/16 20:50:10 [debug] 9#9: *5 http process request line
+2024/05/16 20:50:10 [debug] 9#9: *5 http request line: "GET /error-bug HTTP/1.1"
+2024/05/16 20:50:10 [debug] 9#9: *5 http uri: "/error-bug"
+2024/05/16 20:50:10 [debug] 9#9: *5 http args: ""
+2024/05/16 20:50:10 [debug] 9#9: *5 http exten: ""
+2024/05/16 20:50:10 [debug] 9#9: *5 posix_memalign: 0000AAAADD212330:4096 @16
+2024/05/16 20:50:10 [debug] 9#9: *5 http process request header line
+2024/05/16 20:50:10 [debug] 9#9: *5 http header: "Host: localhost:9999"
+2024/05/16 20:50:10 [debug] 9#9: *5 http header: "User-Agent: curl/8.4.0"
+2024/05/16 20:50:10 [debug] 9#9: *5 http header: "Accept: */*"
+2024/05/16 20:50:10 [debug] 9#9: *5 http header done
+2024/05/16 20:50:10 [debug] 9#9: *5 event timer del: 6: 352566292
+2024/05/16 20:50:10 [debug] 9#9: *5 generic phase: 0
+2024/05/16 20:50:10 [debug] 9#9: *5 rewrite phase: 1
+2024/05/16 20:50:10 [debug] 9#9: *5 test location: "/"
+2024/05/16 20:50:10 [debug] 9#9: *5 using configuration "/"
+2024/05/16 20:50:10 [debug] 9#9: *5 http cl:-1 max:1048576
+2024/05/16 20:50:10 [debug] 9#9: *5 rewrite phase: 3
+2024/05/16 20:50:10 [debug] 9#9: *5 post rewrite phase: 4
+2024/05/16 20:50:10 [debug] 9#9: *5 generic phase: 5
+2024/05/16 20:50:10 [debug] 9#9: *5 generic phase: 6
+2024/05/16 20:50:10 [debug] 9#9: *5 generic phase: 7
+2024/05/16 20:50:10 [debug] 9#9: *5 access phase: 8
+2024/05/16 20:50:10 [debug] 9#9: *5 access phase: 9
+2024/05/16 20:50:10 [debug] 9#9: *5 access phase: 10
+2024/05/16 20:50:10 [debug] 9#9: *5 post access phase: 11
+2024/05/16 20:50:10 [debug] 9#9: *5 generic phase: 12
+2024/05/16 20:50:10 [debug] 9#9: *5 generic phase: 13
+2024/05/16 20:50:10 [debug] 9#9: *5 http init upstream, client timer: 0
+2024/05/16 20:50:10 [debug] 9#9: *5 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 20:50:10 [debug] 9#9: *5 http script copy: "Host"
+2024/05/16 20:50:10 [debug] 9#9: *5 http script var: "localhost"
+2024/05/16 20:50:10 [debug] 9#9: *5 http script copy: "X-Real-IP"
+2024/05/16 20:50:10 [debug] 9#9: *5 http script var: "192.168.65.1"
+2024/05/16 20:50:10 [debug] 9#9: *5 http script copy: "X-Forwarded-For"
+2024/05/16 20:50:10 [debug] 9#9: *5 http script var: "192.168.65.1"
+2024/05/16 20:50:10 [debug] 9#9: *5 http script copy: "X-Forwarded-Proto"
+2024/05/16 20:50:10 [debug] 9#9: *5 http script var: "http"
+2024/05/16 20:50:10 [debug] 9#9: *5 http script copy: "Connection"
+2024/05/16 20:50:10 [debug] 9#9: *5 http script copy: "close"
+2024/05/16 20:50:10 [debug] 9#9: *5 http script copy: ""
+2024/05/16 20:50:10 [debug] 9#9: *5 http script copy: ""
+2024/05/16 20:50:10 [debug] 9#9: *5 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 20:50:10 [debug] 9#9: *5 http proxy header: "Accept: */*"
+2024/05/16 20:50:10 [debug] 9#9: *5 http proxy header:
+"GET /error-bug HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 20:50:10 [debug] 9#9: *5 http cleanup add: 0000AAAADD2331C0
+2024/05/16 20:50:10 [debug] 9#9: *5 get rr peer, try: 1
+2024/05/16 20:50:10 [debug] 9#9: *5 stream socket 10
+2024/05/16 20:50:10 [debug] 9#9: *5 epoll add connection: fd:10 ev:80002005
+2024/05/16 20:50:10 [debug] 9#9: *5 connect to 127.0.0.1:5000, fd:10 #6
+2024/05/16 20:50:10 [debug] 9#9: *5 http upstream connect: -2
+2024/05/16 20:50:10 [debug] 9#9: *5 posix_memalign: 0000AAAADD211F50:128 @16
+2024/05/16 20:50:10 [debug] 9#9: *5 event timer add: 10: 60000:352566293
+2024/05/16 20:50:10 [debug] 9#9: *5 http finalize request: -4, "/error-bug?" a:1, c:2
+2024/05/16 20:50:10 [debug] 9#9: *5 http request count:2 blk:0
+2024/05/16 20:50:10 [debug] 9#9: *5 http run request: "/error-bug?"
+2024/05/16 20:50:10 [debug] 9#9: *5 http upstream check client, write event:1, "/error-bug"
+2024/05/16 20:50:10 [debug] 9#9: *5 http upstream request: "/error-bug?"
+2024/05/16 20:50:10 [debug] 9#9: *5 http upstream process header
+2024/05/16 20:50:10 [error] 9#9: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /error-bug HTTP/1.1", upstream: "http://127.0.0.1:5000/error-bug", host: "localhost:9999"
+2024/05/16 20:50:10 [debug] 9#9: *5 http next upstream, 2
+2024/05/16 20:50:10 [debug] 9#9: *5 free rr peer 1 4
+2024/05/16 20:50:10 [debug] 9#9: *5 finalize http upstream request: 502
+2024/05/16 20:50:10 [debug] 9#9: *5 finalize http proxy request
+2024/05/16 20:50:10 [debug] 9#9: *5 close http upstream connection: 10
+2024/05/16 20:50:10 [debug] 9#9: *5 free: 0000AAAADD211F50, unused: 48
+2024/05/16 20:50:10 [debug] 9#9: *5 event timer del: 10: 352566293
+2024/05/16 20:50:10 [debug] 9#9: *5 reusable connection: 0
+2024/05/16 20:50:10 [debug] 9#9: *5 http finalize request: 502, "/error-bug?" a:1, c:1
+2024/05/16 20:50:10 [debug] 9#9: *5 http special response: 502, "/error-bug?"
+2024/05/16 20:50:10 [debug] 9#9: *5 HTTP/1.1 502 Bad Gateway
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 20:50:10 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: keep-alive
+
+2024/05/16 20:50:10 [debug] 9#9: *5 write new buf t:1 f:0 0000AAAADD212D90, pos 0000AAAADD212D90, size: 157 file: 0, size: 0
+2024/05/16 20:50:10 [debug] 9#9: *5 http write filter: l:0 f:0 s:157
+2024/05/16 20:50:10 [debug] 9#9: *5 http output filter "/error-bug?"
+2024/05/16 20:50:10 [debug] 9#9: *5 http copy filter: "/error-bug?"
+2024/05/16 20:50:10 [debug] 9#9: *5 http postpone filter "/error-bug?" 0000AAAADD212F70
+2024/05/16 20:50:10 [debug] 9#9: *5 write old buf t:1 f:0 0000AAAADD212D90, pos 0000AAAADD212D90, size: 157 file: 0, size: 0
+2024/05/16 20:50:10 [debug] 9#9: *5 write new buf t:0 f:0 0000000000000000, pos 0000AAAAC3573B50, size: 104 file: 0, size: 0
+2024/05/16 20:50:10 [debug] 9#9: *5 write new buf t:0 f:0 0000000000000000, pos 0000AAAAC35736D0, size: 53 file: 0, size: 0
+2024/05/16 20:50:10 [debug] 9#9: *5 http write filter: l:1 f:0 s:314
+2024/05/16 20:50:10 [debug] 9#9: *5 http write filter limit 2097152
+2024/05/16 20:50:10 [debug] 9#9: *5 writev: 314 of 314
+2024/05/16 20:50:10 [debug] 9#9: *5 http write filter 0000000000000000
+2024/05/16 20:50:10 [debug] 9#9: *5 http copy filter: 0 "/error-bug?"
+2024/05/16 20:50:10 [debug] 9#9: *5 http finalize request: 0, "/error-bug?" a:1, c:1
+2024/05/16 20:50:10 [debug] 9#9: *5 set http keepalive handler
+2024/05/16 20:50:10 [debug] 9#9: *5 http close request
+2024/05/16 20:50:10 [debug] 9#9: *5 http log handler
+2024/05/16 20:50:10 [debug] 9#9: *5 free: 0000AAAADD2321E0, unused: 8
+2024/05/16 20:50:10 [debug] 9#9: *5 free: 0000AAAADD212330, unused: 765
+2024/05/16 20:50:10 [debug] 9#9: *5 free: 0000AAAADD218040
+2024/05/16 20:50:10 [debug] 9#9: *5 hc free: 0000000000000000
+2024/05/16 20:50:10 [debug] 9#9: *5 hc busy: 0000000000000000 0
+2024/05/16 20:50:10 [debug] 9#9: *5 tcp_nodelay
+2024/05/16 20:50:10 [debug] 9#9: *5 reusable connection: 1
+2024/05/16 20:50:10 [debug] 9#9: *5 event timer add: 6: 65000:352571299
+2024/05/16 20:50:10 [debug] 9#9: *5 http keepalive handler
+2024/05/16 20:50:10 [debug] 9#9: *5 malloc: 0000AAAADD218040:1024
+2024/05/16 20:50:10 [debug] 9#9: *5 recv: eof:1, avail:-1
+2024/05/16 20:50:10 [debug] 9#9: *5 recv: fd:6 0 of 1024
+2024/05/16 20:50:10 [info] 9#9: *5 client 192.168.65.1 closed keepalive connection
+2024/05/16 20:50:10 [debug] 9#9: *5 close http connection: 6
+2024/05/16 20:50:10 [debug] 9#9: *5 event timer del: 6: 352571299
+2024/05/16 20:50:10 [debug] 9#9: *5 reusable connection: 0
+2024/05/16 20:50:10 [debug] 9#9: *5 free: 0000AAAADD218040
+2024/05/16 20:50:10 [debug] 9#9: *5 free: 0000AAAADD2157F0, unused: 128
+2024/05/16 20:50:10 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 20:50:10 [debug] 9#9: posix_memalign: 0000AAAADD2157F0:512 @16
+2024/05/16 20:50:10 [debug] 9#9: *7 accept: 192.168.65.1:57889 fd:6
+2024/05/16 20:50:10 [debug] 9#9: *7 event timer add: 6: 60000:352566314
+2024/05/16 20:50:10 [debug] 9#9: *7 reusable connection: 1
+2024/05/16 20:50:10 [debug] 9#9: *7 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 20:50:10 [debug] 9#9: *7 http wait request handler
+2024/05/16 20:50:10 [debug] 9#9: *7 malloc: 0000AAAADD218040:1024
+2024/05/16 20:50:10 [debug] 9#9: *7 recv: eof:0, avail:-1
+2024/05/16 20:50:10 [debug] 9#9: *7 recv: fd:6 89 of 1024
+2024/05/16 20:50:10 [debug] 9#9: *7 reusable connection: 0
+2024/05/16 20:50:10 [debug] 9#9: *7 posix_memalign: 0000AAAADD2321E0:4096 @16
+2024/05/16 20:50:10 [debug] 9#9: *7 http process request line
+2024/05/16 20:50:10 [debug] 9#9: *7 http request line: "GET /error-memory HTTP/1.1"
+2024/05/16 20:50:10 [debug] 9#9: *7 http uri: "/error-memory"
+2024/05/16 20:50:10 [debug] 9#9: *7 http args: ""
+2024/05/16 20:50:10 [debug] 9#9: *7 http exten: ""
+2024/05/16 20:50:10 [debug] 9#9: *7 posix_memalign: 0000AAAADD212330:4096 @16
+2024/05/16 20:50:10 [debug] 9#9: *7 http process request header line
+2024/05/16 20:50:10 [debug] 9#9: *7 http header: "Host: localhost:9999"
+2024/05/16 20:50:10 [debug] 9#9: *7 http header: "User-Agent: curl/8.4.0"
+2024/05/16 20:50:10 [debug] 9#9: *7 http header: "Accept: */*"
+2024/05/16 20:50:10 [debug] 9#9: *7 http header done
+2024/05/16 20:50:10 [debug] 9#9: *7 event timer del: 6: 352566314
+2024/05/16 20:50:10 [debug] 9#9: *7 generic phase: 0
+2024/05/16 20:50:10 [debug] 9#9: *7 rewrite phase: 1
+2024/05/16 20:50:10 [debug] 9#9: *7 test location: "/"
+2024/05/16 20:50:10 [debug] 9#9: *7 using configuration "/"
+2024/05/16 20:50:10 [debug] 9#9: *7 http cl:-1 max:1048576
+2024/05/16 20:50:10 [debug] 9#9: *7 rewrite phase: 3
+2024/05/16 20:50:10 [debug] 9#9: *7 post rewrite phase: 4
+2024/05/16 20:50:10 [debug] 9#9: *7 generic phase: 5
+2024/05/16 20:50:10 [debug] 9#9: *7 generic phase: 6
+2024/05/16 20:50:10 [debug] 9#9: *7 generic phase: 7
+2024/05/16 20:50:10 [debug] 9#9: *7 access phase: 8
+2024/05/16 20:50:10 [debug] 9#9: *7 access phase: 9
+2024/05/16 20:50:10 [debug] 9#9: *7 access phase: 10
+2024/05/16 20:50:10 [debug] 9#9: *7 post access phase: 11
+2024/05/16 20:50:10 [debug] 9#9: *7 generic phase: 12
+2024/05/16 20:50:10 [debug] 9#9: *7 generic phase: 13
+2024/05/16 20:50:10 [debug] 9#9: *7 http init upstream, client timer: 0
+2024/05/16 20:50:10 [debug] 9#9: *7 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 20:50:10 [debug] 9#9: *7 http script copy: "Host"
+2024/05/16 20:50:10 [debug] 9#9: *7 http script var: "localhost"
+2024/05/16 20:50:10 [debug] 9#9: *7 http script copy: "X-Real-IP"
+2024/05/16 20:50:10 [debug] 9#9: *7 http script var: "192.168.65.1"
+2024/05/16 20:50:10 [debug] 9#9: *7 http script copy: "X-Forwarded-For"
+2024/05/16 20:50:10 [debug] 9#9: *7 http script var: "192.168.65.1"
+2024/05/16 20:50:10 [debug] 9#9: *7 http script copy: "X-Forwarded-Proto"
+2024/05/16 20:50:10 [debug] 9#9: *7 http script var: "http"
+2024/05/16 20:50:10 [debug] 9#9: *7 http script copy: "Connection"
+2024/05/16 20:50:10 [debug] 9#9: *7 http script copy: "close"
+2024/05/16 20:50:10 [debug] 9#9: *7 http script copy: ""
+2024/05/16 20:50:10 [debug] 9#9: *7 http script copy: ""
+2024/05/16 20:50:10 [debug] 9#9: *7 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 20:50:10 [debug] 9#9: *7 http proxy header: "Accept: */*"
+2024/05/16 20:50:10 [debug] 9#9: *7 http proxy header:
+"GET /error-memory HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 20:50:10 [debug] 9#9: *7 http cleanup add: 0000AAAADD2331C0
+2024/05/16 20:50:10 [debug] 9#9: *7 get rr peer, try: 1
+2024/05/16 20:50:10 [debug] 9#9: *7 stream socket 10
+2024/05/16 20:50:10 [debug] 9#9: *7 epoll add connection: fd:10 ev:80002005
+2024/05/16 20:50:10 [debug] 9#9: *7 connect to 127.0.0.1:5000, fd:10 #8
+2024/05/16 20:50:10 [debug] 9#9: *7 http upstream connect: -2
+2024/05/16 20:50:10 [debug] 9#9: *7 posix_memalign: 0000AAAADD211F50:128 @16
+2024/05/16 20:50:10 [debug] 9#9: *7 event timer add: 10: 60000:352566315
+2024/05/16 20:50:10 [debug] 9#9: *7 http finalize request: -4, "/error-memory?" a:1, c:2
+2024/05/16 20:50:10 [debug] 9#9: *7 http request count:2 blk:0
+2024/05/16 20:50:10 [debug] 9#9: *7 http run request: "/error-memory?"
+2024/05/16 20:50:10 [debug] 9#9: *7 http upstream check client, write event:1, "/error-memory"
+2024/05/16 20:50:10 [debug] 9#9: *7 http upstream request: "/error-memory?"
+2024/05/16 20:50:10 [debug] 9#9: *7 http upstream process header
+2024/05/16 20:50:10 [error] 9#9: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /error-memory HTTP/1.1", upstream: "http://127.0.0.1:5000/error-memory", host: "localhost:9999"
+2024/05/16 20:50:10 [debug] 9#9: *7 http next upstream, 2
+2024/05/16 20:50:10 [debug] 9#9: *7 free rr peer 1 4
+2024/05/16 20:50:10 [debug] 9#9: *7 finalize http upstream request: 502
+2024/05/16 20:50:10 [debug] 9#9: *7 finalize http proxy request
+2024/05/16 20:50:10 [debug] 9#9: *7 close http upstream connection: 10
+2024/05/16 20:50:10 [debug] 9#9: *7 free: 0000AAAADD211F50, unused: 48
+2024/05/16 20:50:10 [debug] 9#9: *7 event timer del: 10: 352566315
+2024/05/16 20:50:10 [debug] 9#9: *7 reusable connection: 0
+2024/05/16 20:50:10 [debug] 9#9: *7 http finalize request: 502, "/error-memory?" a:1, c:1
+2024/05/16 20:50:10 [debug] 9#9: *7 http special response: 502, "/error-memory?"
+2024/05/16 20:50:10 [debug] 9#9: *7 HTTP/1.1 502 Bad Gateway
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 20:50:10 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: keep-alive
+
+2024/05/16 20:50:10 [debug] 9#9: *7 write new buf t:1 f:0 0000AAAADD212D90, pos 0000AAAADD212D90, size: 157 file: 0, size: 0
+2024/05/16 20:50:10 [debug] 9#9: *7 http write filter: l:0 f:0 s:157
+2024/05/16 20:50:10 [debug] 9#9: *7 http output filter "/error-memory?"
+2024/05/16 20:50:10 [debug] 9#9: *7 http copy filter: "/error-memory?"
+2024/05/16 20:50:10 [debug] 9#9: *7 http postpone filter "/error-memory?" 0000AAAADD212F70
+2024/05/16 20:50:10 [debug] 9#9: *7 write old buf t:1 f:0 0000AAAADD212D90, pos 0000AAAADD212D90, size: 157 file: 0, size: 0
+2024/05/16 20:50:10 [debug] 9#9: *7 write new buf t:0 f:0 0000000000000000, pos 0000AAAAC3573B50, size: 104 file: 0, size: 0
+2024/05/16 20:50:10 [debug] 9#9: *7 write new buf t:0 f:0 0000000000000000, pos 0000AAAAC35736D0, size: 53 file: 0, size: 0
+2024/05/16 20:50:10 [debug] 9#9: *7 http write filter: l:1 f:0 s:314
+2024/05/16 20:50:10 [debug] 9#9: *7 http write filter limit 2097152
+2024/05/16 20:50:10 [debug] 9#9: *7 writev: 314 of 314
+2024/05/16 20:50:10 [debug] 9#9: *7 http write filter 0000000000000000
+2024/05/16 20:50:10 [debug] 9#9: *7 http copy filter: 0 "/error-memory?"
+2024/05/16 20:50:10 [debug] 9#9: *7 http finalize request: 0, "/error-memory?" a:1, c:1
+2024/05/16 20:50:10 [debug] 9#9: *7 set http keepalive handler
+2024/05/16 20:50:10 [debug] 9#9: *7 http close request
+2024/05/16 20:50:10 [debug] 9#9: *7 http log handler
+2024/05/16 20:50:10 [debug] 9#9: *7 free: 0000AAAADD2321E0, unused: 8
+2024/05/16 20:50:10 [debug] 9#9: *7 free: 0000AAAADD212330, unused: 762
+2024/05/16 20:50:10 [debug] 9#9: *7 free: 0000AAAADD218040
+2024/05/16 20:50:10 [debug] 9#9: *7 hc free: 0000000000000000
+2024/05/16 20:50:10 [debug] 9#9: *7 hc busy: 0000000000000000 0
+2024/05/16 20:50:10 [debug] 9#9: *7 tcp_nodelay
+2024/05/16 20:50:10 [debug] 9#9: *7 reusable connection: 1
+2024/05/16 20:50:10 [debug] 9#9: *7 event timer add: 6: 65000:352571320
+2024/05/16 20:50:10 [debug] 9#9: *7 http keepalive handler
+2024/05/16 20:50:10 [debug] 9#9: *7 malloc: 0000AAAADD218040:1024
+2024/05/16 20:50:10 [debug] 9#9: *7 recv: eof:1, avail:-1
+2024/05/16 20:50:10 [debug] 9#9: *7 recv: fd:6 0 of 1024
+2024/05/16 20:50:10 [info] 9#9: *7 client 192.168.65.1 closed keepalive connection
+2024/05/16 20:50:10 [debug] 9#9: *7 close http connection: 6
+2024/05/16 20:50:10 [debug] 9#9: *7 event timer del: 6: 352571320
+2024/05/16 20:50:10 [debug] 9#9: *7 reusable connection: 0
+2024/05/16 20:50:10 [debug] 9#9: *7 free: 0000AAAADD218040
+2024/05/16 20:50:10 [debug] 9#9: *7 free: 0000AAAADD2157F0, unused: 128
+2024/05/16 20:51:46 [debug] 9#9: epoll add event: fd:5 op:1 ev:00002001
+2024/05/16 20:51:50 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 20:51:50 [debug] 9#9: posix_memalign: 0000AAAB01F827F0:512 @16
+2024/05/16 20:51:50 [debug] 9#9: *1 accept: 192.168.65.1:58622 fd:6
+2024/05/16 20:51:50 [debug] 9#9: *1 event timer add: 6: 60000:352666348
+2024/05/16 20:51:50 [debug] 9#9: *1 reusable connection: 1
+2024/05/16 20:51:50 [debug] 9#9: *1 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 20:51:50 [debug] 9#9: *1 http wait request handler
+2024/05/16 20:51:50 [debug] 9#9: *1 malloc: 0000AAAB01F85040:1024
+2024/05/16 20:51:50 [debug] 9#9: *1 recv: eof:0, avail:-1
+2024/05/16 20:51:50 [debug] 9#9: *1 recv: fd:6 81 of 1024
+2024/05/16 20:51:50 [debug] 9#9: *1 reusable connection: 0
+2024/05/16 20:51:50 [debug] 9#9: *1 posix_memalign: 0000AAAB01F9F1E0:4096 @16
+2024/05/16 20:51:50 [debug] 9#9: *1 http process request line
+2024/05/16 20:51:50 [debug] 9#9: *1 http request line: "GET /good HTTP/1.1"
+2024/05/16 20:51:50 [debug] 9#9: *1 http uri: "/good"
+2024/05/16 20:51:50 [debug] 9#9: *1 http args: ""
+2024/05/16 20:51:50 [debug] 9#9: *1 http exten: ""
+2024/05/16 20:51:50 [debug] 9#9: *1 posix_memalign: 0000AAAB01F7F330:4096 @16
+2024/05/16 20:51:50 [debug] 9#9: *1 http process request header line
+2024/05/16 20:51:50 [debug] 9#9: *1 http header: "Host: localhost:9999"
+2024/05/16 20:51:50 [debug] 9#9: *1 http header: "User-Agent: curl/8.4.0"
+2024/05/16 20:51:50 [debug] 9#9: *1 http header: "Accept: */*"
+2024/05/16 20:51:50 [debug] 9#9: *1 http header done
+2024/05/16 20:51:50 [debug] 9#9: *1 event timer del: 6: 352666348
+2024/05/16 20:51:50 [debug] 9#9: *1 generic phase: 0
+2024/05/16 20:51:50 [debug] 9#9: *1 rewrite phase: 1
+2024/05/16 20:51:50 [debug] 9#9: *1 test location: "/"
+2024/05/16 20:51:50 [debug] 9#9: *1 using configuration "/"
+2024/05/16 20:51:50 [debug] 9#9: *1 http cl:-1 max:1048576
+2024/05/16 20:51:50 [debug] 9#9: *1 rewrite phase: 3
+2024/05/16 20:51:50 [debug] 9#9: *1 post rewrite phase: 4
+2024/05/16 20:51:50 [debug] 9#9: *1 generic phase: 5
+2024/05/16 20:51:50 [debug] 9#9: *1 generic phase: 6
+2024/05/16 20:51:50 [debug] 9#9: *1 generic phase: 7
+2024/05/16 20:51:50 [debug] 9#9: *1 access phase: 8
+2024/05/16 20:51:50 [debug] 9#9: *1 access phase: 9
+2024/05/16 20:51:50 [debug] 9#9: *1 access phase: 10
+2024/05/16 20:51:50 [debug] 9#9: *1 post access phase: 11
+2024/05/16 20:51:50 [debug] 9#9: *1 generic phase: 12
+2024/05/16 20:51:50 [debug] 9#9: *1 generic phase: 13
+2024/05/16 20:51:50 [debug] 9#9: *1 http init upstream, client timer: 0
+2024/05/16 20:51:50 [debug] 9#9: *1 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 20:51:50 [debug] 9#9: *1 http script copy: "Host"
+2024/05/16 20:51:50 [debug] 9#9: *1 http script var: "localhost"
+2024/05/16 20:51:50 [debug] 9#9: *1 http script copy: "X-Real-IP"
+2024/05/16 20:51:50 [debug] 9#9: *1 http script var: "192.168.65.1"
+2024/05/16 20:51:50 [debug] 9#9: *1 http script copy: "X-Forwarded-For"
+2024/05/16 20:51:50 [debug] 9#9: *1 http script var: "192.168.65.1"
+2024/05/16 20:51:50 [debug] 9#9: *1 http script copy: "X-Forwarded-Proto"
+2024/05/16 20:51:50 [debug] 9#9: *1 http script var: "http"
+2024/05/16 20:51:50 [debug] 9#9: *1 http script copy: "Connection"
+2024/05/16 20:51:50 [debug] 9#9: *1 http script copy: "close"
+2024/05/16 20:51:50 [debug] 9#9: *1 http script copy: ""
+2024/05/16 20:51:50 [debug] 9#9: *1 http script copy: ""
+2024/05/16 20:51:50 [debug] 9#9: *1 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 20:51:50 [debug] 9#9: *1 http proxy header: "Accept: */*"
+2024/05/16 20:51:50 [debug] 9#9: *1 http proxy header:
+"GET /good HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 20:51:50 [debug] 9#9: *1 http cleanup add: 0000AAAB01FA01C0
+2024/05/16 20:51:50 [debug] 9#9: *1 get rr peer, try: 1
+2024/05/16 20:51:50 [debug] 9#9: *1 stream socket 10
+2024/05/16 20:51:50 [debug] 9#9: *1 epoll add connection: fd:10 ev:80002005
+2024/05/16 20:51:50 [debug] 9#9: *1 connect to 127.0.0.1:5000, fd:10 #2
+2024/05/16 20:51:50 [debug] 9#9: *1 http upstream connect: -2
+2024/05/16 20:51:50 [debug] 9#9: *1 posix_memalign: 0000AAAB01F7EF50:128 @16
+2024/05/16 20:51:50 [debug] 9#9: *1 event timer add: 10: 60000:352666349
+2024/05/16 20:51:50 [debug] 9#9: *1 http finalize request: -4, "/good?" a:1, c:2
+2024/05/16 20:51:50 [debug] 9#9: *1 http request count:2 blk:0
+2024/05/16 20:51:50 [debug] 9#9: *1 http run request: "/good?"
+2024/05/16 20:51:50 [debug] 9#9: *1 http upstream check client, write event:1, "/good"
+2024/05/16 20:51:50 [debug] 9#9: *1 http upstream request: "/good?"
+2024/05/16 20:51:50 [debug] 9#9: *1 http upstream send request handler
+2024/05/16 20:51:50 [debug] 9#9: *1 http upstream send request
+2024/05/16 20:51:50 [debug] 9#9: *1 http upstream send request body
+2024/05/16 20:51:50 [debug] 9#9: *1 chain writer buf fl:1 s:176
+2024/05/16 20:51:50 [debug] 9#9: *1 chain writer in: 0000AAAB01F7FD30
+2024/05/16 20:51:50 [debug] 9#9: *1 writev: 176 of 176
+2024/05/16 20:51:50 [debug] 9#9: *1 chain writer out: 0000000000000000
+2024/05/16 20:51:50 [debug] 9#9: *1 event timer del: 10: 352666349
+2024/05/16 20:51:50 [debug] 9#9: *1 event timer add: 10: 60000:352666359
+2024/05/16 20:51:50 [debug] 9#9: *1 http upstream request: "/good?"
+2024/05/16 20:51:50 [debug] 9#9: *1 http upstream process header
+2024/05/16 20:51:50 [debug] 9#9: *1 malloc: 0000AAAB01F93D40:4096
+2024/05/16 20:51:50 [debug] 9#9: *1 recv: eof:0, avail:-1
+2024/05/16 20:51:50 [debug] 9#9: *1 recv: fd:10 179 of 4096
+2024/05/16 20:51:50 [debug] 9#9: *1 http proxy status 200 "200 OK"
+2024/05/16 20:51:50 [debug] 9#9: *1 http proxy header: "Server: gunicorn"
+2024/05/16 20:51:50 [debug] 9#9: *1 http proxy header: "Date: Thu, 16 May 2024 20:51:50 GMT"
+2024/05/16 20:51:50 [debug] 9#9: *1 http proxy header: "Connection: close"
+2024/05/16 20:51:50 [debug] 9#9: *1 http proxy header: "Content-Type: application/json"
+2024/05/16 20:51:50 [debug] 9#9: *1 http proxy header: "Content-Length: 34"
+2024/05/16 20:51:50 [debug] 9#9: *1 http proxy header done
+2024/05/16 20:51:50 [debug] 9#9: *1 HTTP/1.1 200 OK
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 20:51:50 GMT
+Content-Type: application/json
+Content-Length: 34
+Connection: keep-alive
+
+2024/05/16 20:51:50 [debug] 9#9: *1 write new buf t:1 f:0 0000AAAB01F80030, pos 0000AAAB01F80030, size: 154 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *1 http write filter: l:0 f:0 s:154
+2024/05/16 20:51:50 [debug] 9#9: *1 http cacheable: 0
+2024/05/16 20:51:50 [debug] 9#9: *1 http proxy filter init s:200 h:0 c:0 l:34
+2024/05/16 20:51:50 [debug] 9#9: *1 http upstream process upstream
+2024/05/16 20:51:50 [debug] 9#9: *1 pipe read upstream: 0
+2024/05/16 20:51:50 [debug] 9#9: *1 pipe preread: 34
+2024/05/16 20:51:50 [debug] 9#9: *1 pipe buf free s:0 t:1 f:0 0000AAAB01F93D40, pos 0000AAAB01F93DD1, size: 34 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *1 pipe length: 34
+2024/05/16 20:51:50 [debug] 9#9: *1 input buf #0
+2024/05/16 20:51:50 [debug] 9#9: *1 pipe write downstream: 1
+2024/05/16 20:51:50 [debug] 9#9: *1 pipe write downstream flush in
+2024/05/16 20:51:50 [debug] 9#9: *1 http output filter "/good?"
+2024/05/16 20:51:50 [debug] 9#9: *1 http copy filter: "/good?"
+2024/05/16 20:51:50 [debug] 9#9: *1 http postpone filter "/good?" 0000AAAB01F80200
+2024/05/16 20:51:50 [debug] 9#9: *1 write old buf t:1 f:0 0000AAAB01F80030, pos 0000AAAB01F80030, size: 154 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *1 write new buf t:1 f:0 0000AAAB01F93D40, pos 0000AAAB01F93DD1, size: 34 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *1 http write filter: l:0 f:0 s:188
+2024/05/16 20:51:50 [debug] 9#9: *1 http copy filter: 0 "/good?"
+2024/05/16 20:51:50 [debug] 9#9: *1 pipe write downstream done
+2024/05/16 20:51:50 [debug] 9#9: *1 event timer: 10, old: 352666359, new: 352666371
+2024/05/16 20:51:50 [debug] 9#9: *1 http upstream exit: 0000000000000000
+2024/05/16 20:51:50 [debug] 9#9: *1 finalize http upstream request: 0
+2024/05/16 20:51:50 [debug] 9#9: *1 finalize http proxy request
+2024/05/16 20:51:50 [debug] 9#9: *1 free rr peer 1 0
+2024/05/16 20:51:50 [debug] 9#9: *1 close http upstream connection: 10
+2024/05/16 20:51:50 [debug] 9#9: *1 free: 0000AAAB01F7EF50, unused: 48
+2024/05/16 20:51:50 [debug] 9#9: *1 event timer del: 10: 352666359
+2024/05/16 20:51:50 [debug] 9#9: *1 reusable connection: 0
+2024/05/16 20:51:50 [debug] 9#9: *1 http upstream temp fd: -1
+2024/05/16 20:51:50 [debug] 9#9: *1 http output filter "/good?"
+2024/05/16 20:51:50 [debug] 9#9: *1 http copy filter: "/good?"
+2024/05/16 20:51:50 [debug] 9#9: *1 http postpone filter "/good?" 0000FFFFEF108C78
+2024/05/16 20:51:50 [debug] 9#9: *1 write old buf t:1 f:0 0000AAAB01F80030, pos 0000AAAB01F80030, size: 154 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *1 write old buf t:1 f:0 0000AAAB01F93D40, pos 0000AAAB01F93DD1, size: 34 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *1 posix_memalign: 0000AAAB01F89D10:4096 @16
+2024/05/16 20:51:50 [debug] 9#9: *1 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *1 http write filter: l:1 f:0 s:188
+2024/05/16 20:51:50 [debug] 9#9: *1 http write filter limit 2097152
+2024/05/16 20:51:50 [debug] 9#9: *1 writev: 188 of 188
+2024/05/16 20:51:50 [debug] 9#9: *1 http write filter 0000000000000000
+2024/05/16 20:51:50 [debug] 9#9: *1 http copy filter: 0 "/good?"
+2024/05/16 20:51:50 [debug] 9#9: *1 http finalize request: 0, "/good?" a:1, c:1
+2024/05/16 20:51:50 [debug] 9#9: *1 set http keepalive handler
+2024/05/16 20:51:50 [debug] 9#9: *1 http close request
+2024/05/16 20:51:50 [debug] 9#9: *1 http log handler
+2024/05/16 20:51:50 [debug] 9#9: *1 free: 0000AAAB01F93D40
+2024/05/16 20:51:50 [debug] 9#9: *1 free: 0000AAAB01F9F1E0, unused: 2
+2024/05/16 20:51:50 [debug] 9#9: *1 free: 0000AAAB01F7F330, unused: 0
+2024/05/16 20:51:50 [debug] 9#9: *1 free: 0000AAAB01F89D10, unused: 3922
+2024/05/16 20:51:50 [debug] 9#9: *1 free: 0000AAAB01F85040
+2024/05/16 20:51:50 [debug] 9#9: *1 hc free: 0000000000000000
+2024/05/16 20:51:50 [debug] 9#9: *1 hc busy: 0000000000000000 0
+2024/05/16 20:51:50 [debug] 9#9: *1 tcp_nodelay
+2024/05/16 20:51:50 [debug] 9#9: *1 reusable connection: 1
+2024/05/16 20:51:50 [debug] 9#9: *1 event timer add: 6: 65000:352671371
+2024/05/16 20:51:50 [debug] 9#9: *1 http keepalive handler
+2024/05/16 20:51:50 [debug] 9#9: *1 malloc: 0000AAAB01F85040:1024
+2024/05/16 20:51:50 [debug] 9#9: *1 recv: eof:1, avail:-1
+2024/05/16 20:51:50 [debug] 9#9: *1 recv: fd:6 0 of 1024
+2024/05/16 20:51:50 [info] 9#9: *1 client 192.168.65.1 closed keepalive connection
+2024/05/16 20:51:50 [debug] 9#9: *1 close http connection: 6
+2024/05/16 20:51:50 [debug] 9#9: *1 event timer del: 6: 352671371
+2024/05/16 20:51:50 [debug] 9#9: *1 reusable connection: 0
+2024/05/16 20:51:50 [debug] 9#9: *1 free: 0000AAAB01F85040
+2024/05/16 20:51:50 [debug] 9#9: *1 free: 0000AAAB01F827F0, unused: 128
+2024/05/16 20:51:50 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 20:51:50 [debug] 9#9: posix_memalign: 0000AAAB01F827F0:512 @16
+2024/05/16 20:51:50 [debug] 9#9: *3 accept: 192.168.65.1:58623 fd:6
+2024/05/16 20:51:50 [debug] 9#9: *3 event timer add: 6: 60000:352666387
+2024/05/16 20:51:50 [debug] 9#9: *3 reusable connection: 1
+2024/05/16 20:51:50 [debug] 9#9: *3 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 20:51:50 [debug] 9#9: *3 http wait request handler
+2024/05/16 20:51:50 [debug] 9#9: *3 malloc: 0000AAAB01F85040:1024
+2024/05/16 20:51:50 [debug] 9#9: *3 recv: eof:0, avail:-1
+2024/05/16 20:51:50 [debug] 9#9: *3 recv: fd:6 80 of 1024
+2024/05/16 20:51:50 [debug] 9#9: *3 reusable connection: 0
+2024/05/16 20:51:50 [debug] 9#9: *3 posix_memalign: 0000AAAB01F9F1E0:4096 @16
+2024/05/16 20:51:50 [debug] 9#9: *3 http process request line
+2024/05/16 20:51:50 [debug] 9#9: *3 http request line: "GET /bad HTTP/1.1"
+2024/05/16 20:51:50 [debug] 9#9: *3 http uri: "/bad"
+2024/05/16 20:51:50 [debug] 9#9: *3 http args: ""
+2024/05/16 20:51:50 [debug] 9#9: *3 http exten: ""
+2024/05/16 20:51:50 [debug] 9#9: *3 posix_memalign: 0000AAAB01F7F330:4096 @16
+2024/05/16 20:51:50 [debug] 9#9: *3 http process request header line
+2024/05/16 20:51:50 [debug] 9#9: *3 http header: "Host: localhost:9999"
+2024/05/16 20:51:50 [debug] 9#9: *3 http header: "User-Agent: curl/8.4.0"
+2024/05/16 20:51:50 [debug] 9#9: *3 http header: "Accept: */*"
+2024/05/16 20:51:50 [debug] 9#9: *3 http header done
+2024/05/16 20:51:50 [debug] 9#9: *3 event timer del: 6: 352666387
+2024/05/16 20:51:50 [debug] 9#9: *3 generic phase: 0
+2024/05/16 20:51:50 [debug] 9#9: *3 rewrite phase: 1
+2024/05/16 20:51:50 [debug] 9#9: *3 test location: "/"
+2024/05/16 20:51:50 [debug] 9#9: *3 using configuration "/"
+2024/05/16 20:51:50 [debug] 9#9: *3 http cl:-1 max:1048576
+2024/05/16 20:51:50 [debug] 9#9: *3 rewrite phase: 3
+2024/05/16 20:51:50 [debug] 9#9: *3 post rewrite phase: 4
+2024/05/16 20:51:50 [debug] 9#9: *3 generic phase: 5
+2024/05/16 20:51:50 [debug] 9#9: *3 generic phase: 6
+2024/05/16 20:51:50 [debug] 9#9: *3 generic phase: 7
+2024/05/16 20:51:50 [debug] 9#9: *3 access phase: 8
+2024/05/16 20:51:50 [debug] 9#9: *3 access phase: 9
+2024/05/16 20:51:50 [debug] 9#9: *3 access phase: 10
+2024/05/16 20:51:50 [debug] 9#9: *3 post access phase: 11
+2024/05/16 20:51:50 [debug] 9#9: *3 generic phase: 12
+2024/05/16 20:51:50 [debug] 9#9: *3 generic phase: 13
+2024/05/16 20:51:50 [debug] 9#9: *3 http init upstream, client timer: 0
+2024/05/16 20:51:50 [debug] 9#9: *3 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 20:51:50 [debug] 9#9: *3 http script copy: "Host"
+2024/05/16 20:51:50 [debug] 9#9: *3 http script var: "localhost"
+2024/05/16 20:51:50 [debug] 9#9: *3 http script copy: "X-Real-IP"
+2024/05/16 20:51:50 [debug] 9#9: *3 http script var: "192.168.65.1"
+2024/05/16 20:51:50 [debug] 9#9: *3 http script copy: "X-Forwarded-For"
+2024/05/16 20:51:50 [debug] 9#9: *3 http script var: "192.168.65.1"
+2024/05/16 20:51:50 [debug] 9#9: *3 http script copy: "X-Forwarded-Proto"
+2024/05/16 20:51:50 [debug] 9#9: *3 http script var: "http"
+2024/05/16 20:51:50 [debug] 9#9: *3 http script copy: "Connection"
+2024/05/16 20:51:50 [debug] 9#9: *3 http script copy: "close"
+2024/05/16 20:51:50 [debug] 9#9: *3 http script copy: ""
+2024/05/16 20:51:50 [debug] 9#9: *3 http script copy: ""
+2024/05/16 20:51:50 [debug] 9#9: *3 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 20:51:50 [debug] 9#9: *3 http proxy header: "Accept: */*"
+2024/05/16 20:51:50 [debug] 9#9: *3 http proxy header:
+"GET /bad HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 20:51:50 [debug] 9#9: *3 http cleanup add: 0000AAAB01FA01C0
+2024/05/16 20:51:50 [debug] 9#9: *3 get rr peer, try: 1
+2024/05/16 20:51:50 [debug] 9#9: *3 stream socket 10
+2024/05/16 20:51:50 [debug] 9#9: *3 epoll add connection: fd:10 ev:80002005
+2024/05/16 20:51:50 [debug] 9#9: *3 connect to 127.0.0.1:5000, fd:10 #4
+2024/05/16 20:51:50 [debug] 9#9: *3 http upstream connect: -2
+2024/05/16 20:51:50 [debug] 9#9: *3 posix_memalign: 0000AAAB01F7EF50:128 @16
+2024/05/16 20:51:50 [debug] 9#9: *3 event timer add: 10: 60000:352666387
+2024/05/16 20:51:50 [debug] 9#9: *3 http finalize request: -4, "/bad?" a:1, c:2
+2024/05/16 20:51:50 [debug] 9#9: *3 http request count:2 blk:0
+2024/05/16 20:51:50 [debug] 9#9: *3 http run request: "/bad?"
+2024/05/16 20:51:50 [debug] 9#9: *3 http upstream check client, write event:1, "/bad"
+2024/05/16 20:51:50 [debug] 9#9: *3 http upstream request: "/bad?"
+2024/05/16 20:51:50 [debug] 9#9: *3 http upstream send request handler
+2024/05/16 20:51:50 [debug] 9#9: *3 http upstream send request
+2024/05/16 20:51:50 [debug] 9#9: *3 http upstream send request body
+2024/05/16 20:51:50 [debug] 9#9: *3 chain writer buf fl:1 s:175
+2024/05/16 20:51:50 [debug] 9#9: *3 chain writer in: 0000AAAB01F7FD30
+2024/05/16 20:51:50 [debug] 9#9: *3 writev: 175 of 175
+2024/05/16 20:51:50 [debug] 9#9: *3 chain writer out: 0000000000000000
+2024/05/16 20:51:50 [debug] 9#9: *3 event timer del: 10: 352666387
+2024/05/16 20:51:50 [debug] 9#9: *3 event timer add: 10: 60000:352666392
+2024/05/16 20:51:50 [debug] 9#9: *3 http upstream request: "/bad?"
+2024/05/16 20:51:50 [debug] 9#9: *3 http upstream process header
+2024/05/16 20:51:50 [debug] 9#9: *3 malloc: 0000AAAB01F93D40:4096
+2024/05/16 20:51:50 [debug] 9#9: *3 recv: eof:0, avail:-1
+2024/05/16 20:51:50 [debug] 9#9: *3 recv: fd:10 236 of 4096
+2024/05/16 20:51:50 [debug] 9#9: *3 http proxy status 500 "500 INTERNAL SERVER ERROR"
+2024/05/16 20:51:50 [debug] 9#9: *3 http proxy header: "Server: gunicorn"
+2024/05/16 20:51:50 [debug] 9#9: *3 http proxy header: "Date: Thu, 16 May 2024 20:51:50 GMT"
+2024/05/16 20:51:50 [debug] 9#9: *3 http proxy header: "Connection: close"
+2024/05/16 20:51:50 [debug] 9#9: *3 http proxy header: "Content-Type: application/json"
+2024/05/16 20:51:50 [debug] 9#9: *3 http proxy header: "Content-Length: 72"
+2024/05/16 20:51:50 [debug] 9#9: *3 http proxy header done
+2024/05/16 20:51:50 [debug] 9#9: *3 HTTP/1.1 500 INTERNAL SERVER ERROR
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 20:51:50 GMT
+Content-Type: application/json
+Content-Length: 72
+Connection: keep-alive
+
+2024/05/16 20:51:50 [debug] 9#9: *3 write new buf t:1 f:0 0000AAAB01F80040, pos 0000AAAB01F80040, size: 173 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *3 http write filter: l:0 f:0 s:173
+2024/05/16 20:51:50 [debug] 9#9: *3 http cacheable: 0
+2024/05/16 20:51:50 [debug] 9#9: *3 http proxy filter init s:500 h:0 c:0 l:72
+2024/05/16 20:51:50 [debug] 9#9: *3 http upstream process upstream
+2024/05/16 20:51:50 [debug] 9#9: *3 pipe read upstream: 0
+2024/05/16 20:51:50 [debug] 9#9: *3 pipe preread: 72
+2024/05/16 20:51:50 [debug] 9#9: *3 pipe buf free s:0 t:1 f:0 0000AAAB01F93D40, pos 0000AAAB01F93DE4, size: 72 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *3 pipe length: 72
+2024/05/16 20:51:50 [debug] 9#9: *3 input buf #0
+2024/05/16 20:51:50 [debug] 9#9: *3 pipe write downstream: 1
+2024/05/16 20:51:50 [debug] 9#9: *3 pipe write downstream flush in
+2024/05/16 20:51:50 [debug] 9#9: *3 http output filter "/bad?"
+2024/05/16 20:51:50 [debug] 9#9: *3 http copy filter: "/bad?"
+2024/05/16 20:51:50 [debug] 9#9: *3 http postpone filter "/bad?" 0000AAAB01F80220
+2024/05/16 20:51:50 [debug] 9#9: *3 write old buf t:1 f:0 0000AAAB01F80040, pos 0000AAAB01F80040, size: 173 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *3 write new buf t:1 f:0 0000AAAB01F93D40, pos 0000AAAB01F93DE4, size: 72 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *3 http write filter: l:0 f:0 s:245
+2024/05/16 20:51:50 [debug] 9#9: *3 http copy filter: 0 "/bad?"
+2024/05/16 20:51:50 [debug] 9#9: *3 pipe write downstream done
+2024/05/16 20:51:50 [debug] 9#9: *3 event timer: 10, old: 352666392, new: 352666393
+2024/05/16 20:51:50 [debug] 9#9: *3 http upstream exit: 0000000000000000
+2024/05/16 20:51:50 [debug] 9#9: *3 finalize http upstream request: 0
+2024/05/16 20:51:50 [debug] 9#9: *3 finalize http proxy request
+2024/05/16 20:51:50 [debug] 9#9: *3 free rr peer 1 0
+2024/05/16 20:51:50 [debug] 9#9: *3 close http upstream connection: 10
+2024/05/16 20:51:50 [debug] 9#9: *3 free: 0000AAAB01F7EF50, unused: 48
+2024/05/16 20:51:50 [debug] 9#9: *3 event timer del: 10: 352666392
+2024/05/16 20:51:50 [debug] 9#9: *3 reusable connection: 0
+2024/05/16 20:51:50 [debug] 9#9: *3 http upstream temp fd: -1
+2024/05/16 20:51:50 [debug] 9#9: *3 posix_memalign: 0000AAAB01F89D10:4096 @16
+2024/05/16 20:51:50 [debug] 9#9: *3 http output filter "/bad?"
+2024/05/16 20:51:50 [debug] 9#9: *3 http copy filter: "/bad?"
+2024/05/16 20:51:50 [debug] 9#9: *3 http postpone filter "/bad?" 0000FFFFEF108C78
+2024/05/16 20:51:50 [debug] 9#9: *3 write old buf t:1 f:0 0000AAAB01F80040, pos 0000AAAB01F80040, size: 173 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *3 write old buf t:1 f:0 0000AAAB01F93D40, pos 0000AAAB01F93DE4, size: 72 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *3 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *3 http write filter: l:1 f:0 s:245
+2024/05/16 20:51:50 [debug] 9#9: *3 http write filter limit 2097152
+2024/05/16 20:51:50 [debug] 9#9: *3 writev: 245 of 245
+2024/05/16 20:51:50 [debug] 9#9: *3 http write filter 0000000000000000
+2024/05/16 20:51:50 [debug] 9#9: *3 http copy filter: 0 "/bad?"
+2024/05/16 20:51:50 [debug] 9#9: *3 http finalize request: 0, "/bad?" a:1, c:1
+2024/05/16 20:51:50 [debug] 9#9: *3 set http keepalive handler
+2024/05/16 20:51:50 [debug] 9#9: *3 http close request
+2024/05/16 20:51:50 [debug] 9#9: *3 http log handler
+2024/05/16 20:51:50 [debug] 9#9: *3 free: 0000AAAB01F93D40
+2024/05/16 20:51:50 [debug] 9#9: *3 free: 0000AAAB01F9F1E0, unused: 8
+2024/05/16 20:51:50 [debug] 9#9: *3 free: 0000AAAB01F7F330, unused: 32
+2024/05/16 20:51:50 [debug] 9#9: *3 free: 0000AAAB01F89D10, unused: 3859
+2024/05/16 20:51:50 [debug] 9#9: *3 free: 0000AAAB01F85040
+2024/05/16 20:51:50 [debug] 9#9: *3 hc free: 0000000000000000
+2024/05/16 20:51:50 [debug] 9#9: *3 hc busy: 0000000000000000 0
+2024/05/16 20:51:50 [debug] 9#9: *3 tcp_nodelay
+2024/05/16 20:51:50 [debug] 9#9: *3 reusable connection: 1
+2024/05/16 20:51:50 [debug] 9#9: *3 event timer add: 6: 65000:352671393
+2024/05/16 20:51:50 [debug] 9#9: *3 http keepalive handler
+2024/05/16 20:51:50 [debug] 9#9: *3 malloc: 0000AAAB01F85040:1024
+2024/05/16 20:51:50 [debug] 9#9: *3 recv: eof:1, avail:-1
+2024/05/16 20:51:50 [debug] 9#9: *3 recv: fd:6 0 of 1024
+2024/05/16 20:51:50 [info] 9#9: *3 client 192.168.65.1 closed keepalive connection
+2024/05/16 20:51:50 [debug] 9#9: *3 close http connection: 6
+2024/05/16 20:51:50 [debug] 9#9: *3 event timer del: 6: 352671393
+2024/05/16 20:51:50 [debug] 9#9: *3 reusable connection: 0
+2024/05/16 20:51:50 [debug] 9#9: *3 free: 0000AAAB01F85040
+2024/05/16 20:51:50 [debug] 9#9: *3 free: 0000AAAB01F827F0, unused: 128
+2024/05/16 20:51:50 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 20:51:50 [debug] 9#9: posix_memalign: 0000AAAB01F827F0:512 @16
+2024/05/16 20:51:50 [debug] 9#9: *5 accept: 192.168.65.1:58624 fd:6
+2024/05/16 20:51:50 [debug] 9#9: *5 event timer add: 6: 60000:352666409
+2024/05/16 20:51:50 [debug] 9#9: *5 reusable connection: 1
+2024/05/16 20:51:50 [debug] 9#9: *5 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 20:51:50 [debug] 9#9: *5 http wait request handler
+2024/05/16 20:51:50 [debug] 9#9: *5 malloc: 0000AAAB01F85040:1024
+2024/05/16 20:51:50 [debug] 9#9: *5 recv: eof:0, avail:-1
+2024/05/16 20:51:50 [debug] 9#9: *5 recv: fd:6 86 of 1024
+2024/05/16 20:51:50 [debug] 9#9: *5 reusable connection: 0
+2024/05/16 20:51:50 [debug] 9#9: *5 posix_memalign: 0000AAAB01F9F1E0:4096 @16
+2024/05/16 20:51:50 [debug] 9#9: *5 http process request line
+2024/05/16 20:51:50 [debug] 9#9: *5 http request line: "GET /error-bug HTTP/1.1"
+2024/05/16 20:51:50 [debug] 9#9: *5 http uri: "/error-bug"
+2024/05/16 20:51:50 [debug] 9#9: *5 http args: ""
+2024/05/16 20:51:50 [debug] 9#9: *5 http exten: ""
+2024/05/16 20:51:50 [debug] 9#9: *5 posix_memalign: 0000AAAB01F7F330:4096 @16
+2024/05/16 20:51:50 [debug] 9#9: *5 http process request header line
+2024/05/16 20:51:50 [debug] 9#9: *5 http header: "Host: localhost:9999"
+2024/05/16 20:51:50 [debug] 9#9: *5 http header: "User-Agent: curl/8.4.0"
+2024/05/16 20:51:50 [debug] 9#9: *5 http header: "Accept: */*"
+2024/05/16 20:51:50 [debug] 9#9: *5 http header done
+2024/05/16 20:51:50 [debug] 9#9: *5 event timer del: 6: 352666409
+2024/05/16 20:51:50 [debug] 9#9: *5 generic phase: 0
+2024/05/16 20:51:50 [debug] 9#9: *5 rewrite phase: 1
+2024/05/16 20:51:50 [debug] 9#9: *5 test location: "/"
+2024/05/16 20:51:50 [debug] 9#9: *5 using configuration "/"
+2024/05/16 20:51:50 [debug] 9#9: *5 http cl:-1 max:1048576
+2024/05/16 20:51:50 [debug] 9#9: *5 rewrite phase: 3
+2024/05/16 20:51:50 [debug] 9#9: *5 post rewrite phase: 4
+2024/05/16 20:51:50 [debug] 9#9: *5 generic phase: 5
+2024/05/16 20:51:50 [debug] 9#9: *5 generic phase: 6
+2024/05/16 20:51:50 [debug] 9#9: *5 generic phase: 7
+2024/05/16 20:51:50 [debug] 9#9: *5 access phase: 8
+2024/05/16 20:51:50 [debug] 9#9: *5 access phase: 9
+2024/05/16 20:51:50 [debug] 9#9: *5 access phase: 10
+2024/05/16 20:51:50 [debug] 9#9: *5 post access phase: 11
+2024/05/16 20:51:50 [debug] 9#9: *5 generic phase: 12
+2024/05/16 20:51:50 [debug] 9#9: *5 generic phase: 13
+2024/05/16 20:51:50 [debug] 9#9: *5 http init upstream, client timer: 0
+2024/05/16 20:51:50 [debug] 9#9: *5 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 20:51:50 [debug] 9#9: *5 http script copy: "Host"
+2024/05/16 20:51:50 [debug] 9#9: *5 http script var: "localhost"
+2024/05/16 20:51:50 [debug] 9#9: *5 http script copy: "X-Real-IP"
+2024/05/16 20:51:50 [debug] 9#9: *5 http script var: "192.168.65.1"
+2024/05/16 20:51:50 [debug] 9#9: *5 http script copy: "X-Forwarded-For"
+2024/05/16 20:51:50 [debug] 9#9: *5 http script var: "192.168.65.1"
+2024/05/16 20:51:50 [debug] 9#9: *5 http script copy: "X-Forwarded-Proto"
+2024/05/16 20:51:50 [debug] 9#9: *5 http script var: "http"
+2024/05/16 20:51:50 [debug] 9#9: *5 http script copy: "Connection"
+2024/05/16 20:51:50 [debug] 9#9: *5 http script copy: "close"
+2024/05/16 20:51:50 [debug] 9#9: *5 http script copy: ""
+2024/05/16 20:51:50 [debug] 9#9: *5 http script copy: ""
+2024/05/16 20:51:50 [debug] 9#9: *5 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 20:51:50 [debug] 9#9: *5 http proxy header: "Accept: */*"
+2024/05/16 20:51:50 [debug] 9#9: *5 http proxy header:
+"GET /error-bug HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 20:51:50 [debug] 9#9: *5 http cleanup add: 0000AAAB01FA01C0
+2024/05/16 20:51:50 [debug] 9#9: *5 get rr peer, try: 1
+2024/05/16 20:51:50 [debug] 9#9: *5 stream socket 10
+2024/05/16 20:51:50 [debug] 9#9: *5 epoll add connection: fd:10 ev:80002005
+2024/05/16 20:51:50 [debug] 9#9: *5 connect to 127.0.0.1:5000, fd:10 #6
+2024/05/16 20:51:50 [debug] 9#9: *5 http upstream connect: -2
+2024/05/16 20:51:50 [debug] 9#9: *5 posix_memalign: 0000AAAB01F7EF50:128 @16
+2024/05/16 20:51:50 [debug] 9#9: *5 event timer add: 10: 60000:352666409
+2024/05/16 20:51:50 [debug] 9#9: *5 http finalize request: -4, "/error-bug?" a:1, c:2
+2024/05/16 20:51:50 [debug] 9#9: *5 http request count:2 blk:0
+2024/05/16 20:51:50 [debug] 9#9: *5 http run request: "/error-bug?"
+2024/05/16 20:51:50 [debug] 9#9: *5 http upstream check client, write event:1, "/error-bug"
+2024/05/16 20:51:50 [debug] 9#9: *5 http upstream request: "/error-bug?"
+2024/05/16 20:51:50 [debug] 9#9: *5 http upstream send request handler
+2024/05/16 20:51:50 [debug] 9#9: *5 http upstream send request
+2024/05/16 20:51:50 [debug] 9#9: *5 http upstream send request body
+2024/05/16 20:51:50 [debug] 9#9: *5 chain writer buf fl:1 s:181
+2024/05/16 20:51:50 [debug] 9#9: *5 chain writer in: 0000AAAB01F7FD40
+2024/05/16 20:51:50 [debug] 9#9: *5 writev: 181 of 181
+2024/05/16 20:51:50 [debug] 9#9: *5 chain writer out: 0000000000000000
+2024/05/16 20:51:50 [debug] 9#9: *5 event timer del: 10: 352666409
+2024/05/16 20:51:50 [debug] 9#9: *5 event timer add: 10: 60000:352666414
+2024/05/16 20:51:50 [debug] 9#9: *5 http upstream request: "/error-bug?"
+2024/05/16 20:51:50 [debug] 9#9: *5 http upstream process header
+2024/05/16 20:51:50 [debug] 9#9: *5 malloc: 0000AAAB01F93D40:4096
+2024/05/16 20:51:50 [debug] 9#9: *5 recv: eof:0, avail:-1
+2024/05/16 20:51:50 [debug] 9#9: *5 recv: fd:10 213 of 4096
+2024/05/16 20:51:50 [debug] 9#9: *5 http proxy status 500 "500 INTERNAL SERVER ERROR"
+2024/05/16 20:51:50 [debug] 9#9: *5 http proxy header: "Server: gunicorn"
+2024/05/16 20:51:50 [debug] 9#9: *5 http proxy header: "Date: Thu, 16 May 2024 20:51:50 GMT"
+2024/05/16 20:51:50 [debug] 9#9: *5 http proxy header: "Connection: close"
+2024/05/16 20:51:50 [debug] 9#9: *5 http proxy header: "Content-Type: application/json"
+2024/05/16 20:51:50 [debug] 9#9: *5 http proxy header: "Content-Length: 49"
+2024/05/16 20:51:50 [debug] 9#9: *5 http proxy header done
+2024/05/16 20:51:50 [debug] 9#9: *5 HTTP/1.1 500 INTERNAL SERVER ERROR
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 20:51:50 GMT
+Content-Type: application/json
+Content-Length: 49
+Connection: keep-alive
+
+2024/05/16 20:51:50 [debug] 9#9: *5 write new buf t:1 f:0 0000AAAB01F80050, pos 0000AAAB01F80050, size: 173 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *5 http write filter: l:0 f:0 s:173
+2024/05/16 20:51:50 [debug] 9#9: *5 http cacheable: 0
+2024/05/16 20:51:50 [debug] 9#9: *5 http proxy filter init s:500 h:0 c:0 l:49
+2024/05/16 20:51:50 [debug] 9#9: *5 http upstream process upstream
+2024/05/16 20:51:50 [debug] 9#9: *5 pipe read upstream: 0
+2024/05/16 20:51:50 [debug] 9#9: *5 pipe preread: 49
+2024/05/16 20:51:50 [debug] 9#9: *5 pipe buf free s:0 t:1 f:0 0000AAAB01F93D40, pos 0000AAAB01F93DE4, size: 49 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *5 pipe length: 49
+2024/05/16 20:51:50 [debug] 9#9: *5 input buf #0
+2024/05/16 20:51:50 [debug] 9#9: *5 pipe write downstream: 1
+2024/05/16 20:51:50 [debug] 9#9: *5 pipe write downstream flush in
+2024/05/16 20:51:50 [debug] 9#9: *5 http output filter "/error-bug?"
+2024/05/16 20:51:50 [debug] 9#9: *5 http copy filter: "/error-bug?"
+2024/05/16 20:51:50 [debug] 9#9: *5 http postpone filter "/error-bug?" 0000AAAB01F80230
+2024/05/16 20:51:50 [debug] 9#9: *5 write old buf t:1 f:0 0000AAAB01F80050, pos 0000AAAB01F80050, size: 173 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *5 write new buf t:1 f:0 0000AAAB01F93D40, pos 0000AAAB01F93DE4, size: 49 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *5 http write filter: l:0 f:0 s:222
+2024/05/16 20:51:50 [debug] 9#9: *5 http copy filter: 0 "/error-bug?"
+2024/05/16 20:51:50 [debug] 9#9: *5 pipe write downstream done
+2024/05/16 20:51:50 [debug] 9#9: *5 event timer: 10, old: 352666414, new: 352666415
+2024/05/16 20:51:50 [debug] 9#9: *5 http upstream exit: 0000000000000000
+2024/05/16 20:51:50 [debug] 9#9: *5 finalize http upstream request: 0
+2024/05/16 20:51:50 [debug] 9#9: *5 finalize http proxy request
+2024/05/16 20:51:50 [debug] 9#9: *5 free rr peer 1 0
+2024/05/16 20:51:50 [debug] 9#9: *5 close http upstream connection: 10
+2024/05/16 20:51:50 [debug] 9#9: *5 free: 0000AAAB01F7EF50, unused: 48
+2024/05/16 20:51:50 [debug] 9#9: *5 event timer del: 10: 352666414
+2024/05/16 20:51:50 [debug] 9#9: *5 reusable connection: 0
+2024/05/16 20:51:50 [debug] 9#9: *5 http upstream temp fd: -1
+2024/05/16 20:51:50 [debug] 9#9: *5 posix_memalign: 0000AAAB01F89D10:4096 @16
+2024/05/16 20:51:50 [debug] 9#9: *5 http output filter "/error-bug?"
+2024/05/16 20:51:50 [debug] 9#9: *5 http copy filter: "/error-bug?"
+2024/05/16 20:51:50 [debug] 9#9: *5 http postpone filter "/error-bug?" 0000FFFFEF108C78
+2024/05/16 20:51:50 [debug] 9#9: *5 write old buf t:1 f:0 0000AAAB01F80050, pos 0000AAAB01F80050, size: 173 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *5 write old buf t:1 f:0 0000AAAB01F93D40, pos 0000AAAB01F93DE4, size: 49 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *5 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *5 http write filter: l:1 f:0 s:222
+2024/05/16 20:51:50 [debug] 9#9: *5 http write filter limit 2097152
+2024/05/16 20:51:50 [debug] 9#9: *5 writev: 222 of 222
+2024/05/16 20:51:50 [debug] 9#9: *5 http write filter 0000000000000000
+2024/05/16 20:51:50 [debug] 9#9: *5 http copy filter: 0 "/error-bug?"
+2024/05/16 20:51:50 [debug] 9#9: *5 http finalize request: 0, "/error-bug?" a:1, c:1
+2024/05/16 20:51:50 [debug] 9#9: *5 set http keepalive handler
+2024/05/16 20:51:50 [debug] 9#9: *5 http close request
+2024/05/16 20:51:50 [debug] 9#9: *5 http log handler
+2024/05/16 20:51:50 [debug] 9#9: *5 free: 0000AAAB01F93D40
+2024/05/16 20:51:50 [debug] 9#9: *5 free: 0000AAAB01F9F1E0, unused: 8
+2024/05/16 20:51:50 [debug] 9#9: *5 free: 0000AAAB01F7F330, unused: 16
+2024/05/16 20:51:50 [debug] 9#9: *5 free: 0000AAAB01F89D10, unused: 3853
+2024/05/16 20:51:50 [debug] 9#9: *5 free: 0000AAAB01F85040
+2024/05/16 20:51:50 [debug] 9#9: *5 hc free: 0000000000000000
+2024/05/16 20:51:50 [debug] 9#9: *5 hc busy: 0000000000000000 0
+2024/05/16 20:51:50 [debug] 9#9: *5 tcp_nodelay
+2024/05/16 20:51:50 [debug] 9#9: *5 reusable connection: 1
+2024/05/16 20:51:50 [debug] 9#9: *5 event timer add: 6: 65000:352671415
+2024/05/16 20:51:50 [debug] 9#9: *5 http keepalive handler
+2024/05/16 20:51:50 [debug] 9#9: *5 malloc: 0000AAAB01F85040:1024
+2024/05/16 20:51:50 [debug] 9#9: *5 recv: eof:1, avail:-1
+2024/05/16 20:51:50 [debug] 9#9: *5 recv: fd:6 0 of 1024
+2024/05/16 20:51:50 [info] 9#9: *5 client 192.168.65.1 closed keepalive connection
+2024/05/16 20:51:50 [debug] 9#9: *5 close http connection: 6
+2024/05/16 20:51:50 [debug] 9#9: *5 event timer del: 6: 352671415
+2024/05/16 20:51:50 [debug] 9#9: *5 reusable connection: 0
+2024/05/16 20:51:50 [debug] 9#9: *5 free: 0000AAAB01F85040
+2024/05/16 20:51:50 [debug] 9#9: *5 free: 0000AAAB01F827F0, unused: 128
+2024/05/16 20:51:50 [debug] 9#9: accept on 0.0.0.0:9999, ready: 0
+2024/05/16 20:51:50 [debug] 9#9: posix_memalign: 0000AAAB01F827F0:512 @16
+2024/05/16 20:51:50 [debug] 9#9: *7 accept: 192.168.65.1:58625 fd:6
+2024/05/16 20:51:50 [debug] 9#9: *7 event timer add: 6: 60000:352666430
+2024/05/16 20:51:50 [debug] 9#9: *7 reusable connection: 1
+2024/05/16 20:51:50 [debug] 9#9: *7 epoll add event: fd:6 op:1 ev:80002001
+2024/05/16 20:51:50 [debug] 9#9: *7 http wait request handler
+2024/05/16 20:51:50 [debug] 9#9: *7 malloc: 0000AAAB01F85040:1024
+2024/05/16 20:51:50 [debug] 9#9: *7 recv: eof:0, avail:-1
+2024/05/16 20:51:50 [debug] 9#9: *7 recv: fd:6 89 of 1024
+2024/05/16 20:51:50 [debug] 9#9: *7 reusable connection: 0
+2024/05/16 20:51:50 [debug] 9#9: *7 posix_memalign: 0000AAAB01F9F1E0:4096 @16
+2024/05/16 20:51:50 [debug] 9#9: *7 http process request line
+2024/05/16 20:51:50 [debug] 9#9: *7 http request line: "GET /error-memory HTTP/1.1"
+2024/05/16 20:51:50 [debug] 9#9: *7 http uri: "/error-memory"
+2024/05/16 20:51:50 [debug] 9#9: *7 http args: ""
+2024/05/16 20:51:50 [debug] 9#9: *7 http exten: ""
+2024/05/16 20:51:50 [debug] 9#9: *7 posix_memalign: 0000AAAB01F7F330:4096 @16
+2024/05/16 20:51:50 [debug] 9#9: *7 http process request header line
+2024/05/16 20:51:50 [debug] 9#9: *7 http header: "Host: localhost:9999"
+2024/05/16 20:51:50 [debug] 9#9: *7 http header: "User-Agent: curl/8.4.0"
+2024/05/16 20:51:50 [debug] 9#9: *7 http header: "Accept: */*"
+2024/05/16 20:51:50 [debug] 9#9: *7 http header done
+2024/05/16 20:51:50 [debug] 9#9: *7 event timer del: 6: 352666430
+2024/05/16 20:51:50 [debug] 9#9: *7 generic phase: 0
+2024/05/16 20:51:50 [debug] 9#9: *7 rewrite phase: 1
+2024/05/16 20:51:50 [debug] 9#9: *7 test location: "/"
+2024/05/16 20:51:50 [debug] 9#9: *7 using configuration "/"
+2024/05/16 20:51:50 [debug] 9#9: *7 http cl:-1 max:1048576
+2024/05/16 20:51:50 [debug] 9#9: *7 rewrite phase: 3
+2024/05/16 20:51:50 [debug] 9#9: *7 post rewrite phase: 4
+2024/05/16 20:51:50 [debug] 9#9: *7 generic phase: 5
+2024/05/16 20:51:50 [debug] 9#9: *7 generic phase: 6
+2024/05/16 20:51:50 [debug] 9#9: *7 generic phase: 7
+2024/05/16 20:51:50 [debug] 9#9: *7 access phase: 8
+2024/05/16 20:51:50 [debug] 9#9: *7 access phase: 9
+2024/05/16 20:51:50 [debug] 9#9: *7 access phase: 10
+2024/05/16 20:51:50 [debug] 9#9: *7 post access phase: 11
+2024/05/16 20:51:50 [debug] 9#9: *7 generic phase: 12
+2024/05/16 20:51:50 [debug] 9#9: *7 generic phase: 13
+2024/05/16 20:51:50 [debug] 9#9: *7 http init upstream, client timer: 0
+2024/05/16 20:51:50 [debug] 9#9: *7 epoll add event: fd:6 op:3 ev:80002005
+2024/05/16 20:51:50 [debug] 9#9: *7 http script copy: "Host"
+2024/05/16 20:51:50 [debug] 9#9: *7 http script var: "localhost"
+2024/05/16 20:51:50 [debug] 9#9: *7 http script copy: "X-Real-IP"
+2024/05/16 20:51:50 [debug] 9#9: *7 http script var: "192.168.65.1"
+2024/05/16 20:51:50 [debug] 9#9: *7 http script copy: "X-Forwarded-For"
+2024/05/16 20:51:50 [debug] 9#9: *7 http script var: "192.168.65.1"
+2024/05/16 20:51:50 [debug] 9#9: *7 http script copy: "X-Forwarded-Proto"
+2024/05/16 20:51:50 [debug] 9#9: *7 http script var: "http"
+2024/05/16 20:51:50 [debug] 9#9: *7 http script copy: "Connection"
+2024/05/16 20:51:50 [debug] 9#9: *7 http script copy: "close"
+2024/05/16 20:51:50 [debug] 9#9: *7 http script copy: ""
+2024/05/16 20:51:50 [debug] 9#9: *7 http script copy: ""
+2024/05/16 20:51:50 [debug] 9#9: *7 http proxy header: "User-Agent: curl/8.4.0"
+2024/05/16 20:51:50 [debug] 9#9: *7 http proxy header: "Accept: */*"
+2024/05/16 20:51:50 [debug] 9#9: *7 http proxy header:
+"GET /error-memory HTTP/1.0
+Host: localhost
+X-Real-IP: 192.168.65.1
+X-Forwarded-For: 192.168.65.1
+X-Forwarded-Proto: http
+Connection: close
+User-Agent: curl/8.4.0
+Accept: */*
+
+"
+2024/05/16 20:51:50 [debug] 9#9: *7 http cleanup add: 0000AAAB01FA01C0
+2024/05/16 20:51:50 [debug] 9#9: *7 get rr peer, try: 1
+2024/05/16 20:51:50 [debug] 9#9: *7 stream socket 10
+2024/05/16 20:51:50 [debug] 9#9: *7 epoll add connection: fd:10 ev:80002005
+2024/05/16 20:51:50 [debug] 9#9: *7 connect to 127.0.0.1:5000, fd:10 #8
+2024/05/16 20:51:50 [debug] 9#9: *7 http upstream connect: -2
+2024/05/16 20:51:50 [debug] 9#9: *7 posix_memalign: 0000AAAB01F7EF50:128 @16
+2024/05/16 20:51:50 [debug] 9#9: *7 event timer add: 10: 60000:352666431
+2024/05/16 20:51:50 [debug] 9#9: *7 http finalize request: -4, "/error-memory?" a:1, c:2
+2024/05/16 20:51:50 [debug] 9#9: *7 http request count:2 blk:0
+2024/05/16 20:51:50 [debug] 9#9: *7 http run request: "/error-memory?"
+2024/05/16 20:51:50 [debug] 9#9: *7 http upstream check client, write event:1, "/error-memory"
+2024/05/16 20:51:50 [debug] 9#9: *7 http upstream request: "/error-memory?"
+2024/05/16 20:51:50 [debug] 9#9: *7 http upstream send request handler
+2024/05/16 20:51:50 [debug] 9#9: *7 http upstream send request
+2024/05/16 20:51:50 [debug] 9#9: *7 http upstream send request body
+2024/05/16 20:51:50 [debug] 9#9: *7 chain writer buf fl:1 s:184
+2024/05/16 20:51:50 [debug] 9#9: *7 chain writer in: 0000AAAB01F7FD40
+2024/05/16 20:51:50 [debug] 9#9: *7 writev: 184 of 184
+2024/05/16 20:51:50 [debug] 9#9: *7 chain writer out: 0000000000000000
+2024/05/16 20:51:50 [debug] 9#9: *7 event timer del: 10: 352666431
+2024/05/16 20:51:50 [debug] 9#9: *7 event timer add: 10: 60000:352666436
+2024/05/16 20:51:50 [debug] 9#9: *7 http upstream request: "/error-memory?"
+2024/05/16 20:51:50 [debug] 9#9: *7 http upstream process header
+2024/05/16 20:51:50 [debug] 9#9: *7 malloc: 0000AAAB01F93D40:4096
+2024/05/16 20:51:50 [debug] 9#9: *7 recv: eof:1, avail:-1
+2024/05/16 20:51:50 [debug] 9#9: *7 recv: fd:10 0 of 4096
+2024/05/16 20:51:50 [error] 9#9: *7 upstream prematurely closed connection while reading response header from upstream, client: 192.168.65.1, server: localhost, request: "GET /error-memory HTTP/1.1", upstream: "http://127.0.0.1:5000/error-memory", host: "localhost:9999"
+2024/05/16 20:51:50 [debug] 9#9: *7 http next upstream, 2
+2024/05/16 20:51:50 [debug] 9#9: *7 free rr peer 1 4
+2024/05/16 20:51:50 [debug] 9#9: *7 finalize http upstream request: 502
+2024/05/16 20:51:50 [debug] 9#9: *7 finalize http proxy request
+2024/05/16 20:51:50 [debug] 9#9: *7 close http upstream connection: 10
+2024/05/16 20:51:50 [debug] 9#9: *7 free: 0000AAAB01F7EF50, unused: 48
+2024/05/16 20:51:50 [debug] 9#9: *7 event timer del: 10: 352666436
+2024/05/16 20:51:50 [debug] 9#9: *7 reusable connection: 0
+2024/05/16 20:51:50 [debug] 9#9: *7 http finalize request: 502, "/error-memory?" a:1, c:1
+2024/05/16 20:51:50 [debug] 9#9: *7 http special response: 502, "/error-memory?"
+2024/05/16 20:51:50 [debug] 9#9: *7 HTTP/1.1 502 Bad Gateway
+Server: nginx/1.22.1
+Date: Thu, 16 May 2024 20:51:50 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: keep-alive
+
+2024/05/16 20:51:50 [debug] 9#9: *7 write new buf t:1 f:0 0000AAAB01F7FF90, pos 0000AAAB01F7FF90, size: 157 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *7 http write filter: l:0 f:0 s:157
+2024/05/16 20:51:50 [debug] 9#9: *7 http output filter "/error-memory?"
+2024/05/16 20:51:50 [debug] 9#9: *7 http copy filter: "/error-memory?"
+2024/05/16 20:51:50 [debug] 9#9: *7 http postpone filter "/error-memory?" 0000AAAB01F80160
+2024/05/16 20:51:50 [debug] 9#9: *7 write old buf t:1 f:0 0000AAAB01F7FF90, pos 0000AAAB01F7FF90, size: 157 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *7 write new buf t:0 f:0 0000000000000000, pos 0000AAAADB133B50, size: 104 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *7 write new buf t:0 f:0 0000000000000000, pos 0000AAAADB1336D0, size: 53 file: 0, size: 0
+2024/05/16 20:51:50 [debug] 9#9: *7 http write filter: l:1 f:0 s:314
+2024/05/16 20:51:50 [debug] 9#9: *7 http write filter limit 2097152
+2024/05/16 20:51:50 [debug] 9#9: *7 writev: 314 of 314
+2024/05/16 20:51:50 [debug] 9#9: *7 http write filter 0000000000000000
+2024/05/16 20:51:50 [debug] 9#9: *7 http copy filter: 0 "/error-memory?"
+2024/05/16 20:51:50 [debug] 9#9: *7 http finalize request: 0, "/error-memory?" a:1, c:1
+2024/05/16 20:51:50 [debug] 9#9: *7 set http keepalive handler
+2024/05/16 20:51:50 [debug] 9#9: *7 http close request
+2024/05/16 20:51:50 [debug] 9#9: *7 http log handler
+2024/05/16 20:51:50 [debug] 9#9: *7 free: 0000AAAB01F93D40
+2024/05/16 20:51:50 [debug] 9#9: *7 free: 0000AAAB01F9F1E0, unused: 8
+2024/05/16 20:51:50 [debug] 9#9: *7 free: 0000AAAB01F7F330, unused: 266
+2024/05/16 20:51:50 [debug] 9#9: *7 free: 0000AAAB01F85040
+2024/05/16 20:51:50 [debug] 9#9: *7 hc free: 0000000000000000
+2024/05/16 20:51:50 [debug] 9#9: *7 hc busy: 0000000000000000 0
+2024/05/16 20:51:50 [debug] 9#9: *7 tcp_nodelay
+2024/05/16 20:51:50 [debug] 9#9: *7 reusable connection: 1
+2024/05/16 20:51:50 [debug] 9#9: *7 event timer add: 6: 65000:352671494
+2024/05/16 20:51:50 [debug] 9#9: *7 http keepalive handler
+2024/05/16 20:51:50 [debug] 9#9: *7 malloc: 0000AAAB01F85040:1024
+2024/05/16 20:51:50 [debug] 9#9: *7 recv: eof:1, avail:-1
+2024/05/16 20:51:50 [debug] 9#9: *7 recv: fd:6 0 of 1024
+2024/05/16 20:51:50 [info] 9#9: *7 client 192.168.65.1 closed keepalive connection
+2024/05/16 20:51:50 [debug] 9#9: *7 close http connection: 6
+2024/05/16 20:51:50 [debug] 9#9: *7 event timer del: 6: 352671494
+2024/05/16 20:51:50 [debug] 9#9: *7 reusable connection: 0
+2024/05/16 20:51:50 [debug] 9#9: *7 free: 0000AAAB01F85040
+2024/05/16 20:51:50 [debug] 9#9: *7 free: 0000AAAB01F827F0, unused: 128
+2024/05/16 20:52:42 [debug] 9#9: epoll add event: fd:5 op:1 ev:00002001
